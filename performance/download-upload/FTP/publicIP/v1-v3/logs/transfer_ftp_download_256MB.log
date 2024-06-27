@@ -1,0 +1,84 @@
+Time start: 2022-04-21 18:31:36
+Time end: 2022-04-21 18:35:31
+Duration: 0:03:54.603338
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 51.210.39.160
+FILE_SIZE: 268435456
+RUN_COUNT: 6
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 18:31.37: Connected to FTP server at 51.210.39.160
+client              | 18:31.37: Preparing run 1
+client              | 18:31.37: Download file name is 256MB_1
+client              | 18:31.37: Output location is /tmp/files/256MB_1
+client              | 18:31.37: Running garbage collector
+client              | 18:31.37: Sleeping for 30.0 seconds
+client              | 18:32.07: Starting
+client              | 18:32.15: Finished
+client              | 18:32.15: Deleting downloaded file /tmp/files/256MB_1
+client              | 18:32.16: Ending run 1
+client              | 18:32.16: Preparing run 2
+client              | 18:32.16: Download file name is 256MB_2
+client              | 18:32.16: Output location is /tmp/files/256MB_2
+client              | 18:32.16: Running garbage collector
+client              | 18:32.16: Sleeping for 30.0 seconds
+client              | 18:32.46: Starting
+client              | 18:32.54: Finished
+client              | 18:32.54: Deleting downloaded file /tmp/files/256MB_2
+client              | 18:32.54: Ending run 2
+client              | 18:32.54: Preparing run 3
+client              | 18:32.54: Download file name is 256MB_3
+client              | 18:32.54: Output location is /tmp/files/256MB_3
+client              | 18:32.54: Running garbage collector
+client              | 18:32.54: Sleeping for 30.0 seconds
+client              | 18:33.24: Starting
+client              | 18:33.33: Finished
+client              | 18:33.33: Deleting downloaded file /tmp/files/256MB_3
+client              | 18:33.33: Ending run 3
+client              | 18:33.33: Preparing run 4
+client              | 18:33.33: Download file name is 256MB_4
+client              | 18:33.33: Output location is /tmp/files/256MB_4
+client              | 18:33.33: Running garbage collector
+client              | 18:33.33: Sleeping for 30.0 seconds
+client              | 18:34.03: Starting
+client              | 18:34.12: Finished
+client              | 18:34.12: Deleting downloaded file /tmp/files/256MB_4
+client              | 18:34.12: Ending run 4
+client              | 18:34.12: Preparing run 5
+client              | 18:34.12: Download file name is 256MB_5
+client              | 18:34.12: Output location is /tmp/files/256MB_5
+client              | 18:34.12: Running garbage collector
+client              | 18:34.12: Sleeping for 30.0 seconds
+client              | 18:34.42: Starting
+client              | 18:34.51: Finished
+client              | 18:34.51: Deleting downloaded file /tmp/files/256MB_5
+client              | 18:34.51: Ending run 5
+client              | 18:34.51: Preparing run 6
+client              | 18:34.51: Download file name is 256MB_6
+client              | 18:34.51: Output location is /tmp/files/256MB_6
+client              | 18:34.51: Running garbage collector
+client              | 18:34.51: Sleeping for 30.0 seconds
+client              | 18:35.21: Starting
+client              | 18:35.30: Finished
+client              | 18:35.30: Deleting downloaded file /tmp/files/256MB_6
+client              | 18:35.30: Ending run 6
+client              | 18:35.30: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

@@ -1,0 +1,49 @@
+Time start: 2022-04-21 15:21:55
+Time end: 2022-04-21 15:22:26
+Duration: 0:00:31.684904
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i046
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 51.210.39.160
+FILE_SIZE: 6442450944
+RUN_COUNT: 6
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 15:21.56: Connected to FTP server at 51.210.39.160
+client              | 15:21.56: Preparing run 1
+client              | 15:21.56: Download file name is 6144MB_1
+client              | 15:21.56: Output location is /tmp/files/6144MB_1
+client              | 15:21.56: Running garbage collector
+client              | 15:21.56: Sleeping for 30.0 seconds
+client              | 15:22.26: Starting
+client              | Traceback (most recent call last):
+client              |   File "/src/performance/transfer_ftp_download.py", line 42, in <module>
+client              |     ftp.retrbinary("RETR " + file_name, file_object.write, file_size)
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 436, in retrbinary
+client              |     with self.transfercmd(cmd, rest) as conn:
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 393, in transfercmd
+client              |     return self.ntransfercmd(cmd, rest)[0]
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 359, in ntransfercmd
+client              |     resp = self.sendcmd(cmd)
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 281, in sendcmd
+client              |     return self.getresp()
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 254, in getresp
+client              |     raise error_perm(resp)
+client              | ftplib.error_perm: 550 Can't open 6144MB_1: No such file or directory
+client exited with code 1
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

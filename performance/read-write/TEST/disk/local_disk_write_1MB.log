@@ -1,0 +1,164 @@
+Time start: 2021-07-17 20:57:52
+Time end: 2021-07-17 21:12:55
+Duration: 0:15:02.408603
+
+Platform: Linux-5.8.0-1036-azure-x86_64-with-glibc2.29
+Name: DataMeshVM1
+Release: #38~20.04.1-Ubuntu SMP Thu Jun 17 14:14:18 UTC 2021
+
+Compose file: /tmp/local_disk_setup.yml
+Script: local_disk_write.py
+Environment vars:
+SCRIPT: local_disk_write.py
+FILE_SIZE: 1048576
+RUN_COUNT: 15
+INTERVAL_SECONDS: 60
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating tmp_client-container_1 ... 
+Creating tmp_client-container_1 ... done
+Attaching to tmp_client-container_1
+client-container_1  | 20:57.53: Starting 1MB benchmark
+client-container_1  | 20:57.53: Preparing run 1
+client-container_1  | 20:57.53: Creating random byte array of 1MB
+client-container_1  | 20:57.53: Output location is /tmp/files/1MB_1
+client-container_1  | 20:57.53: Running garbage collector
+client-container_1  | 20:57.53: Sleeping for 60.0 seconds
+client-container_1  | 20:58.53: Starting
+client-container_1  | 20:58.53: Finished
+client-container_1  | 20:58.53: Deleting created file /tmp/files/1MB_1
+client-container_1  | 20:58.53: Ending run 1
+client-container_1  | 20:58.53: Preparing run 2
+client-container_1  | 20:58.53: Creating random byte array of 1MB
+client-container_1  | 20:58.53: Output location is /tmp/files/1MB_2
+client-container_1  | 20:58.53: Running garbage collector
+client-container_1  | 20:58.53: Sleeping for 60.0 seconds
+client-container_1  | 20:59.53: Starting
+client-container_1  | 20:59.53: Finished
+client-container_1  | 20:59.53: Deleting created file /tmp/files/1MB_2
+client-container_1  | 20:59.53: Ending run 2
+client-container_1  | 20:59.53: Preparing run 3
+client-container_1  | 20:59.53: Creating random byte array of 1MB
+client-container_1  | 20:59.53: Output location is /tmp/files/1MB_3
+client-container_1  | 20:59.53: Running garbage collector
+client-container_1  | 20:59.53: Sleeping for 60.0 seconds
+client-container_1  | 21:00.53: Starting
+client-container_1  | 21:00.53: Finished
+client-container_1  | 21:00.53: Deleting created file /tmp/files/1MB_3
+client-container_1  | 21:00.53: Ending run 3
+client-container_1  | 21:00.53: Preparing run 4
+client-container_1  | 21:00.53: Creating random byte array of 1MB
+client-container_1  | 21:00.53: Output location is /tmp/files/1MB_4
+client-container_1  | 21:00.53: Running garbage collector
+client-container_1  | 21:00.53: Sleeping for 60.0 seconds
+client-container_1  | 21:01.53: Starting
+client-container_1  | 21:01.53: Finished
+client-container_1  | 21:01.53: Deleting created file /tmp/files/1MB_4
+client-container_1  | 21:01.53: Ending run 4
+client-container_1  | 21:01.53: Preparing run 5
+client-container_1  | 21:01.53: Creating random byte array of 1MB
+client-container_1  | 21:01.54: Output location is /tmp/files/1MB_5
+client-container_1  | 21:01.54: Running garbage collector
+client-container_1  | 21:01.54: Sleeping for 60.0 seconds
+client-container_1  | 21:02.54: Starting
+client-container_1  | 21:02.54: Finished
+client-container_1  | 21:02.54: Deleting created file /tmp/files/1MB_5
+client-container_1  | 21:02.54: Ending run 5
+client-container_1  | 21:02.54: Preparing run 6
+client-container_1  | 21:02.54: Creating random byte array of 1MB
+client-container_1  | 21:02.54: Output location is /tmp/files/1MB_6
+client-container_1  | 21:02.54: Running garbage collector
+client-container_1  | 21:02.54: Sleeping for 60.0 seconds
+client-container_1  | 21:03.54: Starting
+client-container_1  | 21:03.54: Finished
+client-container_1  | 21:03.54: Deleting created file /tmp/files/1MB_6
+client-container_1  | 21:03.54: Ending run 6
+client-container_1  | 21:03.54: Preparing run 7
+client-container_1  | 21:03.54: Creating random byte array of 1MB
+client-container_1  | 21:03.54: Output location is /tmp/files/1MB_7
+client-container_1  | 21:03.54: Running garbage collector
+client-container_1  | 21:03.54: Sleeping for 60.0 seconds
+client-container_1  | 21:04.54: Starting
+client-container_1  | 21:04.54: Finished
+client-container_1  | 21:04.54: Deleting created file /tmp/files/1MB_7
+client-container_1  | 21:04.54: Ending run 7
+client-container_1  | 21:04.54: Preparing run 8
+client-container_1  | 21:04.54: Creating random byte array of 1MB
+client-container_1  | 21:04.54: Output location is /tmp/files/1MB_8
+client-container_1  | 21:04.54: Running garbage collector
+client-container_1  | 21:04.54: Sleeping for 60.0 seconds
+client-container_1  | 21:05.54: Starting
+client-container_1  | 21:05.54: Finished
+client-container_1  | 21:05.54: Deleting created file /tmp/files/1MB_8
+client-container_1  | 21:05.54: Ending run 8
+client-container_1  | 21:05.54: Preparing run 9
+client-container_1  | 21:05.54: Creating random byte array of 1MB
+client-container_1  | 21:05.54: Output location is /tmp/files/1MB_9
+client-container_1  | 21:05.54: Running garbage collector
+client-container_1  | 21:05.54: Sleeping for 60.0 seconds
+client-container_1  | 21:06.54: Starting
+client-container_1  | 21:06.54: Finished
+client-container_1  | 21:06.54: Deleting created file /tmp/files/1MB_9
+client-container_1  | 21:06.54: Ending run 9
+client-container_1  | 21:06.54: Preparing run 10
+client-container_1  | 21:06.54: Creating random byte array of 1MB
+client-container_1  | 21:06.54: Output location is /tmp/files/1MB_10
+client-container_1  | 21:06.54: Running garbage collector
+client-container_1  | 21:06.54: Sleeping for 60.0 seconds
+client-container_1  | 21:07.54: Starting
+client-container_1  | 21:07.54: Finished
+client-container_1  | 21:07.54: Deleting created file /tmp/files/1MB_10
+client-container_1  | 21:07.54: Ending run 10
+client-container_1  | 21:07.54: Preparing run 11
+client-container_1  | 21:07.54: Creating random byte array of 1MB
+client-container_1  | 21:07.54: Output location is /tmp/files/1MB_11
+client-container_1  | 21:07.54: Running garbage collector
+client-container_1  | 21:07.54: Sleeping for 60.0 seconds
+client-container_1  | 21:08.54: Starting
+client-container_1  | 21:08.54: Finished
+client-container_1  | 21:08.54: Deleting created file /tmp/files/1MB_11
+client-container_1  | 21:08.54: Ending run 11
+client-container_1  | 21:08.54: Preparing run 12
+client-container_1  | 21:08.54: Creating random byte array of 1MB
+client-container_1  | 21:08.54: Output location is /tmp/files/1MB_12
+client-container_1  | 21:08.54: Running garbage collector
+client-container_1  | 21:08.54: Sleeping for 60.0 seconds
+client-container_1  | 21:09.54: Starting
+client-container_1  | 21:09.54: Finished
+client-container_1  | 21:09.54: Deleting created file /tmp/files/1MB_12
+client-container_1  | 21:09.54: Ending run 12
+client-container_1  | 21:09.54: Preparing run 13
+client-container_1  | 21:09.54: Creating random byte array of 1MB
+client-container_1  | 21:09.54: Output location is /tmp/files/1MB_13
+client-container_1  | 21:09.54: Running garbage collector
+client-container_1  | 21:09.54: Sleeping for 60.0 seconds
+client-container_1  | 21:10.54: Starting
+client-container_1  | 21:10.54: Finished
+client-container_1  | 21:10.54: Deleting created file /tmp/files/1MB_13
+client-container_1  | 21:10.54: Ending run 13
+client-container_1  | 21:10.54: Preparing run 14
+client-container_1  | 21:10.54: Creating random byte array of 1MB
+client-container_1  | 21:10.54: Output location is /tmp/files/1MB_14
+client-container_1  | 21:10.54: Running garbage collector
+client-container_1  | 21:10.54: Sleeping for 60.0 seconds
+client-container_1  | 21:11.54: Starting
+client-container_1  | 21:11.54: Finished
+client-container_1  | 21:11.54: Deleting created file /tmp/files/1MB_14
+client-container_1  | 21:11.54: Ending run 14
+client-container_1  | 21:11.54: Preparing run 15
+client-container_1  | 21:11.54: Creating random byte array of 1MB
+client-container_1  | 21:11.54: Output location is /tmp/files/1MB_15
+client-container_1  | 21:11.54: Running garbage collector
+client-container_1  | 21:11.54: Sleeping for 60.0 seconds
+client-container_1  | 21:12.54: Starting
+client-container_1  | 21:12.54: Finished
+client-container_1  | 21:12.54: Deleting created file /tmp/files/1MB_15
+client-container_1  | 21:12.54: Ending run 15
+client-container_1  | 21:12.54: Writing metrics file
+tmp_client-container_1 exited with code 0
+Aborting on container exit...
+Removing tmp_client-container_1 ... 
+Removing tmp_client-container_1 ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

@@ -1,0 +1,151 @@
+Time start: 2022-03-23 20:42:02
+Time end: 2022-03-23 20:53:07
+Duration: 0:11:05.126786
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_webdav_client_setup.yml
+Script: performance/transfer_webdav_download.py
+Environment vars:
+SCRIPT: performance/transfer_webdav_download.py
+HOST_ADDRESS: http://51.210.39.160:80
+FILE_SIZE: 1073741824
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating service ... 
+Creating service ... done
+Creating client  ... done
+Attaching to service, client
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+client              | 20:42.13: Starting 1024MB benchmark
+client              | 20:42.13: Creating client interface
+client              | 20:42.13: Preparing run 1
+client              | 20:42.13: Download file is /tmp/files/1024MB_1
+client              | 20:42.13: Running garbage collector
+client              | 20:42.13: Sleeping for 30.0 seconds
+client              | 20:42.43: Starting
+service             | Connected to WebDAV server...
+service             | INFO:     127.0.0.1:41484 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_1 HTTP/1.1" 200 OK
+client              | 20:43.18: Finished
+client              | 20:43.18: Collecting metrics from service
+service             | INFO:     127.0.0.1:41484 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:43.18: Deleting downloaded file /tmp/files/1024MB_1
+client              | 20:43.18: Ending run 1
+client              | 20:43.18: Preparing run 2
+client              | 20:43.18: Download file is /tmp/files/1024MB_2
+client              | 20:43.18: Running garbage collector
+client              | 20:43.18: Sleeping for 30.0 seconds
+client              | 20:43.48: Starting
+service             | INFO:     127.0.0.1:41494 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_2 HTTP/1.1" 200 OK
+client              | 20:44.23: Finished
+client              | 20:44.23: Collecting metrics from service
+service             | INFO:     127.0.0.1:41494 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:44.23: Deleting downloaded file /tmp/files/1024MB_2
+client              | 20:44.23: Ending run 2
+client              | 20:44.23: Preparing run 3
+client              | 20:44.23: Download file is /tmp/files/1024MB_3
+client              | 20:44.23: Running garbage collector
+client              | 20:44.23: Sleeping for 30.0 seconds
+client              | 20:44.53: Starting
+service             | INFO:     127.0.0.1:41504 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_3 HTTP/1.1" 200 OK
+client              | 20:45.28: Finished
+client              | 20:45.28: Collecting metrics from service
+service             | INFO:     127.0.0.1:41504 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:45.28: Deleting downloaded file /tmp/files/1024MB_3
+client              | 20:45.29: Ending run 3
+client              | 20:45.29: Preparing run 4
+client              | 20:45.29: Download file is /tmp/files/1024MB_4
+client              | 20:45.29: Running garbage collector
+client              | 20:45.29: Sleeping for 30.0 seconds
+client              | 20:45.59: Starting
+service             | INFO:     127.0.0.1:41514 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_4 HTTP/1.1" 200 OK
+client              | 20:46.34: Finished
+client              | 20:46.34: Collecting metrics from service
+service             | INFO:     127.0.0.1:41514 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:46.34: Deleting downloaded file /tmp/files/1024MB_4
+client              | 20:46.34: Ending run 4
+client              | 20:46.34: Preparing run 5
+client              | 20:46.34: Download file is /tmp/files/1024MB_5
+client              | 20:46.34: Running garbage collector
+client              | 20:46.34: Sleeping for 30.0 seconds
+client              | 20:47.04: Starting
+service             | INFO:     127.0.0.1:41524 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_5 HTTP/1.1" 200 OK
+client              | 20:47.39: Finished
+client              | 20:47.39: Collecting metrics from service
+service             | INFO:     127.0.0.1:41524 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:47.39: Deleting downloaded file /tmp/files/1024MB_5
+client              | 20:47.39: Ending run 5
+client              | 20:47.39: Preparing run 6
+client              | 20:47.39: Download file is /tmp/files/1024MB_6
+client              | 20:47.39: Running garbage collector
+client              | 20:47.39: Sleeping for 30.0 seconds
+client              | 20:48.09: Starting
+service             | INFO:     127.0.0.1:41534 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_6 HTTP/1.1" 200 OK
+client              | 20:48.44: Finished
+client              | 20:48.44: Collecting metrics from service
+service             | INFO:     127.0.0.1:41534 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:48.44: Deleting downloaded file /tmp/files/1024MB_6
+client              | 20:48.45: Ending run 6
+client              | 20:48.45: Preparing run 7
+client              | 20:48.45: Download file is /tmp/files/1024MB_7
+client              | 20:48.45: Running garbage collector
+client              | 20:48.45: Sleeping for 30.0 seconds
+client              | 20:49.15: Starting
+service             | INFO:     127.0.0.1:41544 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_7 HTTP/1.1" 200 OK
+client              | 20:49.50: Finished
+client              | 20:49.50: Collecting metrics from service
+service             | INFO:     127.0.0.1:41544 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:49.50: Deleting downloaded file /tmp/files/1024MB_7
+client              | 20:49.50: Ending run 7
+client              | 20:49.50: Preparing run 8
+client              | 20:49.50: Download file is /tmp/files/1024MB_8
+client              | 20:49.50: Running garbage collector
+client              | 20:49.50: Sleeping for 30.0 seconds
+client              | 20:50.20: Starting
+service             | INFO:     127.0.0.1:41554 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_8 HTTP/1.1" 200 OK
+client              | 20:50.55: Finished
+client              | 20:50.55: Collecting metrics from service
+service             | INFO:     127.0.0.1:41554 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:50.55: Deleting downloaded file /tmp/files/1024MB_8
+client              | 20:50.55: Ending run 8
+client              | 20:50.55: Preparing run 9
+client              | 20:50.55: Download file is /tmp/files/1024MB_9
+client              | 20:50.55: Running garbage collector
+client              | 20:50.55: Sleeping for 30.0 seconds
+client              | 20:51.25: Starting
+service             | INFO:     127.0.0.1:41564 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_9 HTTP/1.1" 200 OK
+client              | 20:52.00: Finished
+client              | 20:52.00: Collecting metrics from service
+service             | INFO:     127.0.0.1:41564 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:52.00: Deleting downloaded file /tmp/files/1024MB_9
+client              | 20:52.00: Ending run 9
+client              | 20:52.00: Preparing run 10
+client              | 20:52.00: Download file is /tmp/files/1024MB_10
+client              | 20:52.00: Running garbage collector
+client              | 20:52.00: Sleeping for 30.0 seconds
+client              | 20:52.30: Starting
+client              | 20:53.06: Finished
+client              | 20:53.06: Collecting metrics from service
+client              | 20:53.06: Deleting downloaded file /tmp/files/1024MB_10
+service             | INFO:     127.0.0.1:41574 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1024MB_10 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:41574 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:53.06: Ending run 10
+client exited with code 0
+Stopping service ... 
+Stopping service ... done
+Aborting on container exit...
+Removing service ... 
+Removing client  ... 
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

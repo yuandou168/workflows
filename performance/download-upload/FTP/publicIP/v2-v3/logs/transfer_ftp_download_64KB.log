@@ -1,0 +1,120 @@
+Time start: 2022-03-17 14:42:42
+Time end: 2022-03-17 14:47:44
+Duration: 0:05:01.706131
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 65536
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 14:42.43: Connected to FTP server at 146.59.192.105
+client              | 14:42.43: Preparing run 1
+client              | 14:42.43: Download file name is 64KB_1
+client              | 14:42.43: Output location is /tmp/files/64KB_1
+client              | 14:42.43: Running garbage collector
+client              | 14:42.43: Sleeping for 30.0 seconds
+client              | 14:43.13: Starting
+client              | 14:43.13: Finished
+client              | 14:43.13: Deleting downloaded file /tmp/files/64KB_1
+client              | 14:43.13: Ending run 1
+client              | 14:43.13: Preparing run 2
+client              | 14:43.13: Download file name is 64KB_2
+client              | 14:43.13: Output location is /tmp/files/64KB_2
+client              | 14:43.13: Running garbage collector
+client              | 14:43.13: Sleeping for 30.0 seconds
+client              | 14:43.43: Starting
+client              | 14:43.43: Finished
+client              | 14:43.43: Deleting downloaded file /tmp/files/64KB_2
+client              | 14:43.43: Ending run 2
+client              | 14:43.43: Preparing run 3
+client              | 14:43.43: Download file name is 64KB_3
+client              | 14:43.43: Output location is /tmp/files/64KB_3
+client              | 14:43.43: Running garbage collector
+client              | 14:43.43: Sleeping for 30.0 seconds
+client              | 14:44.13: Starting
+client              | 14:44.13: Finished
+client              | 14:44.13: Deleting downloaded file /tmp/files/64KB_3
+client              | 14:44.13: Ending run 3
+client              | 14:44.13: Preparing run 4
+client              | 14:44.13: Download file name is 64KB_4
+client              | 14:44.13: Output location is /tmp/files/64KB_4
+client              | 14:44.13: Running garbage collector
+client              | 14:44.13: Sleeping for 30.0 seconds
+client              | 14:44.43: Starting
+client              | 14:44.43: Finished
+client              | 14:44.43: Deleting downloaded file /tmp/files/64KB_4
+client              | 14:44.43: Ending run 4
+client              | 14:44.43: Preparing run 5
+client              | 14:44.43: Download file name is 64KB_5
+client              | 14:44.43: Output location is /tmp/files/64KB_5
+client              | 14:44.43: Running garbage collector
+client              | 14:44.43: Sleeping for 30.0 seconds
+client              | 14:45.13: Starting
+client              | 14:45.13: Finished
+client              | 14:45.13: Deleting downloaded file /tmp/files/64KB_5
+client              | 14:45.13: Ending run 5
+client              | 14:45.13: Preparing run 6
+client              | 14:45.13: Download file name is 64KB_6
+client              | 14:45.13: Output location is /tmp/files/64KB_6
+client              | 14:45.13: Running garbage collector
+client              | 14:45.13: Sleeping for 30.0 seconds
+client              | 14:45.43: Starting
+client              | 14:45.43: Finished
+client              | 14:45.43: Deleting downloaded file /tmp/files/64KB_6
+client              | 14:45.43: Ending run 6
+client              | 14:45.43: Preparing run 7
+client              | 14:45.43: Download file name is 64KB_7
+client              | 14:45.43: Output location is /tmp/files/64KB_7
+client              | 14:45.43: Running garbage collector
+client              | 14:45.43: Sleeping for 30.0 seconds
+client              | 14:46.13: Starting
+client              | 14:46.13: Finished
+client              | 14:46.13: Deleting downloaded file /tmp/files/64KB_7
+client              | 14:46.13: Ending run 7
+client              | 14:46.13: Preparing run 8
+client              | 14:46.13: Download file name is 64KB_8
+client              | 14:46.13: Output location is /tmp/files/64KB_8
+client              | 14:46.13: Running garbage collector
+client              | 14:46.13: Sleeping for 30.0 seconds
+client              | 14:46.43: Starting
+client              | 14:46.43: Finished
+client              | 14:46.43: Deleting downloaded file /tmp/files/64KB_8
+client              | 14:46.43: Ending run 8
+client              | 14:46.43: Preparing run 9
+client              | 14:46.43: Download file name is 64KB_9
+client              | 14:46.43: Output location is /tmp/files/64KB_9
+client              | 14:46.43: Running garbage collector
+client              | 14:46.43: Sleeping for 30.0 seconds
+client              | 14:47.13: Starting
+client              | 14:47.13: Finished
+client              | 14:47.13: Deleting downloaded file /tmp/files/64KB_9
+client              | 14:47.13: Ending run 9
+client              | 14:47.13: Preparing run 10
+client              | 14:47.13: Download file name is 64KB_10
+client              | 14:47.13: Output location is /tmp/files/64KB_10
+client              | 14:47.13: Running garbage collector
+client              | 14:47.13: Sleeping for 30.0 seconds
+client              | 14:47.43: Starting
+client              | 14:47.43: Finished
+client              | 14:47.43: Deleting downloaded file /tmp/files/64KB_10
+client              | 14:47.43: Ending run 10
+client              | 14:47.43: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

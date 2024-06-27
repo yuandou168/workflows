@@ -1,0 +1,66 @@
+Time start: 2022-04-22 12:28:33
+Time end: 2022-04-22 12:31:24
+Duration: 0:02:51.477622
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i048
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 146.59.206.127
+FILE_SIZE: 268435456
+RUN_COUNT: 4
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 12:28.34: Connected to FTP server at 146.59.206.127
+client              | 12:28.34: Preparing run 1
+client              | 12:28.34: Creating file /tmp/files/256MB_1
+client              | 12:28.38: Upload file name is 256MB_1
+client              | 12:28.38: Running garbage collector
+client              | 12:28.38: Sleeping for 30.0 seconds
+client              | 12:29.08: Starting
+client              | 12:29.17: Finished
+client              | 12:29.17: Deleting created file /tmp/files/256MB_1
+client              | 12:29.17: Ending run 1
+client              | 12:29.17: Preparing run 2
+client              | 12:29.17: Creating file /tmp/files/256MB_2
+client              | 12:29.22: Upload file name is 256MB_2
+client              | 12:29.22: Running garbage collector
+client              | 12:29.22: Sleeping for 30.0 seconds
+client              | 12:29.52: Starting
+client              | 12:30.02: Finished
+client              | 12:30.02: Deleting created file /tmp/files/256MB_2
+client              | 12:30.02: Ending run 2
+client              | 12:30.02: Preparing run 3
+client              | 12:30.02: Creating file /tmp/files/256MB_3
+client              | 12:30.04: Upload file name is 256MB_3
+client              | 12:30.04: Running garbage collector
+client              | 12:30.04: Sleeping for 30.0 seconds
+client              | 12:30.34: Starting
+client              | 12:30.43: Finished
+client              | 12:30.43: Deleting created file /tmp/files/256MB_3
+client              | 12:30.43: Ending run 3
+client              | 12:30.43: Preparing run 4
+client              | 12:30.43: Creating file /tmp/files/256MB_4
+client              | 12:30.45: Upload file name is 256MB_4
+client              | 12:30.45: Running garbage collector
+client              | 12:30.45: Sleeping for 30.0 seconds
+client              | 12:31.15: Starting
+client              | 12:31.24: Finished
+client              | 12:31.24: Deleting created file /tmp/files/256MB_4
+client              | 12:31.24: Ending run 4
+client              | 12:31.24: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

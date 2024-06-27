@@ -1,0 +1,2042 @@
+{
+    "1KB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.004008681979030371,
+                "mean": 0.004553401318844408,
+                "maximum": 0.006660879123955965,
+                "stdev": 0.0008782743228112486
+            },
+            "timestamp": {
+                "minimum": 0.004008293151855469,
+                "mean": 0.004552781581878662,
+                "maximum": 0.006659746170043945,
+                "stdev": 0.0008780176478884368
+            },
+            "cpu.user": {
+                "minimum": 0.0,
+                "mean": 0.007500000006984919,
+                "maximum": 0.010000000009313226,
+                "stdev": 0.004629100503173943
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": -274432,
+                "mean": -34304,
+                "maximum": 0,
+                "stdev": 97026.3640872933
+            },
+            "mem.used": {
+                "minimum": 0,
+                "mean": 34304,
+                "maximum": 274432,
+                "stdev": 97026.3640872933
+            },
+            "mem.free": {
+                "minimum": -274432,
+                "mean": -34304,
+                "maximum": 0,
+                "stdev": 97026.3640872933
+            },
+            "mem.cached": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "4KB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.004069022834300995,
+                "mean": 0.0062358794384635985,
+                "maximum": 0.01968652429059148,
+                "stdev": 0.005438027099018171
+            },
+            "timestamp": {
+                "minimum": 0.0040683746337890625,
+                "mean": 0.006234347820281982,
+                "maximum": 0.019685029983520508,
+                "stdev": 0.005438039503411066
+            },
+            "cpu.user": {
+                "minimum": 0.0,
+                "mean": 0.011250000010477379,
+                "maximum": 0.030000000027939677,
+                "stdev": 0.008345229611734903
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.0012500000002546585,
+                "maximum": 0.010000000002037268,
+                "stdev": 0.003535533906653021
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": -274432,
+                "mean": -34304,
+                "maximum": 0,
+                "stdev": 97026.3640872933
+            },
+            "mem.used": {
+                "minimum": 0,
+                "mean": 34304,
+                "maximum": 274432,
+                "stdev": 97026.3640872933
+            },
+            "mem.free": {
+                "minimum": -274432,
+                "mean": -34304,
+                "maximum": 0,
+                "stdev": 97026.3640872933
+            },
+            "mem.cached": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "16KB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.004338383208960295,
+                "mean": 0.004821500391699374,
+                "maximum": 0.005224838852882385,
+                "stdev": 0.000281912893010124
+            },
+            "timestamp": {
+                "minimum": 0.00433802604675293,
+                "mean": 0.004820883274078369,
+                "maximum": 0.005223751068115234,
+                "stdev": 0.0002817957688899858
+            },
+            "cpu.user": {
+                "minimum": 0.0,
+                "mean": 0.006250000005820766,
+                "maximum": 0.010000000009313226,
+                "stdev": 0.0051754916998877085
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.used": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.free": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.cached": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "64KB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.004861345048993826,
+                "mean": 0.006152208661660552,
+                "maximum": 0.010036245919764042,
+                "stdev": 0.0017624367010681918
+            },
+            "timestamp": {
+                "minimum": 0.0048601627349853516,
+                "mean": 0.0061512291431427,
+                "maximum": 0.010035037994384766,
+                "stdev": 0.001762348531105099
+            },
+            "cpu.user": {
+                "minimum": 0.0,
+                "mean": 0.005000000004656613,
+                "maximum": 0.010000000009313226,
+                "stdev": 0.005345224843226616
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.0012500000002546585,
+                "maximum": 0.010000000002037268,
+                "stdev": 0.003535533906653021
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": -258048,
+                "mean": -65024,
+                "maximum": 0,
+                "stdev": 97923.8363394152
+            },
+            "mem.used": {
+                "minimum": 0,
+                "mean": 65024,
+                "maximum": 258048,
+                "stdev": 97923.8363394152
+            },
+            "mem.free": {
+                "minimum": -258048,
+                "mean": -65024,
+                "maximum": 0,
+                "stdev": 97923.8363394152
+            },
+            "mem.cached": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "256KB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.006306757684797049,
+                "mean": 0.00802670867415145,
+                "maximum": 0.012796744704246521,
+                "stdev": 0.0020192464221272313
+            },
+            "timestamp": {
+                "minimum": 0.006306171417236328,
+                "mean": 0.008024126291275024,
+                "maximum": 0.012796163558959961,
+                "stdev": 0.0020196980647618407
+            },
+            "cpu.user": {
+                "minimum": 0.0,
+                "mean": 0.007499999977881089,
+                "maximum": 0.010000000009313226,
+                "stdev": 0.00462910048521067
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.0037500000007639755,
+                "maximum": 0.010000000002037268,
+                "stdev": 0.005175491696122043
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": 73728,
+                "mean": 188416,
+                "maximum": 335872,
+                "stdev": 84000.10536047813
+            },
+            "mem.used": {
+                "minimum": -434176,
+                "mean": -286720,
+                "maximum": -172032,
+                "stdev": 84000.10536047813
+            },
+            "mem.free": {
+                "minimum": -131072,
+                "mean": -16384,
+                "maximum": 131072,
+                "stdev": 84000.10536047813
+            },
+            "mem.cached": {
+                "minimum": 303104,
+                "mean": 303104,
+                "maximum": 303104,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "1MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.028134754858911037,
+                "mean": 0.028879808844067156,
+                "maximum": 0.03074390720576048,
+                "stdev": 0.0007981758317756836
+            },
+            "timestamp": {
+                "minimum": 0.028135299682617188,
+                "mean": 0.02888074517250061,
+                "maximum": 0.030745506286621094,
+                "stdev": 0.000798455099833289
+            },
+            "cpu.user": {
+                "minimum": 0.030000000027939677,
+                "mean": 0.04749999998603016,
+                "maximum": 0.060000000055879354,
+                "stdev": 0.008864052593772449
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.003749999999854481,
+                "maximum": 0.010000000002037268,
+                "stdev": 0.005175491694866821
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "mem.available": {
+                "minimum": -397312,
+                "mean": -180736,
+                "maximum": -8192,
+                "stdev": 145433.75224675814
+            },
+            "mem.used": {
+                "minimum": -28672,
+                "mean": 143872,
+                "maximum": 360448,
+                "stdev": 145433.75224675814
+            },
+            "mem.free": {
+                "minimum": -1421312,
+                "mean": -1204736,
+                "maximum": -1032192,
+                "stdev": 145433.75224675814
+            },
+            "mem.cached": {
+                "minimum": 1060864,
+                "mean": 1060864,
+                "maximum": 1060864,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "4MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.13177406322211027,
+                "mean": 0.13217612024163827,
+                "maximum": 0.13380658812820911,
+                "stdev": 0.0006800426508398644
+            },
+            "timestamp": {
+                "minimum": 0.13177490234375,
+                "mean": 0.13217690587043762,
+                "maximum": 0.13380742073059082,
+                "stdev": 0.0006800132260358719
+            },
+            "cpu.user": {
+                "minimum": 0.2099999999627471,
+                "mean": 0.22750000000814907,
+                "maximum": 0.25,
+                "stdev": 0.012817398907657821
+            },
+            "cpu.system": {
+                "minimum": 0.0,
+                "mean": 0.02375000000029104,
+                "maximum": 0.040000000000873115,
+                "stdev": 0.011877349391339161
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 4608,
+                "maximum": 36864,
+                "stdev": 13033.392190830444
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0.25,
+                "maximum": 2,
+                "stdev": 0.7071067811865476
+            },
+            "mem.available": {
+                "minimum": -483328,
+                "mean": -147968,
+                "maximum": 667648,
+                "stdev": 350122.87018784054
+            },
+            "mem.used": {
+                "minimum": -815104,
+                "mean": 12288,
+                "maximum": 335872,
+                "stdev": 350147.2562190289
+            },
+            "mem.free": {
+                "minimum": -4579328,
+                "mean": -4256768,
+                "maximum": -3428352,
+                "stdev": 350774.7194018243
+            },
+            "mem.cached": {
+                "minimum": 4235264,
+                "mean": 4243456,
+                "maximum": 4251648,
+                "stdev": 4378.808187493161
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "16MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 0.5436002872884274,
+                "mean": 0.5445604746928439,
+                "maximum": 0.5495270271785557,
+                "stdev": 0.0020150675624656463
+            },
+            "timestamp": {
+                "minimum": 0.5436017513275146,
+                "mean": 0.5445620119571686,
+                "maximum": 0.5495338439941406,
+                "stdev": 0.0020171711290782103
+            },
+            "cpu.user": {
+                "minimum": 0.9499999999534339,
+                "mean": 0.9762500000069849,
+                "maximum": 1.0100000000093132,
+                "stdev": 0.019955307198212164
+            },
+            "cpu.system": {
+                "minimum": 0.059999999997671694,
+                "mean": 0.0812500000010914,
+                "maximum": 0.10000000000582077,
+                "stdev": 0.013562026820697704
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 5120,
+                "maximum": 40960,
+                "stdev": 14481.546878700494
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 0.25,
+                "maximum": 2,
+                "stdev": 0.7071067811865476
+            },
+            "mem.available": {
+                "minimum": -1134592,
+                "mean": -184320,
+                "maximum": 438272,
+                "stdev": 478553.85474394175
+            },
+            "mem.used": {
+                "minimum": -409600,
+                "mean": 89088,
+                "maximum": 995328,
+                "stdev": 443140.74306283967
+            },
+            "mem.free": {
+                "minimum": -18137088,
+                "mean": -17196544,
+                "maximum": -16580608,
+                "stdev": 475836.33116080094
+            },
+            "mem.cached": {
+                "minimum": 16990208,
+                "mean": 17106432,
+                "maximum": 17162240,
+                "stdev": 53312.664032907924
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 62.625,
+                "maximum": 388,
+                "stdev": 137.2889939403114
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 62.625,
+                "maximum": 388,
+                "stdev": 137.2889939403114
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 115.13155445003382,
+                "maximum": 713.1791091094705,
+                "stdev": 252.35846468745885
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 115.13155445003382,
+                "maximum": 713.1791091094705,
+                "stdev": 252.35846468745885
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "64MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 2.186853182967752,
+                "mean": 2.187276350974571,
+                "maximum": 2.187547381967306,
+                "stdev": 0.00022437733787399248
+            },
+            "timestamp": {
+                "minimum": 2.1868536472320557,
+                "mean": 2.18727707862854,
+                "maximum": 2.1875479221343994,
+                "stdev": 0.0002245053167265337
+            },
+            "cpu.user": {
+                "minimum": 3.8999999999068677,
+                "mean": 3.9462499999499414,
+                "maximum": 4.0200000000186265,
+                "stdev": 0.03777281716980228
+            },
+            "cpu.system": {
+                "minimum": 0.27999999999883585,
+                "mean": 0.36374999999952706,
+                "maximum": 0.4000000000014552,
+                "stdev": 0.038149143410383585
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 0,
+                "mean": 5381120,
+                "maximum": 42975232,
+                "stdev": 15190324.287555154
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 0,
+                "mean": 11.375,
+                "maximum": 87,
+                "stdev": 30.570468943550267
+            },
+            "mem.available": {
+                "minimum": 786432,
+                "mean": 1643008,
+                "maximum": 2166784,
+                "stdev": 447985.66377061664
+            },
+            "mem.used": {
+                "minimum": -2125824,
+                "mean": -1675264,
+                "maximum": -835584,
+                "stdev": 437837.0284778181
+            },
+            "mem.free": {
+                "minimum": -67956736,
+                "mean": -67066880,
+                "maximum": -66584576,
+                "stdev": 446975.0364905341
+            },
+            "mem.cached": {
+                "minimum": 68685824,
+                "mean": 68739072,
+                "maximum": 68820992,
+                "stdev": 47767.157922572704
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 86.25,
+                "maximum": 117,
+                "stdev": 53.26684844119411
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 86.25,
+                "maximum": 117,
+                "stdev": 53.26684844119411
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 39.43185871885657,
+                "maximum": 53.50153403587007,
+                "stdev": 24.352684427538684
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 39.43185871885657,
+                "maximum": 53.50153403587007,
+                "stdev": 24.352684427538684
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "256MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 8.765209667850286,
+                "mean": 8.76889641827438,
+                "maximum": 8.791686193086207,
+                "stdev": 0.009213293594241197
+            },
+            "timestamp": {
+                "minimum": 8.765210390090942,
+                "mean": 8.768897384405136,
+                "maximum": 8.791687965393066,
+                "stdev": 0.009213617846122986
+            },
+            "cpu.user": {
+                "minimum": 15.71999999997206,
+                "mean": 15.850000000064028,
+                "maximum": 15.940000000176951,
+                "stdev": 0.08434622533464278
+            },
+            "cpu.system": {
+                "minimum": 1.360000000000582,
+                "mean": 1.4487499999995634,
+                "maximum": 1.5999999999985448,
+                "stdev": 0.08271076972598033
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 1024,
+                "maximum": 4096,
+                "stdev": 1896.0795643341853
+            },
+            "disk.write_bytes": {
+                "minimum": 36864,
+                "mean": 62563840,
+                "maximum": 229228544,
+                "stdev": 101573909.61331168
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0.25,
+                "maximum": 1,
+                "stdev": 0.4629100498862757
+            },
+            "disk.write_count": {
+                "minimum": 2,
+                "mean": 119.375,
+                "maximum": 381,
+                "stdev": 155.10359441354026
+            },
+            "mem.available": {
+                "minimum": 1384448,
+                "mean": 1704960,
+                "maximum": 2256896,
+                "stdev": 279367.87657035404
+            },
+            "mem.used": {
+                "minimum": -2248704,
+                "mean": -1712128,
+                "maximum": -1400832,
+                "stdev": 297267.54517966276
+            },
+            "mem.free": {
+                "minimum": -274321408,
+                "mean": -274033152,
+                "maximum": -273481728,
+                "stdev": 290555.76283883466
+            },
+            "mem.cached": {
+                "minimum": 275648512,
+                "mean": 275729920,
+                "maximum": 275767296,
+                "stdev": 37695.75939772839
+            },
+            "lo.bytes_sent": {
+                "minimum": 343,
+                "mean": 387.875,
+                "maximum": 460,
+                "stdev": 59.74813206882945
+            },
+            "lo.bytes_recv": {
+                "minimum": 343,
+                "mean": 387.875,
+                "maximum": 460,
+                "stdev": 59.74813206882945
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 39.01413135852547,
+                "mean": 44.23507453997808,
+                "maximum": 52.480204972988105,
+                "stdev": 6.829440748102892
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 39.01413135852547,
+                "mean": 44.23507453997808,
+                "maximum": 52.480204972988105,
+                "stdev": 6.829440748102892
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "1024MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 35.077940912917256,
+                "mean": 35.08150891837431,
+                "maximum": 35.100508112926036,
+                "stdev": 0.007694852467360139
+            },
+            "timestamp": {
+                "minimum": 35.07794141769409,
+                "mean": 35.081509590148926,
+                "maximum": 35.10050845146179,
+                "stdev": 0.00769472152797021
+            },
+            "cpu.user": {
+                "minimum": 63.62000000011176,
+                "mean": 64.23624999995809,
+                "maximum": 64.95999999996275,
+                "stdev": 0.4690396723883307
+            },
+            "cpu.system": {
+                "minimum": 3.930000000000291,
+                "mean": 4.335000000002765,
+                "maximum": 4.940000000002328,
+                "stdev": 0.34739849493933966
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "disk.read_bytes": {
+                "minimum": 16384,
+                "mean": 26112,
+                "maximum": 36864,
+                "stdev": 8173.693831869582
+            },
+            "disk.write_bytes": {
+                "minimum": 519213056,
+                "mean": 642539520,
+                "maximum": 777551872,
+                "stdev": 88368917.83202487
+            },
+            "disk.read_count": {
+                "minimum": 4,
+                "mean": 6.375,
+                "maximum": 9,
+                "stdev": 1.9955307206712847
+            },
+            "disk.write_count": {
+                "minimum": 795,
+                "mean": 970.625,
+                "maximum": 1178,
+                "stdev": 130.06694704760974
+            },
+            "mem.available": {
+                "minimum": 950272,
+                "mean": 1879040,
+                "maximum": 3063808,
+                "stdev": 645557.7798055172
+            },
+            "mem.used": {
+                "minimum": -3047424,
+                "mean": -1882112,
+                "maximum": -1011712,
+                "stdev": 638454.4098260155
+            },
+            "mem.free": {
+                "minimum": -1102557184,
+                "mean": -1101683712,
+                "maximum": -1100488704,
+                "stdev": 635627.9759805596
+            },
+            "mem.cached": {
+                "minimum": 1103388672,
+                "mean": 1103484928,
+                "maximum": 1103560704,
+                "stdev": 56755.84086241697
+            },
+            "lo.bytes_sent": {
+                "minimum": 1493,
+                "mean": 1641.875,
+                "maximum": 1863,
+                "stdev": 109.06280955748127
+            },
+            "lo.bytes_recv": {
+                "minimum": 1493,
+                "mean": 1641.875,
+                "maximum": 1863,
+                "stdev": 109.06280955748127
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 42.561574494368315,
+                "mean": 46.801510521306945,
+                "maximum": 53.107672767065864,
+                "stdev": 3.105230621095572
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 42.561574494368315,
+                "mean": 46.801510521306945,
+                "maximum": 53.107672767065864,
+                "stdev": 3.105230621095572
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "2048MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 70.16309689823538,
+                "mean": 70.16390493232757,
+                "maximum": 70.16461624996737,
+                "stdev": 0.0005424430914319679
+            },
+            "timestamp": {
+                "minimum": 70.16309714317322,
+                "mean": 70.16390404105186,
+                "maximum": 70.16461753845215,
+                "stdev": 0.0005435970035273006
+            },
+            "cpu.user": {
+                "minimum": 123.55999999982305,
+                "mean": 125.52874999996857,
+                "maximum": 127.46999999997206,
+                "stdev": 1.1152249933406346
+            },
+            "cpu.system": {
+                "minimum": 10.830000000001746,
+                "mean": 12.463750000003529,
+                "maximum": 13.62000000000262,
+                "stdev": 0.7948753271523137
+            },
+            "cpu.idle": {
+                "minimum": 0.0,
+                "mean": 0.0012499999720603228,
+                "maximum": 0.009999999776482582,
+                "stdev": 0.0035355338269073967
+            },
+            "cpu.iowait": {
+                "minimum": 0.0,
+                "mean": 0.0012499999999988631,
+                "maximum": 0.009999999999990905,
+                "stdev": 0.003535533905929522
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 24576,
+                "maximum": 159744,
+                "stdev": 56118.83033095296
+            },
+            "disk.write_bytes": {
+                "minimum": 1694658560,
+                "mean": 1897423360,
+                "maximum": 2080600064,
+                "stdev": 147047176.04468518
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 1.75,
+                "maximum": 9,
+                "stdev": 3.4121631178560534
+            },
+            "disk.write_count": {
+                "minimum": 2614,
+                "mean": 3030.125,
+                "maximum": 3310,
+                "stdev": 238.39549222727706
+            },
+            "mem.available": {
+                "minimum": -479232,
+                "mean": 26864640,
+                "maximum": 108843008,
+                "stdev": 46931901.955617696
+            },
+            "mem.used": {
+                "minimum": -108945408,
+                "mean": -26914816,
+                "maximum": 401408,
+                "stdev": 46943069.84668209
+            },
+            "mem.free": {
+                "minimum": -2207686656,
+                "mean": -2180354560,
+                "maximum": -2098266112,
+                "stdev": 46908696.72153834
+            },
+            "mem.cached": {
+                "minimum": 2207035392,
+                "mean": 2207170048,
+                "maximum": 2207309824,
+                "stdev": 77575.3018722546
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 2015.25,
+                "maximum": 7911,
+                "stdev": 3037.8418443738265
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 2015.25,
+                "maximum": 7911,
+                "stdev": 3037.8418443738265
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 28.721939640471987,
+                "maximum": 112.75069880103976,
+                "stdev": 43.296357488354936
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 28.721939640471987,
+                "maximum": 112.75069880103976,
+                "stdev": 43.296357488354936
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "4096MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 140.33321867510676,
+                "mean": 140.33745176903903,
+                "maximum": 140.3491367790848,
+                "stdev": 0.007803147617013149
+            },
+            "timestamp": {
+                "minimum": 140.33321952819824,
+                "mean": 140.33745312690735,
+                "maximum": 140.34913778305054,
+                "stdev": 0.007802929479340487
+            },
+            "cpu.user": {
+                "minimum": 4.209999999999127,
+                "mean": 4.412499999996726,
+                "maximum": 4.539999999993597,
+                "stdev": 0.15261607604072258
+            },
+            "cpu.system": {
+                "minimum": 25.06000000000131,
+                "mean": 25.68249999999989,
+                "maximum": 26.31999999999971,
+                "stdev": 0.5146115039516008
+            },
+            "cpu.idle": {
+                "minimum": 515.429999999702,
+                "mean": 516.2724999990314,
+                "maximum": 517.0999999977648,
+                "stdev": 0.7864424102808095
+            },
+            "cpu.iowait": {
+                "minimum": 2.480000000000473,
+                "mean": 2.770000000000209,
+                "maximum": 3.019999999999527,
+                "stdev": 0.2270095445860589
+            },
+            "disk.read_bytes": {
+                "minimum": 114688,
+                "mean": 150528,
+                "maximum": 221184,
+                "stdev": 47927.86757896356
+            },
+            "disk.write_bytes": {
+                "minimum": 3697676288,
+                "mean": 3881459712,
+                "maximum": 3986534400,
+                "stdev": 129015679.82384048
+            },
+            "disk.read_count": {
+                "minimum": 28,
+                "mean": 32.5,
+                "maximum": 39,
+                "stdev": 4.654746681256314
+            },
+            "disk.write_count": {
+                "minimum": 4627,
+                "mean": 4822.75,
+                "maximum": 4970,
+                "stdev": 142.95074909445793
+            },
+            "mem.available": {
+                "minimum": -1216512,
+                "mean": 458752,
+                "maximum": 2850816,
+                "stdev": 1766881.6595482563
+            },
+            "mem.used": {
+                "minimum": -2924544,
+                "mean": -491520,
+                "maximum": 1187840,
+                "stdev": 1794702.492488379
+            },
+            "mem.free": {
+                "minimum": -4416319488,
+                "mean": -4414686208,
+                "maximum": -4412174336,
+                "stdev": 1847362.2220207204
+            },
+            "mem.cached": {
+                "minimum": 4414763008,
+                "mean": 4414842880,
+                "maximum": 4414980096,
+                "stdev": 95329.2120321293
+            },
+            "lo.bytes_sent": {
+                "minimum": 6441,
+                "mean": 7163,
+                "maximum": 8822,
+                "stdev": 1112.4378634332795
+            },
+            "lo.bytes_recv": {
+                "minimum": 6441,
+                "mean": 7163,
+                "maximum": 8822,
+                "stdev": 1112.4378634332795
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 45.89269409001349,
+                "mean": 51.041408478140454,
+                "maximum": 62.86464315277239,
+                "stdev": 7.928282374141362
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 45.89269409001349,
+                "mean": 51.041408478140454,
+                "maximum": 62.86464315277239,
+                "stdev": 7.928282374141362
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "6144MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 210.50113694742322,
+                "mean": 210.5033180655446,
+                "maximum": 210.50495629012585,
+                "stdev": 0.0016064087928403133
+            },
+            "timestamp": {
+                "minimum": 210.50114369392395,
+                "mean": 210.503324508667,
+                "maximum": 210.50496292114258,
+                "stdev": 0.00160599591374956
+            },
+            "cpu.user": {
+                "minimum": 6.009999999994761,
+                "mean": 6.452499999999418,
+                "maximum": 7.169999999998254,
+                "stdev": 0.5218157401481635
+            },
+            "cpu.system": {
+                "minimum": 38.55999999999767,
+                "mean": 39.2549999999992,
+                "maximum": 39.659999999999854,
+                "stdev": 0.4891829923465218
+            },
+            "cpu.idle": {
+                "minimum": 774.5599999986589,
+                "mean": 775.5049999989569,
+                "maximum": 776.910000000149,
+                "stdev": 1.0937550005466954
+            },
+            "cpu.iowait": {
+                "minimum": 3.740000000000691,
+                "mean": 3.865000000000009,
+                "maximum": 4.149999999999636,
+                "stdev": 0.19330459556500118
+            },
+            "disk.read_bytes": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_bytes": {
+                "minimum": 5759295488,
+                "mean": 5834473472,
+                "maximum": 5891481600,
+                "stdev": 55730669.20767597
+            },
+            "disk.read_count": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "disk.write_count": {
+                "minimum": 7094,
+                "mean": 7176,
+                "maximum": 7355,
+                "stdev": 122.60233820500054
+            },
+            "mem.available": {
+                "minimum": -3403776,
+                "mean": -337920,
+                "maximum": 1310720,
+                "stdev": 2200378.163900621
+            },
+            "mem.used": {
+                "minimum": -1343488,
+                "mean": 278528,
+                "maximum": 3260416,
+                "stdev": 2155697.4698121874
+            },
+            "mem.free": {
+                "minimum": -6625624064,
+                "mean": -6622382080,
+                "maximum": -6620647424,
+                "stdev": 2331077.467308197
+            },
+            "mem.cached": {
+                "minimum": 6621827072,
+                "mean": 6621956096,
+                "maximum": 6622257152,
+                "stdev": 202286.00995620037
+            },
+            "lo.bytes_sent": {
+                "minimum": 4746,
+                "mean": 16565,
+                "maximum": 47117,
+                "stdev": 20498.826161514713
+            },
+            "lo.bytes_recv": {
+                "minimum": 4746,
+                "mean": 16565,
+                "maximum": 47117,
+                "stdev": 20498.826161514713
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 22.545787441977776,
+                "mean": 78.69221538072333,
+                "maximum": 223.82961808614547,
+                "stdev": 97.37976106805965
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 22.545787441977776,
+                "mean": 78.69221538072333,
+                "maximum": 223.82961808614547,
+                "stdev": 97.37976106805965
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    },
+    "8192MB": {
+        "1-2": {
+            "timer": {
+                "minimum": 89.27181780803949,
+                "mean": 232.82410087203607,
+                "maximum": 280.68470403179526,
+                "stdev": 95.70152229660354
+            },
+            "timestamp": {
+                "minimum": 89.27182078361511,
+                "mean": 232.82410842180252,
+                "maximum": 280.6847107410431,
+                "stdev": 95.70152534592822
+            },
+            "cpu.user": {
+                "minimum": 2.779999999998836,
+                "mean": 7.469999999999345,
+                "maximum": 9.369999999995343,
+                "stdev": 3.1357189499912232
+            },
+            "cpu.system": {
+                "minimum": 16.979999999999563,
+                "mean": 44.847500000000764,
+                "maximum": 54.330000000001746,
+                "stdev": 18.57962750792822
+            },
+            "cpu.idle": {
+                "minimum": 328.320000000298,
+                "mean": 856.4199999999255,
+                "maximum": 1032.800000000745,
+                "stdev": 352.0668551092138
+            },
+            "cpu.iowait": {
+                "minimum": 1.7100000000000364,
+                "mean": 4.327500000000327,
+                "maximum": 5.5600000000004,
+                "stdev": 1.7641499369386664
+            },
+            "disk.read_bytes": {
+                "minimum": 159744,
+                "mean": 12743680,
+                "maximum": 49455104,
+                "stdev": 24475522.33097462
+            },
+            "disk.write_bytes": {
+                "minimum": 2695380992,
+                "mean": 6581835776,
+                "maximum": 7985356800,
+                "stdev": 2593571291.4859
+            },
+            "disk.read_count": {
+                "minimum": 24,
+                "mean": 182.25,
+                "maximum": 567,
+                "stdev": 257.3873540017069
+            },
+            "disk.write_count": {
+                "minimum": 4096,
+                "mean": 8222.25,
+                "maximum": 9828,
+                "stdev": 2756.138406660062
+            },
+            "mem.available": {
+                "minimum": 3973120,
+                "mean": 9047040,
+                "maximum": 17907712,
+                "stdev": 6233481.667651662
+            },
+            "mem.used": {
+                "minimum": -17887232,
+                "mean": -9053184,
+                "maximum": -3956736,
+                "stdev": 6222409.003000258
+            },
+            "mem.free": {
+                "minimum": -8527872000,
+                "mean": -5563274240,
+                "maximum": 2605010944,
+                "stdev": 5449834321.770629
+            },
+            "mem.cached": {
+                "minimum": -2601299968,
+                "mean": 5572075520,
+                "maximum": 8536174592,
+                "stdev": 5453302940.49062
+            },
+            "lo.bytes_sent": {
+                "minimum": 0,
+                "mean": 3819.75,
+                "maximum": 6328,
+                "stdev": 3087.8977071787854
+            },
+            "lo.bytes_recv": {
+                "minimum": 0,
+                "mean": 3819.75,
+                "maximum": 6328,
+                "stdev": 3087.8977071787854
+            },
+            "eth0.bytes_sent": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv": {
+                "minimum": 0,
+                "mean": 0,
+                "maximum": 0,
+                "stdev": 0.0
+            },
+            "lo.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 13.609099390310888,
+                "maximum": 22.546014606006818,
+                "stdev": 11.001548225888602
+            },
+            "lo.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 13.609099390310888,
+                "maximum": 22.546014606006818,
+                "stdev": 11.001548225888602
+            },
+            "eth0.bytes_sent/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            },
+            "eth0.bytes_recv/s": {
+                "minimum": 0.0,
+                "mean": 0.0,
+                "maximum": 0.0,
+                "stdev": 0.0
+            }
+        }
+    }
+}

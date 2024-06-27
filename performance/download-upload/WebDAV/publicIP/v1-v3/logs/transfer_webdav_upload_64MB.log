@@ -1,0 +1,152 @@
+Time start: 2022-03-23 20:04:20
+Time end: 2022-03-23 20:10:00
+Duration: 0:05:40.192814
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_webdav_client_setup.yml
+Script: performance/transfer_webdav_upload.py
+Environment vars:
+SCRIPT: performance/transfer_webdav_upload.py
+HOST_ADDRESS: http://51.210.39.160:80
+FILE_SIZE: 67108864
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating service ... 
+Creating client  ... 
+Creating service ... done
+Creating client  ... done
+Attaching to service, client
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+client              | 20:04.31: Starting 64MB benchmark
+client              | 20:04.31: Creating client interface
+client              | 20:04.31: Preparing run 1
+client              | 20:04.31: Creating file /tmp/files/64MB_1
+client              | 20:04.32: Running garbage collector
+client              | 20:04.32: Sleeping for 30.0 seconds
+client              | 20:05.02: Starting
+service             | No connection with http://51.210.39.160:80
+service             | Connected to WebDAV server...
+service             | INFO:     127.0.0.1:40720 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_1 HTTP/1.1" 200 OK
+client              | 20:05.04: Finished
+client              | 20:05.04: Collecting metrics from service
+service             | INFO:     127.0.0.1:40720 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:05.04: Deleting created file /tmp/files/64MB_1
+client              | 20:05.04: Ending run 1
+client              | 20:05.04: Preparing run 2
+client              | 20:05.04: Creating file /tmp/files/64MB_2
+client              | 20:05.04: Running garbage collector
+client              | 20:05.04: Sleeping for 30.0 seconds
+client              | 20:05.35: Starting
+client              | 20:05.37: Finished
+client              | 20:05.37: Collecting metrics from service
+service             | INFO:     127.0.0.1:40738 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_2 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40738 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:05.37: Deleting created file /tmp/files/64MB_2
+client              | 20:05.37: Ending run 2
+client              | 20:05.37: Preparing run 3
+client              | 20:05.37: Creating file /tmp/files/64MB_3
+client              | 20:05.37: Running garbage collector
+client              | 20:05.37: Sleeping for 30.0 seconds
+client              | 20:06.07: Starting
+service             | INFO:     127.0.0.1:40756 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_3 HTTP/1.1" 200 OK
+client              | 20:06.10: Finished
+client              | 20:06.10: Collecting metrics from service
+service             | INFO:     127.0.0.1:40756 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:06.10: Deleting created file /tmp/files/64MB_3
+client              | 20:06.10: Ending run 3
+client              | 20:06.10: Preparing run 4
+client              | 20:06.10: Creating file /tmp/files/64MB_4
+client              | 20:06.10: Running garbage collector
+client              | 20:06.10: Sleeping for 30.0 seconds
+client              | 20:06.40: Starting
+service             | INFO:     127.0.0.1:40774 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_4 HTTP/1.1" 200 OK
+client              | 20:06.42: Finished
+client              | 20:06.42: Collecting metrics from service
+service             | INFO:     127.0.0.1:40774 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:06.42: Deleting created file /tmp/files/64MB_4
+client              | 20:06.42: Ending run 4
+client              | 20:06.42: Preparing run 5
+client              | 20:06.42: Creating file /tmp/files/64MB_5
+client              | 20:06.43: Running garbage collector
+client              | 20:06.43: Sleeping for 30.0 seconds
+client              | 20:07.13: Starting
+service             | INFO:     127.0.0.1:40792 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_5 HTTP/1.1" 200 OK
+client              | 20:07.15: Finished
+client              | 20:07.15: Collecting metrics from service
+service             | INFO:     127.0.0.1:40792 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:07.15: Deleting created file /tmp/files/64MB_5
+client              | 20:07.15: Ending run 5
+client              | 20:07.15: Preparing run 6
+client              | 20:07.15: Creating file /tmp/files/64MB_6
+client              | 20:07.16: Running garbage collector
+client              | 20:07.16: Sleeping for 30.0 seconds
+client              | 20:07.46: Starting
+service             | INFO:     127.0.0.1:40810 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_6 HTTP/1.1" 200 OK
+client              | 20:07.48: Finished
+client              | 20:07.48: Collecting metrics from service
+service             | INFO:     127.0.0.1:40810 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:07.48: Deleting created file /tmp/files/64MB_6
+client              | 20:07.48: Ending run 6
+client              | 20:07.48: Preparing run 7
+client              | 20:07.48: Creating file /tmp/files/64MB_7
+client              | 20:07.49: Running garbage collector
+client              | 20:07.49: Sleeping for 30.0 seconds
+client              | 20:08.19: Starting
+service             | INFO:     127.0.0.1:40828 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_7 HTTP/1.1" 200 OK
+client              | 20:08.21: Finished
+client              | 20:08.21: Collecting metrics from service
+service             | INFO:     127.0.0.1:40828 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:08.21: Deleting created file /tmp/files/64MB_7
+client              | 20:08.21: Ending run 7
+client              | 20:08.21: Preparing run 8
+client              | 20:08.21: Creating file /tmp/files/64MB_8
+client              | 20:08.21: Running garbage collector
+client              | 20:08.21: Sleeping for 30.0 seconds
+client              | 20:08.51: Starting
+service             | INFO:     127.0.0.1:40846 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_8 HTTP/1.1" 200 OK
+client              | 20:08.54: Finished
+client              | 20:08.54: Collecting metrics from service
+service             | INFO:     127.0.0.1:40846 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:08.54: Deleting created file /tmp/files/64MB_8
+client              | 20:08.54: Ending run 8
+client              | 20:08.54: Preparing run 9
+client              | 20:08.54: Creating file /tmp/files/64MB_9
+client              | 20:08.54: Running garbage collector
+client              | 20:08.54: Sleeping for 30.0 seconds
+client              | 20:09.24: Starting
+service             | INFO:     127.0.0.1:40864 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_9 HTTP/1.1" 200 OK
+client              | 20:09.26: Finished
+client              | 20:09.26: Collecting metrics from service
+service             | INFO:     127.0.0.1:40864 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:09.26: Deleting created file /tmp/files/64MB_9
+client              | 20:09.27: Ending run 9
+client              | 20:09.27: Preparing run 10
+client              | 20:09.27: Creating file /tmp/files/64MB_10
+client              | 20:09.27: Running garbage collector
+client              | 20:09.27: Sleeping for 30.0 seconds
+client              | 20:09.57: Starting
+service             | INFO:     127.0.0.1:40882 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F64MB_10 HTTP/1.1" 200 OK
+client              | 20:09.59: Finished
+client              | 20:09.59: Collecting metrics from service
+client              | 20:09.59: Deleting created file /tmp/files/64MB_10
+service             | INFO:     127.0.0.1:40882 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 20:09.59: Ending run 10
+client exited with code 0
+Stopping service ... 
+Stopping service ... done
+Aborting on container exit...
+Removing client  ... 
+Removing service ... 
+Removing service ... done
+Removing client  ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

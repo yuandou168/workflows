@@ -1,0 +1,202 @@
+Time start: 2022-03-16 13:37:47
+Time end: 2022-03-16 13:48:07
+Duration: 0:10:19.234272
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i048
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ipfs_download_setup.yml
+Script: performance/transfer_ipfs_download.py
+Environment vars:
+SCRIPT: performance/transfer_ipfs_download.py
+PEER_ID: 12D3KooWAHYGhQ8Y4cxSFVKRVME5LESxDbaqZBhmLNs9finPkr2V
+BOOT_ADDRESS: 146.59.192.105
+FILE_SIZE: 262144
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating service ... 
+Creating client  ... 
+Creating ipfs    ... 
+Creating service ... done
+Creating ipfs    ... done
+Creating client  ... done
+Attaching to service, ipfs, client
+ipfs                | Changing user to ipfs
+ipfs                | ipfs version 0.7.0
+ipfs                | Initializing IPFS with --empty-repo, --profile=badgerds
+ipfs                | generating ED25519 keypair...done
+ipfs                | peer identity: 12D3KooWMTQRWfew4cto2GCDNDUxy5sKcZcHaq34Q4WAdLVDEerc
+ipfs                | initializing IPFS node at /data/ipfs
+ipfs                | Removing default bootstrap nodes...
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt
+ipfs                | removed /ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | removed /ip4/104.131.131.82/udp/4001/quic/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | added /ip4/146.59.192.105/tcp/4001/p2p/12D3KooWAHYGhQ8Y4cxSFVKRVME5LESxDbaqZBhmLNs9finPkr2V
+ipfs                | Initializing daemon...
+ipfs                | go-ipfs version: 0.7.0-ea77213
+ipfs                | Repo version: 10
+ipfs                | System version: amd64/linux
+ipfs                | Golang version: go1.14.4
+ipfs                | Swarm is limited to private network of peers with the swarm key
+ipfs                | Swarm key fingerprint: c53fe9fc1c8eac4230853d5efb58f0a0
+ipfs                | Swarm listening on /ip4/10.23.85.210/tcp/4001
+ipfs                | Swarm listening on /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm listening on /ip4/152.228.166.247/tcp/4001
+ipfs                | Swarm listening on /ip4/172.17.0.1/tcp/4001
+ipfs                | Swarm listening on /ip6/::1/tcp/4001
+ipfs                | Swarm listening on /p2p-circuit
+ipfs                | Swarm announcing /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm announcing /ip4/152.228.166.247/tcp/4001
+ipfs                | Swarm announcing /ip6/::1/tcp/4001
+ipfs                | API server listening on /ip4/127.0.0.1/tcp/5001
+ipfs                | WebUI: http://127.0.0.1:5001/webui
+ipfs                | Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+ipfs                | Daemon is ready
+service             | Connected to IPFS daemon...
+service             | Connected to bootstrap peer...
+service             | Received bootstrap peer id: 12D3KooWAHYGhQ8Y4cxSFVKRVME5LESxDbaqZBhmLNs9finPkr2V
+service             | /ip4/146.59.192.105/tcp/4001/p2p/12D3KooWAHYGhQ8Y4cxSFVKRVME5LESxDbaqZBhmLNs9finPkr2V
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+service             | INFO:     127.0.0.1:44724 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_1 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44724 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44726 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_2 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44726 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44730 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_3 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44730 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44734 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_4 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44734 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44738 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_5 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44738 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44742 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_6 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44742 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44748 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_7 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44748 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44752 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_8 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44752 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44756 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_9 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44756 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44760 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F256KB_10 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44760 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 13:37.53: Connecting to download script runner
+client              | 13:37.53: Waiting for finish upload signal
+client              | 13:42.55: Starting 256KB benchmark
+client              | 13:42.55: Creating client interface
+client              | 13:42.55: Preparing run 1
+client              | 13:42.55: Download file name is /tmp/files/256KB_1
+client              | 13:42.55: Running garbage collector
+client              | 13:42.55: Sleeping for 30.0 seconds
+client              | 13:43.25: Starting
+client              | 13:43.25: Finished
+client              | 13:43.25: Collecting metrics from service
+client              | 13:43.25: Deleting downloaded file /tmp/files/256KB_1
+client              | 13:43.25: Ending run 1
+client              | 13:43.25: Preparing run 2
+client              | 13:43.25: Download file name is /tmp/files/256KB_2
+client              | 13:43.25: Running garbage collector
+client              | 13:43.25: Sleeping for 30.0 seconds
+client              | 13:43.55: Starting
+client              | 13:43.55: Finished
+client              | 13:43.55: Collecting metrics from service
+client              | 13:43.55: Deleting downloaded file /tmp/files/256KB_2
+client              | 13:43.55: Ending run 2
+client              | 13:43.55: Preparing run 3
+client              | 13:43.55: Download file name is /tmp/files/256KB_3
+client              | 13:43.55: Running garbage collector
+client              | 13:43.55: Sleeping for 30.0 seconds
+client              | 13:44.25: Starting
+client              | 13:44.25: Finished
+client              | 13:44.25: Collecting metrics from service
+client              | 13:44.25: Deleting downloaded file /tmp/files/256KB_3
+client              | 13:44.25: Ending run 3
+client              | 13:44.25: Preparing run 4
+client              | 13:44.25: Download file name is /tmp/files/256KB_4
+client              | 13:44.25: Running garbage collector
+client              | 13:44.25: Sleeping for 30.0 seconds
+client              | 13:44.55: Starting
+client              | 13:44.55: Finished
+client              | 13:44.55: Collecting metrics from service
+client              | 13:44.55: Deleting downloaded file /tmp/files/256KB_4
+client              | 13:44.55: Ending run 4
+client              | 13:44.55: Preparing run 5
+client              | 13:44.55: Download file name is /tmp/files/256KB_5
+client              | 13:44.55: Running garbage collector
+client              | 13:44.55: Sleeping for 30.0 seconds
+client              | 13:45.25: Starting
+client              | 13:45.25: Finished
+client              | 13:45.25: Collecting metrics from service
+client              | 13:45.25: Deleting downloaded file /tmp/files/256KB_5
+client              | 13:45.25: Ending run 5
+client              | 13:45.25: Preparing run 6
+client              | 13:45.25: Download file name is /tmp/files/256KB_6
+client              | 13:45.25: Running garbage collector
+client              | 13:45.25: Sleeping for 30.0 seconds
+client              | 13:45.55: Starting
+client              | 13:45.55: Finished
+client              | 13:45.55: Collecting metrics from service
+client              | 13:45.55: Deleting downloaded file /tmp/files/256KB_6
+client              | 13:45.55: Ending run 6
+client              | 13:45.55: Preparing run 7
+client              | 13:45.55: Download file name is /tmp/files/256KB_7
+client              | 13:45.55: Running garbage collector
+client              | 13:45.55: Sleeping for 30.0 seconds
+client              | 13:46.26: Starting
+client              | 13:46.26: Finished
+client              | 13:46.26: Collecting metrics from service
+client              | 13:46.26: Deleting downloaded file /tmp/files/256KB_7
+client              | 13:46.26: Ending run 7
+client              | 13:46.26: Preparing run 8
+client              | 13:46.26: Download file name is /tmp/files/256KB_8
+client              | 13:46.26: Running garbage collector
+client              | 13:46.26: Sleeping for 30.0 seconds
+client              | 13:46.56: Starting
+client              | 13:46.56: Finished
+client              | 13:46.56: Collecting metrics from service
+client              | 13:46.56: Deleting downloaded file /tmp/files/256KB_8
+client              | 13:46.56: Ending run 8
+client              | 13:46.56: Preparing run 9
+client              | 13:46.56: Download file name is /tmp/files/256KB_9
+client              | 13:46.56: Running garbage collector
+client              | 13:46.56: Sleeping for 30.0 seconds
+client              | 13:47.26: Starting
+client              | 13:47.26: Finished
+client              | 13:47.26: Collecting metrics from service
+client              | 13:47.26: Deleting downloaded file /tmp/files/256KB_9
+client              | 13:47.26: Ending run 9
+client              | 13:47.26: Preparing run 10
+client              | 13:47.26: Download file name is /tmp/files/256KB_10
+client              | 13:47.26: Running garbage collector
+client              | 13:47.26: Sleeping for 30.0 seconds
+client              | 13:47.56: Starting
+client              | 13:47.56: Finished
+client              | 13:47.56: Collecting metrics from service
+client              | 13:47.56: Deleting downloaded file /tmp/files/256KB_10
+client              | 13:47.56: Ending run 10
+client              | 13:47.56: Writing metrics file
+client              | 13:47.56: Send finished download signal
+client exited with code 0
+Stopping ipfs    ... 
+Stopping service ... 
+Stopping ipfs    ... done
+Stopping service ... done
+Aborting on container exit...
+Removing ipfs    ... 
+Removing client  ... 
+Removing service ... 
+Removing ipfs    ... done
+Removing service ... done
+Removing client  ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Deleted Volumes:
+08625ffd92f0e41a84f4a1f5841d9c9ca054be86347ede9a14634dd5b05093e6
+
+Total reclaimed space: 2.743MB

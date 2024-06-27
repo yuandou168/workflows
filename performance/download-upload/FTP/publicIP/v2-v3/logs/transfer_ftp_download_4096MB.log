@@ -1,0 +1,120 @@
+Time start: 2022-03-18 15:29:56
+Time end: 2022-03-18 15:58:14
+Duration: 0:28:18.520833
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 4294967296
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 15:29.57: Connected to FTP server at 146.59.192.105
+client              | 15:29.57: Preparing run 1
+client              | 15:29.57: Download file name is 4096MB_1
+client              | 15:29.57: Output location is /tmp/files/4096MB_1
+client              | 15:29.57: Running garbage collector
+client              | 15:29.57: Sleeping for 30.0 seconds
+client              | 15:30.27: Starting
+client              | 15:32.47: Finished
+client              | 15:32.47: Deleting downloaded file /tmp/files/4096MB_1
+client              | 15:32.48: Ending run 1
+client              | 15:32.48: Preparing run 2
+client              | 15:32.48: Download file name is 4096MB_2
+client              | 15:32.48: Output location is /tmp/files/4096MB_2
+client              | 15:32.48: Running garbage collector
+client              | 15:32.48: Sleeping for 30.0 seconds
+client              | 15:33.18: Starting
+client              | 15:35.38: Finished
+client              | 15:35.38: Deleting downloaded file /tmp/files/4096MB_2
+client              | 15:35.38: Ending run 2
+client              | 15:35.38: Preparing run 3
+client              | 15:35.38: Download file name is 4096MB_3
+client              | 15:35.38: Output location is /tmp/files/4096MB_3
+client              | 15:35.38: Running garbage collector
+client              | 15:35.38: Sleeping for 30.0 seconds
+client              | 15:36.08: Starting
+client              | 15:38.29: Finished
+client              | 15:38.29: Deleting downloaded file /tmp/files/4096MB_3
+client              | 15:38.29: Ending run 3
+client              | 15:38.29: Preparing run 4
+client              | 15:38.29: Download file name is 4096MB_4
+client              | 15:38.29: Output location is /tmp/files/4096MB_4
+client              | 15:38.29: Running garbage collector
+client              | 15:38.29: Sleeping for 30.0 seconds
+client              | 15:38.59: Starting
+client              | 15:41.20: Finished
+client              | 15:41.20: Deleting downloaded file /tmp/files/4096MB_4
+client              | 15:41.20: Ending run 4
+client              | 15:41.20: Preparing run 5
+client              | 15:41.20: Download file name is 4096MB_5
+client              | 15:41.20: Output location is /tmp/files/4096MB_5
+client              | 15:41.20: Running garbage collector
+client              | 15:41.20: Sleeping for 30.0 seconds
+client              | 15:41.50: Starting
+client              | 15:44.11: Finished
+client              | 15:44.11: Deleting downloaded file /tmp/files/4096MB_5
+client              | 15:44.11: Ending run 5
+client              | 15:44.11: Preparing run 6
+client              | 15:44.11: Download file name is 4096MB_6
+client              | 15:44.11: Output location is /tmp/files/4096MB_6
+client              | 15:44.11: Running garbage collector
+client              | 15:44.11: Sleeping for 30.0 seconds
+client              | 15:44.41: Starting
+client              | 15:47.02: Finished
+client              | 15:47.02: Deleting downloaded file /tmp/files/4096MB_6
+client              | 15:47.02: Ending run 6
+client              | 15:47.02: Preparing run 7
+client              | 15:47.02: Download file name is 4096MB_7
+client              | 15:47.02: Output location is /tmp/files/4096MB_7
+client              | 15:47.02: Running garbage collector
+client              | 15:47.02: Sleeping for 30.0 seconds
+client              | 15:47.32: Starting
+client              | 15:49.52: Finished
+client              | 15:49.52: Deleting downloaded file /tmp/files/4096MB_7
+client              | 15:49.53: Ending run 7
+client              | 15:49.53: Preparing run 8
+client              | 15:49.53: Download file name is 4096MB_8
+client              | 15:49.53: Output location is /tmp/files/4096MB_8
+client              | 15:49.53: Running garbage collector
+client              | 15:49.53: Sleeping for 30.0 seconds
+client              | 15:50.23: Starting
+client              | 15:52.43: Finished
+client              | 15:52.43: Deleting downloaded file /tmp/files/4096MB_8
+client              | 15:52.44: Ending run 8
+client              | 15:52.44: Preparing run 9
+client              | 15:52.44: Download file name is 4096MB_9
+client              | 15:52.44: Output location is /tmp/files/4096MB_9
+client              | 15:52.44: Running garbage collector
+client              | 15:52.44: Sleeping for 30.0 seconds
+client              | 15:53.14: Starting
+client              | 15:55.34: Finished
+client              | 15:55.34: Deleting downloaded file /tmp/files/4096MB_9
+client              | 15:55.35: Ending run 9
+client              | 15:55.35: Preparing run 10
+client              | 15:55.35: Download file name is 4096MB_10
+client              | 15:55.35: Output location is /tmp/files/4096MB_10
+client              | 15:55.35: Running garbage collector
+client              | 15:55.35: Sleeping for 30.0 seconds
+client              | 15:56.05: Starting
+client              | 15:58.13: Finished
+client              | 15:58.13: Deleting downloaded file /tmp/files/4096MB_10
+client              | 15:58.14: Ending run 10
+client              | 15:58.14: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

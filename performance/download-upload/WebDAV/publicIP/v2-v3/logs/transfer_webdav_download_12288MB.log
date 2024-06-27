@@ -1,0 +1,85 @@
+Time start: 2022-04-18 15:43:04
+Time end: 2022-04-18 16:06:24
+Duration: 0:23:19.441373
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_webdav_client_setup.yml
+Script: performance/transfer_webdav_download.py
+Environment vars:
+SCRIPT: performance/transfer_webdav_download.py
+HOST_ADDRESS: http://146.59.192.105:80
+FILE_SIZE: 12884901888
+RUN_COUNT: 6
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating service ... 
+Creating client  ... 
+Creating client  ... done
+Creating service ... done
+Attaching to client, service
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+client              | 15:43.15: Starting 12288MB benchmark
+client              | 15:43.15: Creating client interface
+client              | 15:43.15: Preparing run 1
+client              | 15:43.15: Download file is /tmp/files/12288MB_1
+client              | 15:43.15: Running garbage collector
+client              | 15:43.15: Sleeping for 30.0 seconds
+client              | 15:43.45: Starting
+service             | Connected to WebDAV server...
+service             | INFO:     127.0.0.1:47110 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F12288MB_1 HTTP/1.1" 200 OK
+client              | 15:50.47: Finished
+client              | 15:50.47: Collecting metrics from service
+service             | INFO:     127.0.0.1:47110 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 15:50.47: Deleting downloaded file /tmp/files/12288MB_1
+client              | 15:50.48: Ending run 1
+client              | 15:50.48: Preparing run 2
+client              | 15:50.48: Download file is /tmp/files/12288MB_2
+client              | 15:50.48: Running garbage collector
+client              | 15:50.48: Sleeping for 30.0 seconds
+client              | 15:51.18: Starting
+service             | INFO:     127.0.0.1:47120 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F12288MB_2 HTTP/1.1" 200 OK
+client              | 15:58.19: Finished
+client              | 15:58.19: Collecting metrics from service
+service             | INFO:     127.0.0.1:47120 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 15:58.19: Deleting downloaded file /tmp/files/12288MB_2
+client              | 15:58.20: Ending run 2
+client              | 15:58.20: Preparing run 3
+client              | 15:58.20: Download file is /tmp/files/12288MB_3
+client              | 15:58.20: Running garbage collector
+client              | 15:58.20: Sleeping for 30.0 seconds
+client              | 15:58.50: Starting
+service             | INFO:     127.0.0.1:47138 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F12288MB_3 HTTP/1.1" 200 OK
+client              | 16:05.51: Finished
+client              | 16:05.51: Collecting metrics from service
+service             | INFO:     127.0.0.1:47138 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 16:05.51: Deleting downloaded file /tmp/files/12288MB_3
+client              | 16:05.53: Ending run 3
+client              | 16:05.53: Preparing run 4
+client              | 16:05.53: Download file is /tmp/files/12288MB_4
+client              | 16:05.53: Running garbage collector
+client              | 16:05.53: Sleeping for 30.0 seconds
+client              | 16:06.23: Starting
+service             | Remote resource: /tmp/files/12288MB_4 not found
+service             | INFO:     127.0.0.1:47148 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F12288MB_4 HTTP/1.1" 200 OK
+client              | Traceback (most recent call last):
+client              |   File "/src/performance/transfer_webdav_download.py", line 39, in <module>
+client              |     raise Exception("Failed to download the file")
+client              | Exception: Failed to download the file
+client exited with code 1
+Stopping service ... 
+Stopping service ... done
+Aborting on container exit...
+Removing service ... 
+Removing client  ... 
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

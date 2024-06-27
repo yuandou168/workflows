@@ -1,0 +1,96 @@
+Time start: 2022-04-18 13:59:46
+Time end: 2022-04-18 14:39:14
+Duration: 0:39:27.989758
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_webdav_client_setup.yml
+Script: performance/transfer_webdav_upload.py
+Environment vars:
+SCRIPT: performance/transfer_webdav_upload.py
+HOST_ADDRESS: http://146.59.192.105:80
+FILE_SIZE: 10737418240
+RUN_COUNT: 6
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating service ... 
+Creating client  ... done
+Creating service ... done
+Attaching to client, service
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+client              | 13:59.57: Starting 10240MB benchmark
+client              | 13:59.57: Creating client interface
+client              | 13:59.57: Preparing run 1
+client              | 13:59.57: Creating file /tmp/files/10240MB_1
+client              | 14:01.25: Running garbage collector
+client              | 14:01.25: Sleeping for 30.0 seconds
+client              | 14:01.55: Starting
+service             | Connected to WebDAV server...
+service             | INFO:     127.0.0.1:46880 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F10240MB_1 HTTP/1.1" 200 OK
+client              | 14:07.46: Finished
+client              | 14:07.46: Collecting metrics from service
+service             | INFO:     127.0.0.1:46880 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 14:07.46: Deleting created file /tmp/files/10240MB_1
+client              | 14:07.47: Ending run 1
+client              | 14:07.47: Preparing run 2
+client              | 14:07.47: Creating file /tmp/files/10240MB_2
+client              | 14:09.15: Running garbage collector
+client              | 14:09.15: Sleeping for 30.0 seconds
+client              | 14:09.45: Starting
+service             | INFO:     127.0.0.1:46900 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F10240MB_2 HTTP/1.1" 200 OK
+client              | 14:15.36: Finished
+client              | 14:15.36: Collecting metrics from service
+service             | INFO:     127.0.0.1:46900 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 14:15.36: Deleting created file /tmp/files/10240MB_2
+client              | 14:15.37: Ending run 2
+client              | 14:15.37: Preparing run 3
+client              | 14:15.37: Creating file /tmp/files/10240MB_3
+client              | 14:17.07: Running garbage collector
+client              | 14:17.07: Sleeping for 30.0 seconds
+client              | 14:17.37: Starting
+service             | INFO:     127.0.0.1:46918 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F10240MB_3 HTTP/1.1" 200 OK
+client              | 14:23.28: Finished
+client              | 14:23.28: Collecting metrics from service
+service             | INFO:     127.0.0.1:46918 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 14:23.28: Deleting created file /tmp/files/10240MB_3
+client              | 14:23.29: Ending run 3
+client              | 14:23.29: Preparing run 4
+client              | 14:23.29: Creating file /tmp/files/10240MB_4
+client              | 14:24.58: Running garbage collector
+client              | 14:24.58: Sleeping for 30.0 seconds
+client              | 14:25.28: Starting
+service             | INFO:     127.0.0.1:46936 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F10240MB_4 HTTP/1.1" 200 OK
+client              | 14:31.19: Finished
+client              | 14:31.19: Collecting metrics from service
+service             | INFO:     127.0.0.1:46936 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 14:31.19: Deleting created file /tmp/files/10240MB_4
+client              | 14:31.20: Ending run 4
+client              | 14:31.20: Preparing run 5
+client              | 14:31.20: Creating file /tmp/files/10240MB_5
+client              | 14:32.51: Running garbage collector
+client              | 14:32.51: Sleeping for 30.0 seconds
+client              | 14:33.21: Starting
+service             | Not enough space on the server
+service             | INFO:     127.0.0.1:46954 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F10240MB_5 HTTP/1.1" 200 OK
+client              | Traceback (most recent call last):
+client              |   File "/src/performance/transfer_webdav_upload.py", line 40, in <module>
+client              |     raise Exception("Failed to upload the file")
+client              | Exception: Failed to upload the file
+client exited with code 1
+Stopping service ... 
+Stopping service ... done
+Aborting on container exit...
+Removing service ... 
+Removing client  ... 
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

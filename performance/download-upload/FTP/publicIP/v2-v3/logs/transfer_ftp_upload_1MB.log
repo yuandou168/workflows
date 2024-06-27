@@ -1,0 +1,120 @@
+Time start: 2022-03-17 14:58:19
+Time end: 2022-03-17 15:03:21
+Duration: 0:05:02.169864
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 1048576
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 14:58.20: Connected to FTP server at 146.59.192.105
+client              | 14:58.20: Preparing run 1
+client              | 14:58.20: Creating file /tmp/files/1MB_1
+client              | 14:58.20: Upload file name is 1MB_1
+client              | 14:58.20: Running garbage collector
+client              | 14:58.20: Sleeping for 30.0 seconds
+client              | 14:58.50: Starting
+client              | 14:58.50: Finished
+client              | 14:58.50: Deleting created file /tmp/files/1MB_1
+client              | 14:58.50: Ending run 1
+client              | 14:58.50: Preparing run 2
+client              | 14:58.50: Creating file /tmp/files/1MB_2
+client              | 14:58.50: Upload file name is 1MB_2
+client              | 14:58.50: Running garbage collector
+client              | 14:58.50: Sleeping for 30.0 seconds
+client              | 14:59.20: Starting
+client              | 14:59.20: Finished
+client              | 14:59.20: Deleting created file /tmp/files/1MB_2
+client              | 14:59.20: Ending run 2
+client              | 14:59.20: Preparing run 3
+client              | 14:59.20: Creating file /tmp/files/1MB_3
+client              | 14:59.20: Upload file name is 1MB_3
+client              | 14:59.20: Running garbage collector
+client              | 14:59.20: Sleeping for 30.0 seconds
+client              | 14:59.50: Starting
+client              | 14:59.50: Finished
+client              | 14:59.50: Deleting created file /tmp/files/1MB_3
+client              | 14:59.50: Ending run 3
+client              | 14:59.50: Preparing run 4
+client              | 14:59.50: Creating file /tmp/files/1MB_4
+client              | 14:59.50: Upload file name is 1MB_4
+client              | 14:59.50: Running garbage collector
+client              | 14:59.50: Sleeping for 30.0 seconds
+client              | 15:00.20: Starting
+client              | 15:00.20: Finished
+client              | 15:00.20: Deleting created file /tmp/files/1MB_4
+client              | 15:00.20: Ending run 4
+client              | 15:00.20: Preparing run 5
+client              | 15:00.20: Creating file /tmp/files/1MB_5
+client              | 15:00.20: Upload file name is 1MB_5
+client              | 15:00.20: Running garbage collector
+client              | 15:00.20: Sleeping for 30.0 seconds
+client              | 15:00.50: Starting
+client              | 15:00.50: Finished
+client              | 15:00.50: Deleting created file /tmp/files/1MB_5
+client              | 15:00.50: Ending run 5
+client              | 15:00.50: Preparing run 6
+client              | 15:00.50: Creating file /tmp/files/1MB_6
+client              | 15:00.50: Upload file name is 1MB_6
+client              | 15:00.50: Running garbage collector
+client              | 15:00.50: Sleeping for 30.0 seconds
+client              | 15:01.20: Starting
+client              | 15:01.20: Finished
+client              | 15:01.20: Deleting created file /tmp/files/1MB_6
+client              | 15:01.20: Ending run 6
+client              | 15:01.20: Preparing run 7
+client              | 15:01.20: Creating file /tmp/files/1MB_7
+client              | 15:01.20: Upload file name is 1MB_7
+client              | 15:01.20: Running garbage collector
+client              | 15:01.20: Sleeping for 30.0 seconds
+client              | 15:01.50: Starting
+client              | 15:01.50: Finished
+client              | 15:01.50: Deleting created file /tmp/files/1MB_7
+client              | 15:01.50: Ending run 7
+client              | 15:01.50: Preparing run 8
+client              | 15:01.50: Creating file /tmp/files/1MB_8
+client              | 15:01.50: Upload file name is 1MB_8
+client              | 15:01.50: Running garbage collector
+client              | 15:01.50: Sleeping for 30.0 seconds
+client              | 15:02.20: Starting
+client              | 15:02.20: Finished
+client              | 15:02.20: Deleting created file /tmp/files/1MB_8
+client              | 15:02.20: Ending run 8
+client              | 15:02.20: Preparing run 9
+client              | 15:02.20: Creating file /tmp/files/1MB_9
+client              | 15:02.20: Upload file name is 1MB_9
+client              | 15:02.20: Running garbage collector
+client              | 15:02.20: Sleeping for 30.0 seconds
+client              | 15:02.51: Starting
+client              | 15:02.51: Finished
+client              | 15:02.51: Deleting created file /tmp/files/1MB_9
+client              | 15:02.51: Ending run 9
+client              | 15:02.51: Preparing run 10
+client              | 15:02.51: Creating file /tmp/files/1MB_10
+client              | 15:02.51: Upload file name is 1MB_10
+client              | 15:02.51: Running garbage collector
+client              | 15:02.51: Sleeping for 30.0 seconds
+client              | 15:03.21: Starting
+client              | 15:03.21: Finished
+client              | 15:03.21: Deleting created file /tmp/files/1MB_10
+client              | 15:03.21: Ending run 10
+client              | 15:03.21: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

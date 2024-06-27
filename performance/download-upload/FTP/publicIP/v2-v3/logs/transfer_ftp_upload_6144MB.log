@@ -1,0 +1,95 @@
+Time start: 2022-03-18 09:23:08
+Time end: 2022-03-18 09:56:26
+Duration: 0:33:17.558266
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 6442450944
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 09:23.09: Connected to FTP server at 146.59.192.105
+client              | 09:23.09: Preparing run 1
+client              | 09:23.09: Creating file /tmp/files/6144MB_1
+client              | 09:24.01: Upload file name is 6144MB_1
+client              | 09:24.01: Running garbage collector
+client              | 09:24.01: Sleeping for 30.0 seconds
+client              | 09:24.31: Starting
+client              | 09:28.07: Finished
+client              | 09:28.07: Deleting created file /tmp/files/6144MB_1
+client              | 09:28.08: Ending run 1
+client              | 09:28.08: Preparing run 2
+client              | 09:28.08: Creating file /tmp/files/6144MB_2
+client              | 09:28.59: Upload file name is 6144MB_2
+client              | 09:28.59: Running garbage collector
+client              | 09:28.59: Sleeping for 30.0 seconds
+client              | 09:29.29: Starting
+client              | 09:33.05: Finished
+client              | 09:33.05: Deleting created file /tmp/files/6144MB_2
+client              | 09:33.06: Ending run 2
+client              | 09:33.06: Preparing run 3
+client              | 09:33.06: Creating file /tmp/files/6144MB_3
+client              | 09:33.55: Upload file name is 6144MB_3
+client              | 09:33.55: Running garbage collector
+client              | 09:33.55: Sleeping for 30.0 seconds
+client              | 09:34.25: Starting
+client              | 09:38.00: Finished
+client              | 09:38.00: Deleting created file /tmp/files/6144MB_3
+client              | 09:38.01: Ending run 3
+client              | 09:38.01: Preparing run 4
+client              | 09:38.01: Creating file /tmp/files/6144MB_4
+client              | 09:38.51: Upload file name is 6144MB_4
+client              | 09:38.51: Running garbage collector
+client              | 09:38.51: Sleeping for 30.0 seconds
+client              | 09:39.21: Starting
+client              | 09:42.56: Finished
+client              | 09:42.56: Deleting created file /tmp/files/6144MB_4
+client              | 09:42.57: Ending run 4
+client              | 09:42.57: Preparing run 5
+client              | 09:42.57: Creating file /tmp/files/6144MB_5
+client              | 09:43.46: Upload file name is 6144MB_5
+client              | 09:43.46: Running garbage collector
+client              | 09:43.46: Sleeping for 30.0 seconds
+client              | 09:44.16: Starting
+client              | 09:47.51: Finished
+client              | 09:47.51: Deleting created file /tmp/files/6144MB_5
+client              | 09:47.52: Ending run 5
+client              | 09:47.52: Preparing run 6
+client              | 09:47.52: Creating file /tmp/files/6144MB_6
+client              | 09:48.41: Upload file name is 6144MB_6
+client              | 09:48.41: Running garbage collector
+client              | 09:48.41: Sleeping for 30.0 seconds
+client              | 09:49.11: Starting
+client              | 09:52.46: Finished
+client              | 09:52.46: Deleting created file /tmp/files/6144MB_6
+client              | 09:52.47: Ending run 6
+client              | 09:52.47: Preparing run 7
+client              | 09:52.47: Creating file /tmp/files/6144MB_7
+client              | 09:53.37: Upload file name is 6144MB_7
+client              | 09:53.37: Running garbage collector
+client              | 09:53.37: Sleeping for 30.0 seconds
+client              | 09:54.07: Starting
+client              | Traceback (most recent call last):
+client              |   File "/src/performance/transfer_ftp_upload.py", line 43, in <module>
+client              |     ftp.storbinary("STOR " + file_name, file_object, file_size)
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 503, in storbinary
+client              |     conn.sendall(buf)
+client              | ConnectionResetError: [Errno 104] Connection reset by peer
+client exited with code 1
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

@@ -1,0 +1,66 @@
+Time start: 2022-04-22 12:08:31
+Time end: 2022-04-22 12:10:33
+Duration: 0:02:01.613705
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i048
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 146.59.206.127
+FILE_SIZE: 262144
+RUN_COUNT: 4
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 12:08.32: Connected to FTP server at 146.59.206.127
+client              | 12:08.32: Preparing run 1
+client              | 12:08.32: Download file name is 256KB_1
+client              | 12:08.32: Output location is /tmp/files/256KB_1
+client              | 12:08.32: Running garbage collector
+client              | 12:08.32: Sleeping for 30.0 seconds
+client              | 12:09.02: Starting
+client              | 12:09.02: Finished
+client              | 12:09.02: Deleting downloaded file /tmp/files/256KB_1
+client              | 12:09.02: Ending run 1
+client              | 12:09.02: Preparing run 2
+client              | 12:09.02: Download file name is 256KB_2
+client              | 12:09.02: Output location is /tmp/files/256KB_2
+client              | 12:09.02: Running garbage collector
+client              | 12:09.02: Sleeping for 30.0 seconds
+client              | 12:09.32: Starting
+client              | 12:09.32: Finished
+client              | 12:09.32: Deleting downloaded file /tmp/files/256KB_2
+client              | 12:09.32: Ending run 2
+client              | 12:09.32: Preparing run 3
+client              | 12:09.32: Download file name is 256KB_3
+client              | 12:09.32: Output location is /tmp/files/256KB_3
+client              | 12:09.32: Running garbage collector
+client              | 12:09.32: Sleeping for 30.0 seconds
+client              | 12:10.02: Starting
+client              | 12:10.02: Finished
+client              | 12:10.02: Deleting downloaded file /tmp/files/256KB_3
+client              | 12:10.02: Ending run 3
+client              | 12:10.02: Preparing run 4
+client              | 12:10.02: Download file name is 256KB_4
+client              | 12:10.02: Output location is /tmp/files/256KB_4
+client              | 12:10.02: Running garbage collector
+client              | 12:10.02: Sleeping for 30.0 seconds
+client              | 12:10.32: Starting
+client              | 12:10.32: Finished
+client              | 12:10.32: Deleting downloaded file /tmp/files/256KB_4
+client              | 12:10.32: Ending run 4
+client              | 12:10.32: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

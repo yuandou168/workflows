@@ -1,0 +1,42 @@
+Time start: 2022-03-17 21:29:34
+Time end: 2022-03-17 21:29:36
+Duration: 0:00:01.880196
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 12884901888
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | Traceback (most recent call last):
+client              |   File "/src/performance/transfer_ftp_download.py", line 14, in <module>
+client              |     ftp = ftplib.FTP(ftp_server_address)
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 121, in __init__
+client              |     self.connect(host)
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 162, in connect
+client              |     self.welcome = self.getresp()
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 244, in getresp
+client              |     resp = self.getmultiline()
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 230, in getmultiline
+client              |     line = self.getline()
+client              |   File "/usr/local/lib/python3.9/ftplib.py", line 218, in getline
+client              |     raise EOFError
+client              | EOFError
+client exited with code 1
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

@@ -1,0 +1,210 @@
+Time start: 2022-03-17 14:47:26
+Time end: 2022-03-17 15:06:45
+Duration: 0:19:18.931204
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i045
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ipfs_upload_setup.yml
+Script: performance/transfer_ipfs_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ipfs_upload.py
+FILE_SIZE: 1073741824
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating ipfs ... 
+Creating service ... 
+Creating client  ... 
+Creating client  ... done
+Creating service ... done
+Creating ipfs    ... done
+Attaching to client, service, ipfs
+ipfs                | Changing user to ipfs
+ipfs                | ipfs version 0.7.0
+ipfs                | Initializing IPFS with --empty-repo, --profile=badgerds
+service             | ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/version?stream-channels=true (Caused by NewConnectionError('<ipfshttpclient.requests_wrapper.HTTPConnection object at 0x7f69adb96f40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ipfs                | generating ED25519 keypair...done
+ipfs                | peer identity: 12D3KooWL8EVy1VRLvMMCoS1cDqxupnhHLBS5E9XyhtuewaTw9e5
+ipfs                | initializing IPFS node at /data/ipfs
+ipfs                | Removing default bootstrap nodes...
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt
+ipfs                | removed /ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | removed /ip4/104.131.131.82/udp/4001/quic/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | Initializing daemon...
+ipfs                | go-ipfs version: 0.7.0-ea77213
+ipfs                | Repo version: 10
+ipfs                | System version: amd64/linux
+ipfs                | Golang version: go1.14.4
+ipfs                | Swarm is limited to private network of peers with the swarm key
+ipfs                | Swarm key fingerprint: c53fe9fc1c8eac4230853d5efb58f0a0
+ipfs                | Swarm listening on /ip4/10.23.89.47/tcp/4001
+ipfs                | Swarm listening on /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm listening on /ip4/172.17.0.1/tcp/4001
+ipfs                | Swarm listening on /ip4/51.210.39.160/tcp/4001
+ipfs                | Swarm listening on /ip6/::1/tcp/4001
+ipfs                | Swarm listening on /p2p-circuit
+ipfs                | Swarm announcing /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm announcing /ip4/51.210.39.160/tcp/4001
+ipfs                | Swarm announcing /ip6/::1/tcp/4001
+ipfs                | API server listening on /ip4/127.0.0.1/tcp/5001
+ipfs                | WebUI: http://127.0.0.1:5001/webui
+ipfs                | Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+ipfs                | Daemon is ready
+service             | Connected to IPFS daemon...
+service             | Connected to bootstrap peer...New bootstrapping peer joined
+service             | 
+service             | Send my peer ID: 12D3KooWL8EVy1VRLvMMCoS1cDqxupnhHLBS5E9XyhtuewaTw9e5
+service             | Received bootstrap peer id: 12D3KooWL8EVy1VRLvMMCoS1cDqxupnhHLBS5E9XyhtuewaTw9e5
+service             | I am the bootstrap peer
+service             | Could not publish files...
+service             | failed to find any peer in table
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+service             | New bootstrapping peer joined
+service             | Send my peer ID: 12D3KooWL8EVy1VRLvMMCoS1cDqxupnhHLBS5E9XyhtuewaTw9e5
+service             | INFO:     127.0.0.1:38412 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_1 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38412 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38414 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_2 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38414 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38416 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_3 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38416 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38418 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_4 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38418 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38420 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_5 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38420 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38424 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_6 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38424 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38426 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_7 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38426 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38428 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_8 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38428 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38430 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_9 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38430 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38432 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F1024MB_10 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:38432 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 14:47.34: Connecting to IPFS daemon
+client              | 14:47.34: Connected to IPFS daemon, peer ID is 12D3KooWL8EVy1VRLvMMCoS1cDqxupnhHLBS5E9XyhtuewaTw9e5
+client              | 14:47.34: Connecting to upload script runner
+client              | 14:47.34: Sending peer ID
+client              | 14:47.34: Waiting for signal to start downloading
+client              | 14:47.40: Starting 1024MB benchmark
+client              | 14:47.40: Creating client interface
+client              | 14:47.40: Preparing run 1
+client              | 14:47.40: Creating file /tmp/files/1024MB_1
+client              | 14:47.47: Running garbage collector
+client              | 14:47.47: Sleeping for 30.0 seconds
+client              | 14:48.17: Starting
+client              | 14:48.34: Finished
+client              | 14:48.34: Collecting metrics from service
+client              | 14:48.34: Deleting created file /tmp/files/1024MB_1
+client              | 14:48.34: Ending run 1
+client              | 14:48.34: Preparing run 2
+client              | 14:48.34: Creating file /tmp/files/1024MB_2
+client              | 14:48.43: Running garbage collector
+client              | 14:48.43: Sleeping for 30.0 seconds
+client              | 14:49.13: Starting
+client              | 14:49.31: Finished
+client              | 14:49.31: Collecting metrics from service
+client              | 14:49.31: Deleting created file /tmp/files/1024MB_2
+client              | 14:49.31: Ending run 2
+client              | 14:49.31: Preparing run 3
+client              | 14:49.31: Creating file /tmp/files/1024MB_3
+client              | 14:49.38: Running garbage collector
+client              | 14:49.38: Sleeping for 30.0 seconds
+client              | 14:50.08: Starting
+client              | 14:50.27: Finished
+client              | 14:50.27: Collecting metrics from service
+client              | 14:50.27: Deleting created file /tmp/files/1024MB_3
+client              | 14:50.27: Ending run 3
+client              | 14:50.27: Preparing run 4
+client              | 14:50.27: Creating file /tmp/files/1024MB_4
+client              | 14:50.34: Running garbage collector
+client              | 14:50.34: Sleeping for 30.0 seconds
+client              | 14:51.04: Starting
+client              | 14:51.23: Finished
+client              | 14:51.23: Collecting metrics from service
+client              | 14:51.23: Deleting created file /tmp/files/1024MB_4
+client              | 14:51.23: Ending run 4
+client              | 14:51.23: Preparing run 5
+client              | 14:51.23: Creating file /tmp/files/1024MB_5
+client              | 14:51.30: Running garbage collector
+client              | 14:51.30: Sleeping for 30.0 seconds
+client              | 14:52.00: Starting
+client              | 14:52.17: Finished
+client              | 14:52.17: Collecting metrics from service
+client              | 14:52.17: Deleting created file /tmp/files/1024MB_5
+client              | 14:52.17: Ending run 5
+client              | 14:52.17: Preparing run 6
+client              | 14:52.17: Creating file /tmp/files/1024MB_6
+client              | 14:52.24: Running garbage collector
+client              | 14:52.24: Sleeping for 30.0 seconds
+client              | 14:52.54: Starting
+client              | 14:53.13: Finished
+client              | 14:53.13: Collecting metrics from service
+client              | 14:53.13: Deleting created file /tmp/files/1024MB_6
+client              | 14:53.13: Ending run 6
+client              | 14:53.13: Preparing run 7
+client              | 14:53.13: Creating file /tmp/files/1024MB_7
+client              | 14:53.20: Running garbage collector
+client              | 14:53.20: Sleeping for 30.0 seconds
+client              | 14:53.50: Starting
+client              | 14:54.07: Finished
+client              | 14:54.07: Collecting metrics from service
+client              | 14:54.07: Deleting created file /tmp/files/1024MB_7
+client              | 14:54.07: Ending run 7
+client              | 14:54.07: Preparing run 8
+client              | 14:54.07: Creating file /tmp/files/1024MB_8
+client              | 14:54.14: Running garbage collector
+client              | 14:54.14: Sleeping for 30.0 seconds
+client              | 14:54.44: Starting
+client              | 14:55.02: Finished
+client              | 14:55.02: Collecting metrics from service
+client              | 14:55.02: Deleting created file /tmp/files/1024MB_8
+client              | 14:55.02: Ending run 8
+client              | 14:55.02: Preparing run 9
+client              | 14:55.02: Creating file /tmp/files/1024MB_9
+client              | 14:55.10: Running garbage collector
+client              | 14:55.10: Sleeping for 30.0 seconds
+client              | 14:55.40: Starting
+client              | 14:55.58: Finished
+client              | 14:55.58: Collecting metrics from service
+client              | 14:55.58: Deleting created file /tmp/files/1024MB_9
+client              | 14:55.58: Ending run 9
+client              | 14:55.58: Preparing run 10
+client              | 14:55.58: Creating file /tmp/files/1024MB_10
+client              | 14:56.06: Running garbage collector
+client              | 14:56.06: Sleeping for 30.0 seconds
+client              | 14:56.36: Starting
+client              | 14:56.54: Finished
+client              | 14:56.54: Collecting metrics from service
+client              | 14:56.54: Deleting created file /tmp/files/1024MB_10
+client              | 14:56.55: Ending run 10
+client              | 14:56.55: Writing metrics file
+client              | 14:56.55: Sending upload finished signal
+client              | 14:56.55: Waiting for download finished signal
+client exited with code 0
+Stopping service ... 
+Stopping ipfs    ... 
+Stopping ipfs    ... done
+Stopping service ... done
+Aborting on container exit...
+Removing client  ... 
+Removing service ... 
+Removing ipfs    ... 
+Removing ipfs    ... done
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Deleted Volumes:
+5b5ef7e0e8bacfa4954b0ebe90365cb2bd568ff64e600e1ba4034bfcb27d73e6
+
+Total reclaimed space: 10.78GB

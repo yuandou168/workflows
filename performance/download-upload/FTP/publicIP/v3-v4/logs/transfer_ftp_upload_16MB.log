@@ -1,0 +1,66 @@
+Time start: 2022-04-22 12:19:28
+Time end: 2022-04-22 12:21:33
+Duration: 0:02:04.944385
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i048
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 146.59.206.127
+FILE_SIZE: 16777216
+RUN_COUNT: 4
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 12:19.29: Connected to FTP server at 146.59.206.127
+client              | 12:19.29: Preparing run 1
+client              | 12:19.29: Creating file /tmp/files/16MB_1
+client              | 12:19.29: Upload file name is 16MB_1
+client              | 12:19.29: Running garbage collector
+client              | 12:19.29: Sleeping for 30.0 seconds
+client              | 12:19.59: Starting
+client              | 12:20.00: Finished
+client              | 12:20.00: Deleting created file /tmp/files/16MB_1
+client              | 12:20.00: Ending run 1
+client              | 12:20.00: Preparing run 2
+client              | 12:20.00: Creating file /tmp/files/16MB_2
+client              | 12:20.00: Upload file name is 16MB_2
+client              | 12:20.00: Running garbage collector
+client              | 12:20.00: Sleeping for 30.0 seconds
+client              | 12:20.30: Starting
+client              | 12:20.30: Finished
+client              | 12:20.30: Deleting created file /tmp/files/16MB_2
+client              | 12:20.30: Ending run 2
+client              | 12:20.30: Preparing run 3
+client              | 12:20.30: Creating file /tmp/files/16MB_3
+client              | 12:20.31: Upload file name is 16MB_3
+client              | 12:20.31: Running garbage collector
+client              | 12:20.31: Sleeping for 30.0 seconds
+client              | 12:21.01: Starting
+client              | 12:21.01: Finished
+client              | 12:21.01: Deleting created file /tmp/files/16MB_3
+client              | 12:21.01: Ending run 3
+client              | 12:21.01: Preparing run 4
+client              | 12:21.01: Creating file /tmp/files/16MB_4
+client              | 12:21.02: Upload file name is 16MB_4
+client              | 12:21.02: Running garbage collector
+client              | 12:21.02: Sleeping for 30.0 seconds
+client              | 12:21.32: Starting
+client              | 12:21.32: Finished
+client              | 12:21.32: Deleting created file /tmp/files/16MB_4
+client              | 12:21.32: Ending run 4
+client              | 12:21.32: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

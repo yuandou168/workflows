@@ -1,0 +1,248 @@
+Time start: 2022-03-19 13:26:31
+Time end: 2022-03-19 13:36:52
+Duration: 0:10:20.850382
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i046
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ipfs_download_setup.yml
+Script: performance/transfer_ipfs_download.py
+Environment vars:
+SCRIPT: performance/transfer_ipfs_download.py
+PEER_ID: 12D3KooWBHm6SXUE4xgrufbkBfAvgzGNRRRTpEX2LSZ7bV9vKDwF
+BOOT_ADDRESS: 51.210.39.160
+FILE_SIZE: 1024
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Deleted Containers:
+6053e60132f707bfccad74410b39fbf1faf1fecc1d9664d8a891caab71b4b8bd
+
+Total reclaimed space: 84.82kB
+Recreating service ... 
+Recreating ipfs    ... 
+Creating client    ... 
+Creating client    ... done
+Recreating ipfs    ... done
+Recreating service ... done
+Attaching to client, ipfs, service
+ipfs                | Changing user to ipfs
+ipfs                | ipfs version 0.7.0
+ipfs                | Initializing IPFS with --empty-repo, --profile=badgerds
+ipfs                | generating ED25519 keypair...done
+ipfs                | peer identity: 12D3KooWGWLhNj6oJpnMfi3UAbHtRcXdqdaWm3eWKSD8UFbGNjZj
+ipfs                | initializing IPFS node at /data/ipfs
+ipfs                | Removing default bootstrap nodes...
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt
+ipfs                | removed /ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | removed /ip4/104.131.131.82/udp/4001/quic/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | added /ip4/51.210.39.160/tcp/4001/p2p/12D3KooWBHm6SXUE4xgrufbkBfAvgzGNRRRTpEX2LSZ7bV9vKDwF
+ipfs                | Initializing daemon...
+ipfs                | go-ipfs version: 0.7.0-ea77213
+ipfs                | Repo version: 10
+ipfs                | System version: amd64/linux
+ipfs                | Golang version: go1.14.4
+ipfs                | Swarm is limited to private network of peers with the swarm key
+ipfs                | Swarm key fingerprint: c53fe9fc1c8eac4230853d5efb58f0a0
+ipfs                | Swarm listening on /ip4/10.23.85.159/tcp/4001
+ipfs                | Swarm listening on /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm listening on /ip4/146.59.192.105/tcp/4001
+ipfs                | Swarm listening on /ip4/172.17.0.1/tcp/4001
+ipfs                | Swarm listening on /ip6/::1/tcp/4001
+ipfs                | Swarm listening on /p2p-circuit
+ipfs                | Swarm announcing /ip4/127.0.0.1/tcp/4001
+ipfs                | Swarm announcing /ip4/146.59.192.105/tcp/4001
+ipfs                | Swarm announcing /ip6/::1/tcp/4001
+ipfs                | API server listening on /ip4/127.0.0.1/tcp/5001
+ipfs                | WebUI: http://127.0.0.1:5001/webui
+ipfs                | Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+ipfs                | Daemon is ready
+service             | Connected to IPFS daemon...
+service             | Connected to bootstrap peer...
+service             | Received bootstrap peer id: 12D3KooWBHm6SXUE4xgrufbkBfAvgzGNRRRTpEX2LSZ7bV9vKDwF
+service             | /ip4/51.210.39.160/tcp/4001/p2p/12D3KooWBHm6SXUE4xgrufbkBfAvgzGNRRRTpEX2LSZ7bV9vKDwF
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+service             | INFO:     127.0.0.1:40786 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_1 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40786 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40788 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_2 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40788 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40792 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_3 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40792 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40796 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_4 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40796 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40800 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_5 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40800 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40804 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_6 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40804 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40810 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_7 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40810 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40814 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_8 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40814 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40818 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_9 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40818 - "GET /metrics/ HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40822 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F1KB_10 HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:40822 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 13:26.39: Connecting to download script runner
+client              | 13:26.39: Waiting for finish upload signal
+client              | 13:31.40: Starting 1KB benchmark
+client              | 13:31.40: Creating client interface
+client              | 13:31.40: Preparing run 1
+client              | 13:31.40: Download file name is /tmp/files/1KB_1
+client              | 13:31.40: Running garbage collector
+client              | 13:31.40: Sleeping for 30.0 seconds
+client              | 13:32.10: Starting
+client              | 13:32.10: Finished
+client              | 13:32.10: Collecting metrics from service
+client              | 13:32.10: Deleting downloaded file /tmp/files/1KB_1
+client              | 13:32.10: Ending run 1
+client              | 13:32.10: Preparing run 2
+client              | 13:32.10: Download file name is /tmp/files/1KB_2
+client              | 13:32.10: Running garbage collector
+client              | 13:32.10: Sleeping for 30.0 seconds
+client              | 13:32.40: Starting
+client              | 13:32.40: Finished
+client              | 13:32.40: Collecting metrics from service
+client              | 13:32.40: Deleting downloaded file /tmp/files/1KB_2
+client              | 13:32.40: Ending run 2
+client              | 13:32.40: Preparing run 3
+client              | 13:32.40: Download file name is /tmp/files/1KB_3
+client              | 13:32.40: Running garbage collector
+client              | 13:32.40: Sleeping for 30.0 seconds
+client              | 13:33.10: Starting
+client              | 13:33.10: Finished
+client              | 13:33.10: Collecting metrics from service
+client              | 13:33.10: Deleting downloaded file /tmp/files/1KB_3
+client              | 13:33.10: Ending run 3
+client              | 13:33.10: Preparing run 4
+client              | 13:33.10: Download file name is /tmp/files/1KB_4
+client              | 13:33.10: Running garbage collector
+client              | 13:33.10: Sleeping for 30.0 seconds
+client              | 13:33.41: Starting
+client              | 13:33.41: Finished
+client              | 13:33.41: Collecting metrics from service
+client              | 13:33.41: Deleting downloaded file /tmp/files/1KB_4
+client              | 13:33.41: Ending run 4
+client              | 13:33.41: Preparing run 5
+client              | 13:33.41: Download file name is /tmp/files/1KB_5
+client              | 13:33.41: Running garbage collector
+client              | 13:33.41: Sleeping for 30.0 seconds
+client              | 13:34.11: Starting
+client              | 13:34.11: Finished
+client              | 13:34.11: Collecting metrics from service
+client              | 13:34.11: Deleting downloaded file /tmp/files/1KB_5
+client              | 13:34.11: Ending run 5
+client              | 13:34.11: Preparing run 6
+client              | 13:34.11: Download file name is /tmp/files/1KB_6
+client              | 13:34.11: Running garbage collector
+client              | 13:34.11: Sleeping for 30.0 seconds
+client              | 13:34.41: Starting
+client              | 13:34.41: Finished
+client              | 13:34.41: Collecting metrics from service
+client              | 13:34.41: Deleting downloaded file /tmp/files/1KB_6
+client              | 13:34.41: Ending run 6
+client              | 13:34.41: Preparing run 7
+client              | 13:34.41: Download file name is /tmp/files/1KB_7
+client              | 13:34.41: Running garbage collector
+client              | 13:34.41: Sleeping for 30.0 seconds
+client              | 13:35.11: Starting
+client              | 13:35.11: Finished
+client              | 13:35.11: Collecting metrics from service
+client              | 13:35.11: Deleting downloaded file /tmp/files/1KB_7
+client              | 13:35.11: Ending run 7
+client              | 13:35.11: Preparing run 8
+client              | 13:35.11: Download file name is /tmp/files/1KB_8
+client              | 13:35.11: Running garbage collector
+client              | 13:35.11: Sleeping for 30.0 seconds
+client              | 13:35.41: Starting
+client              | 13:35.41: Finished
+client              | 13:35.41: Collecting metrics from service
+client              | 13:35.41: Deleting downloaded file /tmp/files/1KB_8
+client              | 13:35.41: Ending run 8
+client              | 13:35.41: Preparing run 9
+client              | 13:35.41: Download file name is /tmp/files/1KB_9
+client              | 13:35.41: Running garbage collector
+client              | 13:35.41: Sleeping for 30.0 seconds
+client              | 13:36.11: Starting
+client              | 13:36.11: Finished
+client              | 13:36.11: Collecting metrics from service
+client              | 13:36.11: Deleting downloaded file /tmp/files/1KB_9
+client              | 13:36.11: Ending run 9
+client              | 13:36.11: Preparing run 10
+client              | 13:36.11: Download file name is /tmp/files/1KB_10
+client              | 13:36.11: Running garbage collector
+client              | 13:36.11: Sleeping for 30.0 seconds
+client              | 13:36.41: Starting
+client              | 13:36.41: Finished
+client              | 13:36.41: Collecting metrics from service
+client              | 13:36.41: Deleting downloaded file /tmp/files/1KB_10
+client              | 13:36.41: Ending run 10
+client              | 13:36.41: Writing metrics file
+client              | 13:36.41: Send finished download signal
+client exited with code 0
+Stopping service   ... 
+Stopping ipfs      ... 
+Stopping ipfs      ... done
+Stopping service   ... done
+Aborting on container exit...
+Removing service ... 
+Removing ipfs    ... 
+Removing client  ... 
+Removing ipfs    ... done
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Deleted Volumes:
+7a947fd9b127ad6c6f8b0ce8c3de7de47fa6a29b544418715e52efbdf5ed1c97
+1685ca7b46ed88a0b1fe2ecd6a0a4705bc470b0e54225f14868ee92c60bc1646
+f0aa8154fbbcf68e97c2bdabda15bd01d0c3f6630213dfb2879d75dbd5fa2128
+8f1a90989a081bf672ced7fec1e76639fb46a62507513862aade19563d193b88
+749e33334eba82e7c78dcc3de21e10feb521e8f82a5e745b32776e4d7f1a74b5
+785ead39874996fb856673830a1d62af45fb3cc9348b653809094969c9b92f69
+ebe249e9f5557042c68ae3b2d4f6273679fc4f597c7eadd71d1a9ad647ce519e
+7c42ed3f79d71aac2bc50bbc9ec59a5d50b46f93d7a84da430231e12f7a686e3
+252ec155e7d9db9e3eef3abf2b45126d03fbdb035c6e2e689b913bf11b78a05a
+ebf45b3a4b1e0f0ba7b2f276a00ecff4524372a9005c1146d63daebbd506b0d2
+7a4f7b0082d073568b622a8585b0b5e55379c7256bfeb008ef60ac2357224900
+078c06f472f741bd553c69322ec6d038fa885758c527e4faa926d181a4128ccf
+88f960ee2a308888001542df4f0f7002c3a56b10ac53818f6084577935147085
+b185086801e058f4848182af65c81ab49c3c4ef5401660da673a5c87ccc5f016
+68534063dbb84a4f2bd72a5c723fee8fbbc1c07c9effbae3fba04c3f4ba5d3b2
+f267d132691a1cb24c1450f315f9d50599e500e0a30009cde0c416021cd5a286
+67a55b00c659894b3f8518c3805550677da9a830debae82a94cab2444199fa3c
+71fe436870cb4ec7831c0d46973ba62e22c79f3e93ae3ea377e874a94eae7fe3
+3f2d733cb603bd9e46993f25bedd9703c9b054d1433619212a8ad9b681bae79e
+8d496ced0d610b3dea4e13b1cd2fa608a38cc6b03929992577ee6f0da68e0fb9
+3d44d7dcd5e793d8809270ec2c8e88f6e892421aa78e84dabbd71fcae029e09c
+d839d317ec594cda63ad3b1d647a79fa46b3ef1c4171c3e43c0d1f5504ea2032
+ecaa94104f634a7bbd158d07c25b4ddd3c999e03442743a36f27fc4664557ca4
+6c9dfdb779daea46c2599c7ed04f666462209d3aa09ee3e8af46f01b204a4fa3
+c42ee3bf21d962e302b6f3aa46b93fc3460157446a9fae1d24dde03f83678dd6
+92ad17a32a5a696158292db3bfb078076a9ebe15d063e27db62fdc3ab08f1b17
+352e93d7c09a52c2a9f0bf296c26f0bb94576546d2fd1e1ab8ff7a9cd649aca6
+dd26ea8b5b0b43c9eb468ad896d54d217fb81d16835f0dc00833204aa647cdd1
+c5c3d85f2d1d8f79be575c17eacf4772b5c44da0910728d3c03fad4b95b9f650
+508a97e99b350c0cc74e9eef375493be1bdafdfe7d42c421426b45a17fab9fde
+f49f79d677b1b05b4e8905e5aa1fa93bf4da5ccecc0a6490ca99173ccbd969d7
+f6d02604fd5fde4eae12a5bada68fd49249f16cee060c87b4de0a530ee772d93
+43a6b77c3468fe93bce0a09bb25c4a1abf19299c4ef849fee7cc860965c3bbbc
+a27c5cd76c218d2fb6a59db3af2dbad323276884c1e4cc9ee783bec51ae2d5cd
+e2ab3649edcc049a89d7a5c7bb09faf2e475eb44fe839e54ba89b3073379f79a
+4e3a806a291bd67a19b2a0016f49f88e35624e12ab03d288f0a3eb66a593cf71
+b01a4a3942ea686a8987562eac65f6cc1fff59bf1f51369624bb930c6f764e7e
+97f8ffd595712ce2c4a935aaad076f4abd81f52ea9133b79bba84e72aefe94c1
+7bd9b446449e45299e9b2df126a0be3527ade9ed752eded2746ab5783c171d29
+5c1459b5ff9b562629d4e1b70c330898891c0f261544d0b3f82d6ed816f71573
+eb63b3c5e2a0c36bd1e87d32738c55def72287addafe80201af79f9f7bdd4cb0
+2c7ea3b82bccd03d513a0a2aff0cf2a058c08caecdc827952e0ba04e91b84da7
+d81b622167a18fbe0dfceac230d43c55084a85aa0121aa3fb0f4553a98b7b975
+d8b99654c200482841c2cbb56a389ac821d3b9840161f157b0a329ad6d887084
+
+Total reclaimed space: 1.674MB

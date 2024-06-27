@@ -1,0 +1,120 @@
+Time start: 2022-03-17 15:29:34
+Time end: 2022-03-17 15:35:03
+Duration: 0:05:29.630215
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_upload.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 67108864
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 15:29.34: Connected to FTP server at 146.59.192.105
+client              | 15:29.34: Preparing run 1
+client              | 15:29.34: Creating file /tmp/files/64MB_1
+client              | 15:29.35: Upload file name is 64MB_1
+client              | 15:29.35: Running garbage collector
+client              | 15:29.35: Sleeping for 30.0 seconds
+client              | 15:30.05: Starting
+client              | 15:30.07: Finished
+client              | 15:30.07: Deleting created file /tmp/files/64MB_1
+client              | 15:30.07: Ending run 1
+client              | 15:30.07: Preparing run 2
+client              | 15:30.07: Creating file /tmp/files/64MB_2
+client              | 15:30.08: Upload file name is 64MB_2
+client              | 15:30.08: Running garbage collector
+client              | 15:30.08: Sleeping for 30.0 seconds
+client              | 15:30.38: Starting
+client              | 15:30.40: Finished
+client              | 15:30.40: Deleting created file /tmp/files/64MB_2
+client              | 15:30.40: Ending run 2
+client              | 15:30.40: Preparing run 3
+client              | 15:30.40: Creating file /tmp/files/64MB_3
+client              | 15:30.41: Upload file name is 64MB_3
+client              | 15:30.41: Running garbage collector
+client              | 15:30.41: Sleeping for 30.0 seconds
+client              | 15:31.11: Starting
+client              | 15:31.13: Finished
+client              | 15:31.13: Deleting created file /tmp/files/64MB_3
+client              | 15:31.13: Ending run 3
+client              | 15:31.13: Preparing run 4
+client              | 15:31.13: Creating file /tmp/files/64MB_4
+client              | 15:31.13: Upload file name is 64MB_4
+client              | 15:31.13: Running garbage collector
+client              | 15:31.14: Sleeping for 30.0 seconds
+client              | 15:31.44: Starting
+client              | 15:31.46: Finished
+client              | 15:31.46: Deleting created file /tmp/files/64MB_4
+client              | 15:31.46: Ending run 4
+client              | 15:31.46: Preparing run 5
+client              | 15:31.46: Creating file /tmp/files/64MB_5
+client              | 15:31.46: Upload file name is 64MB_5
+client              | 15:31.46: Running garbage collector
+client              | 15:31.46: Sleeping for 30.0 seconds
+client              | 15:32.16: Starting
+client              | 15:32.19: Finished
+client              | 15:32.19: Deleting created file /tmp/files/64MB_5
+client              | 15:32.19: Ending run 5
+client              | 15:32.19: Preparing run 6
+client              | 15:32.19: Creating file /tmp/files/64MB_6
+client              | 15:32.19: Upload file name is 64MB_6
+client              | 15:32.19: Running garbage collector
+client              | 15:32.19: Sleeping for 30.0 seconds
+client              | 15:32.49: Starting
+client              | 15:32.51: Finished
+client              | 15:32.51: Deleting created file /tmp/files/64MB_6
+client              | 15:32.51: Ending run 6
+client              | 15:32.51: Preparing run 7
+client              | 15:32.51: Creating file /tmp/files/64MB_7
+client              | 15:32.52: Upload file name is 64MB_7
+client              | 15:32.52: Running garbage collector
+client              | 15:32.52: Sleeping for 30.0 seconds
+client              | 15:33.22: Starting
+client              | 15:33.24: Finished
+client              | 15:33.24: Deleting created file /tmp/files/64MB_7
+client              | 15:33.24: Ending run 7
+client              | 15:33.24: Preparing run 8
+client              | 15:33.24: Creating file /tmp/files/64MB_8
+client              | 15:33.25: Upload file name is 64MB_8
+client              | 15:33.25: Running garbage collector
+client              | 15:33.25: Sleeping for 30.0 seconds
+client              | 15:33.55: Starting
+client              | 15:33.57: Finished
+client              | 15:33.57: Deleting created file /tmp/files/64MB_8
+client              | 15:33.57: Ending run 8
+client              | 15:33.57: Preparing run 9
+client              | 15:33.57: Creating file /tmp/files/64MB_9
+client              | 15:33.57: Upload file name is 64MB_9
+client              | 15:33.57: Running garbage collector
+client              | 15:33.57: Sleeping for 30.0 seconds
+client              | 15:34.27: Starting
+client              | 15:34.30: Finished
+client              | 15:34.30: Deleting created file /tmp/files/64MB_9
+client              | 15:34.30: Ending run 9
+client              | 15:34.30: Preparing run 10
+client              | 15:34.30: Creating file /tmp/files/64MB_10
+client              | 15:34.30: Upload file name is 64MB_10
+client              | 15:34.30: Running garbage collector
+client              | 15:34.30: Sleeping for 30.0 seconds
+client              | 15:35.00: Starting
+client              | 15:35.02: Finished
+client              | 15:35.02: Deleting created file /tmp/files/64MB_10
+client              | 15:35.02: Ending run 10
+client              | 15:35.02: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

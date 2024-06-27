@@ -1,0 +1,120 @@
+Time start: 2022-03-17 14:22:03
+Time end: 2022-03-17 14:27:05
+Duration: 0:05:01.700027
+
+Platform: Linux-5.4.0-99-generic-x86_64-with-glibc2.29
+Name: lfw-ds001-i047
+Release: #112-Ubuntu SMP Thu Feb 3 13:50:55 UTC 2022
+
+Compose file: transfer_ftp_client_setup.yml
+Script: performance/transfer_ftp_download.py
+Environment vars:
+SCRIPT: performance/transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 146.59.192.105
+FILE_SIZE: 4096
+RUN_COUNT: 10
+INTERVAL_SECONDS: 30
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client ... done
+Attaching to client
+client              | 14:22.04: Connected to FTP server at 146.59.192.105
+client              | 14:22.04: Preparing run 1
+client              | 14:22.04: Download file name is 4KB_1
+client              | 14:22.04: Output location is /tmp/files/4KB_1
+client              | 14:22.04: Running garbage collector
+client              | 14:22.04: Sleeping for 30.0 seconds
+client              | 14:22.34: Starting
+client              | 14:22.34: Finished
+client              | 14:22.34: Deleting downloaded file /tmp/files/4KB_1
+client              | 14:22.34: Ending run 1
+client              | 14:22.34: Preparing run 2
+client              | 14:22.34: Download file name is 4KB_2
+client              | 14:22.34: Output location is /tmp/files/4KB_2
+client              | 14:22.34: Running garbage collector
+client              | 14:22.34: Sleeping for 30.0 seconds
+client              | 14:23.04: Starting
+client              | 14:23.04: Finished
+client              | 14:23.04: Deleting downloaded file /tmp/files/4KB_2
+client              | 14:23.04: Ending run 2
+client              | 14:23.04: Preparing run 3
+client              | 14:23.04: Download file name is 4KB_3
+client              | 14:23.04: Output location is /tmp/files/4KB_3
+client              | 14:23.04: Running garbage collector
+client              | 14:23.04: Sleeping for 30.0 seconds
+client              | 14:23.34: Starting
+client              | 14:23.34: Finished
+client              | 14:23.34: Deleting downloaded file /tmp/files/4KB_3
+client              | 14:23.34: Ending run 3
+client              | 14:23.34: Preparing run 4
+client              | 14:23.34: Download file name is 4KB_4
+client              | 14:23.34: Output location is /tmp/files/4KB_4
+client              | 14:23.34: Running garbage collector
+client              | 14:23.34: Sleeping for 30.0 seconds
+client              | 14:24.04: Starting
+client              | 14:24.04: Finished
+client              | 14:24.04: Deleting downloaded file /tmp/files/4KB_4
+client              | 14:24.04: Ending run 4
+client              | 14:24.04: Preparing run 5
+client              | 14:24.04: Download file name is 4KB_5
+client              | 14:24.04: Output location is /tmp/files/4KB_5
+client              | 14:24.04: Running garbage collector
+client              | 14:24.04: Sleeping for 30.0 seconds
+client              | 14:24.34: Starting
+client              | 14:24.34: Finished
+client              | 14:24.34: Deleting downloaded file /tmp/files/4KB_5
+client              | 14:24.34: Ending run 5
+client              | 14:24.34: Preparing run 6
+client              | 14:24.34: Download file name is 4KB_6
+client              | 14:24.34: Output location is /tmp/files/4KB_6
+client              | 14:24.34: Running garbage collector
+client              | 14:24.34: Sleeping for 30.0 seconds
+client              | 14:25.04: Starting
+client              | 14:25.04: Finished
+client              | 14:25.04: Deleting downloaded file /tmp/files/4KB_6
+client              | 14:25.04: Ending run 6
+client              | 14:25.04: Preparing run 7
+client              | 14:25.04: Download file name is 4KB_7
+client              | 14:25.04: Output location is /tmp/files/4KB_7
+client              | 14:25.04: Running garbage collector
+client              | 14:25.04: Sleeping for 30.0 seconds
+client              | 14:25.34: Starting
+client              | 14:25.34: Finished
+client              | 14:25.34: Deleting downloaded file /tmp/files/4KB_7
+client              | 14:25.34: Ending run 7
+client              | 14:25.34: Preparing run 8
+client              | 14:25.34: Download file name is 4KB_8
+client              | 14:25.34: Output location is /tmp/files/4KB_8
+client              | 14:25.34: Running garbage collector
+client              | 14:25.34: Sleeping for 30.0 seconds
+client              | 14:26.04: Starting
+client              | 14:26.04: Finished
+client              | 14:26.04: Deleting downloaded file /tmp/files/4KB_8
+client              | 14:26.04: Ending run 8
+client              | 14:26.04: Preparing run 9
+client              | 14:26.04: Download file name is 4KB_9
+client              | 14:26.04: Output location is /tmp/files/4KB_9
+client              | 14:26.04: Running garbage collector
+client              | 14:26.04: Sleeping for 30.0 seconds
+client              | 14:26.34: Starting
+client              | 14:26.34: Finished
+client              | 14:26.34: Deleting downloaded file /tmp/files/4KB_9
+client              | 14:26.34: Ending run 9
+client              | 14:26.34: Preparing run 10
+client              | 14:26.34: Download file name is 4KB_10
+client              | 14:26.34: Output location is /tmp/files/4KB_10
+client              | 14:26.34: Running garbage collector
+client              | 14:26.34: Sleeping for 30.0 seconds
+client              | 14:27.04: Starting
+client              | 14:27.04: Finished
+client              | 14:27.04: Deleting downloaded file /tmp/files/4KB_10
+client              | 14:27.04: Ending run 10
+client              | 14:27.04: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
