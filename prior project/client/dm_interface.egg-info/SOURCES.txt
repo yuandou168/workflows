@@ -1,0 +1,8 @@
+setup.py
+client/__init__.py
+client/client.py
+dm_interface.egg-info/PKG-INFO
+dm_interface.egg-info/SOURCES.txt
+dm_interface.egg-info/dependency_links.txt
+dm_interface.egg-info/requires.txt
+dm_interface.egg-info/top_level.txt

@@ -1,0 +1,301 @@
+Time start: 2021-07-17 18:40:49
+Time end: 2021-07-17 18:56:55
+Duration: 0:16:05.864449
+
+Platform: Linux-5.8.0-1036-azure-x86_64-with-glibc2.29
+Name: DataMeshVM2
+Release: #38~20.04.1-Ubuntu SMP Thu Jun 17 14:14:18 UTC 2021
+
+Compose file: /tmp/local_ipfs_setup.yml
+Script: local_ipfs_read.py
+Environment vars:
+SCRIPT: local_ipfs_read.py
+FILE_SIZE: 16777216
+RUN_COUNT: 15
+INTERVAL_SECONDS: 60
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating ipfs ... 
+Creating service ... 
+Creating client  ... 
+Creating client  ... done
+Creating ipfs    ... done
+Creating service ... done
+Attaching to client, ipfs, service
+ipfs                | Changing user to ipfs
+client              | 18:40.50: Waiting for 10 seconds for setup to finish
+ipfs                | ipfs version 0.7.0
+ipfs                | Initializing IPFS with --empty-repo, --profile=server,badgerds
+ipfs                | generating ED25519 keypair...done
+ipfs                | peer identity: 12D3KooWLYYxQbE5uN756NQzjkf34M6qzJTLkSzK87pKHWJbgCvW
+ipfs                | initializing IPFS node at /data/ipfs
+ipfs                | Removing default bootstrap nodes...
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmQCU2EcMqAqQPR2i9bChDtGNJchTbq5TbXJJ16u19uLTa
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmbLHAnMoJPWSCR5Zhtx6BHJX9KiKNN6tpvbUcqanj75Nb
+ipfs                | removed /dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt
+ipfs                | removed /ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | removed /ip4/104.131.131.82/udp/4001/quic/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ
+ipfs                | Initializing daemon...
+ipfs                | go-ipfs version: 0.7.0-ea77213
+ipfs                | Repo version: 10
+ipfs                | System version: amd64/linux
+ipfs                | Golang version: go1.14.4
+ipfs                | Swarm not listening, running in offline mode.
+ipfs                | API server listening on /ip4/127.0.0.1/tcp/5001
+ipfs                | WebUI: http://127.0.0.1:5001/webui
+ipfs                | Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+ipfs                | Daemon is ready
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+client              | 18:41.20: Starting 16MB benchmark
+client              | 18:41.20: Creating client interface
+client              | 18:41.20: Preparing run 1
+client              | 18:41.20: Creating file /tmp/files/16MB_1
+client              | 18:41.20: Uploading file /tmp/files/16MB_1
+service             | ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/version?stream-channels=true (Caused by NewConnectionError('<ipfshttpclient.requests_wrapper.HTTPConnection object at 0x7f6c35d5c700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+service             | Connected to IPFS daemon...
+service             | Published MFS root as part of a periodic publishing event
+service             | INFO:     127.0.0.1:34030 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_1 HTTP/1.1" 200 OK
+client              | 18:41.21: Running garbage collector
+client              | 18:41.21: Sleeping for 60.0 seconds
+client              | 18:42.21: Starting
+service             | INFO:     127.0.0.1:34124 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_1 HTTP/1.1" 200 OK
+client              | 18:42.21: Finished
+client              | 18:42.21: Collecting metrics from service
+service             | INFO:     127.0.0.1:34124 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:42.21: Deleting local file /tmp/files/16MB_1
+client              | 18:42.21: Deleting uploaded file /tmp/files/16MB_1
+service             | INFO:     127.0.0.1:34124 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_1 HTTP/1.1" 200 OK
+client              | 18:42.22: Ending run 1
+client              | 18:42.22: Preparing run 2
+client              | 18:42.22: Creating file /tmp/files/16MB_2
+client              | 18:42.22: Uploading file /tmp/files/16MB_2
+service             | INFO:     127.0.0.1:34124 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_2 HTTP/1.1" 200 OK
+client              | 18:42.22: Running garbage collector
+client              | 18:42.22: Sleeping for 60.0 seconds
+client              | 18:43.22: Starting
+service             | INFO:     127.0.0.1:34224 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_2 HTTP/1.1" 200 OK
+client              | 18:43.23: Finished
+client              | 18:43.23: Collecting metrics from service
+service             | INFO:     127.0.0.1:34224 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:43.23: Deleting local file /tmp/files/16MB_2
+client              | 18:43.23: Deleting uploaded file /tmp/files/16MB_2
+service             | INFO:     127.0.0.1:34224 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_2 HTTP/1.1" 200 OK
+client              | 18:43.23: Ending run 2
+client              | 18:43.23: Preparing run 3
+client              | 18:43.23: Creating file /tmp/files/16MB_3
+client              | 18:43.23: Uploading file /tmp/files/16MB_3
+service             | INFO:     127.0.0.1:34224 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_3 HTTP/1.1" 200 OK
+client              | 18:43.24: Running garbage collector
+client              | 18:43.24: Sleeping for 60.0 seconds
+client              | 18:44.24: Starting
+service             | INFO:     127.0.0.1:34324 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_3 HTTP/1.1" 200 OK
+client              | 18:44.24: Finished
+client              | 18:44.24: Collecting metrics from service
+service             | INFO:     127.0.0.1:34324 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:44.24: Deleting local file /tmp/files/16MB_3
+client              | 18:44.24: Deleting uploaded file /tmp/files/16MB_3
+service             | INFO:     127.0.0.1:34324 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_3 HTTP/1.1" 200 OK
+client              | 18:44.24: Ending run 3
+client              | 18:44.24: Preparing run 4
+client              | 18:44.24: Creating file /tmp/files/16MB_4
+client              | 18:44.24: Uploading file /tmp/files/16MB_4
+service             | INFO:     127.0.0.1:34324 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_4 HTTP/1.1" 200 OK
+client              | 18:44.25: Running garbage collector
+client              | 18:44.25: Sleeping for 60.0 seconds
+client              | 18:45.25: Starting
+service             | INFO:     127.0.0.1:34428 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_4 HTTP/1.1" 200 OK
+client              | 18:45.25: Finished
+client              | 18:45.25: Collecting metrics from service
+service             | INFO:     127.0.0.1:34428 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:45.25: Deleting local file /tmp/files/16MB_4
+client              | 18:45.25: Deleting uploaded file /tmp/files/16MB_4
+service             | INFO:     127.0.0.1:34428 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_4 HTTP/1.1" 200 OK
+client              | 18:45.25: Ending run 4
+client              | 18:45.25: Preparing run 5
+client              | 18:45.25: Creating file /tmp/files/16MB_5
+client              | 18:45.26: Uploading file /tmp/files/16MB_5
+service             | INFO:     127.0.0.1:34428 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_5 HTTP/1.1" 200 OK
+client              | 18:45.26: Running garbage collector
+client              | 18:45.26: Sleeping for 60.0 seconds
+client              | 18:46.26: Starting
+service             | INFO:     127.0.0.1:34532 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_5 HTTP/1.1" 200 OK
+client              | 18:46.26: Finished
+client              | 18:46.26: Collecting metrics from service
+service             | INFO:     127.0.0.1:34532 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:46.26: Deleting local file /tmp/files/16MB_5
+client              | 18:46.27: Deleting uploaded file /tmp/files/16MB_5
+service             | INFO:     127.0.0.1:34532 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_5 HTTP/1.1" 200 OK
+client              | 18:46.27: Ending run 5
+client              | 18:46.27: Preparing run 6
+client              | 18:46.27: Creating file /tmp/files/16MB_6
+client              | 18:46.27: Uploading file /tmp/files/16MB_6
+service             | INFO:     127.0.0.1:34532 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_6 HTTP/1.1" 200 OK
+client              | 18:46.27: Running garbage collector
+client              | 18:46.27: Sleeping for 60.0 seconds
+client              | 18:47.27: Starting
+service             | INFO:     127.0.0.1:34634 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_6 HTTP/1.1" 200 OK
+client              | 18:47.28: Finished
+client              | 18:47.28: Collecting metrics from service
+service             | INFO:     127.0.0.1:34634 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:47.28: Deleting local file /tmp/files/16MB_6
+client              | 18:47.28: Deleting uploaded file /tmp/files/16MB_6
+service             | INFO:     127.0.0.1:34634 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_6 HTTP/1.1" 200 OK
+client              | 18:47.29: Ending run 6
+client              | 18:47.29: Preparing run 7
+client              | 18:47.29: Creating file /tmp/files/16MB_7
+client              | 18:47.29: Uploading file /tmp/files/16MB_7
+service             | INFO:     127.0.0.1:34634 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_7 HTTP/1.1" 200 OK
+client              | 18:47.30: Running garbage collector
+client              | 18:47.30: Sleeping for 60.0 seconds
+client              | 18:48.30: Starting
+service             | INFO:     127.0.0.1:34746 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_7 HTTP/1.1" 200 OK
+client              | 18:48.30: Finished
+client              | 18:48.30: Collecting metrics from service
+service             | INFO:     127.0.0.1:34746 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:48.30: Deleting local file /tmp/files/16MB_7
+client              | 18:48.30: Deleting uploaded file /tmp/files/16MB_7
+service             | INFO:     127.0.0.1:34746 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_7 HTTP/1.1" 200 OK
+client              | 18:48.30: Ending run 7
+client              | 18:48.30: Preparing run 8
+client              | 18:48.30: Creating file /tmp/files/16MB_8
+client              | 18:48.31: Uploading file /tmp/files/16MB_8
+service             | INFO:     127.0.0.1:34746 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_8 HTTP/1.1" 200 OK
+client              | 18:48.31: Running garbage collector
+client              | 18:48.31: Sleeping for 60.0 seconds
+client              | 18:49.31: Starting
+service             | INFO:     127.0.0.1:34848 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_8 HTTP/1.1" 200 OK
+client              | 18:49.32: Finished
+client              | 18:49.32: Collecting metrics from service
+service             | INFO:     127.0.0.1:34848 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:49.32: Deleting local file /tmp/files/16MB_8
+client              | 18:49.32: Deleting uploaded file /tmp/files/16MB_8
+service             | INFO:     127.0.0.1:34848 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_8 HTTP/1.1" 200 OK
+client              | 18:49.32: Ending run 8
+client              | 18:49.32: Preparing run 9
+client              | 18:49.32: Creating file /tmp/files/16MB_9
+client              | 18:49.32: Uploading file /tmp/files/16MB_9
+service             | INFO:     127.0.0.1:34848 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_9 HTTP/1.1" 200 OK
+client              | 18:49.32: Running garbage collector
+client              | 18:49.32: Sleeping for 60.0 seconds
+client              | 18:50.33: Starting
+service             | INFO:     127.0.0.1:34948 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_9 HTTP/1.1" 200 OK
+client              | 18:50.33: Finished
+client              | 18:50.33: Collecting metrics from service
+service             | INFO:     127.0.0.1:34948 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:50.33: Deleting local file /tmp/files/16MB_9
+client              | 18:50.33: Deleting uploaded file /tmp/files/16MB_9
+service             | INFO:     127.0.0.1:34948 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_9 HTTP/1.1" 200 OK
+client              | 18:50.34: Ending run 9
+client              | 18:50.34: Preparing run 10
+client              | 18:50.34: Creating file /tmp/files/16MB_10
+client              | 18:50.34: Uploading file /tmp/files/16MB_10
+service             | INFO:     127.0.0.1:34948 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_10 HTTP/1.1" 200 OK
+client              | 18:50.35: Running garbage collector
+client              | 18:50.35: Sleeping for 60.0 seconds
+client              | 18:51.35: Starting
+service             | INFO:     127.0.0.1:35050 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_10 HTTP/1.1" 200 OK
+client              | 18:51.35: Finished
+client              | 18:51.35: Collecting metrics from service
+service             | INFO:     127.0.0.1:35050 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:51.35: Deleting local file /tmp/files/16MB_10
+client              | 18:51.35: Deleting uploaded file /tmp/files/16MB_10
+service             | INFO:     127.0.0.1:35050 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_10 HTTP/1.1" 200 OK
+client              | 18:51.35: Ending run 10
+client              | 18:51.35: Preparing run 11
+client              | 18:51.35: Creating file /tmp/files/16MB_11
+client              | 18:51.35: Uploading file /tmp/files/16MB_11
+service             | INFO:     127.0.0.1:35050 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_11 HTTP/1.1" 200 OK
+client              | 18:51.36: Running garbage collector
+client              | 18:51.36: Sleeping for 60.0 seconds
+client              | 18:52.36: Starting
+service             | INFO:     127.0.0.1:35160 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_11 HTTP/1.1" 200 OK
+client              | 18:52.36: Finished
+client              | 18:52.36: Collecting metrics from service
+service             | INFO:     127.0.0.1:35160 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:52.36: Deleting local file /tmp/files/16MB_11
+client              | 18:52.36: Deleting uploaded file /tmp/files/16MB_11
+service             | INFO:     127.0.0.1:35160 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_11 HTTP/1.1" 200 OK
+client              | 18:52.37: Ending run 11
+client              | 18:52.37: Preparing run 12
+client              | 18:52.37: Creating file /tmp/files/16MB_12
+client              | 18:52.37: Uploading file /tmp/files/16MB_12
+service             | INFO:     127.0.0.1:35160 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_12 HTTP/1.1" 200 OK
+client              | 18:52.37: Running garbage collector
+client              | 18:52.37: Sleeping for 60.0 seconds
+client              | 18:53.37: Starting
+service             | INFO:     127.0.0.1:35262 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_12 HTTP/1.1" 200 OK
+client              | 18:53.38: Finished
+client              | 18:53.38: Collecting metrics from service
+service             | INFO:     127.0.0.1:35262 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:53.38: Deleting local file /tmp/files/16MB_12
+client              | 18:53.38: Deleting uploaded file /tmp/files/16MB_12
+service             | INFO:     127.0.0.1:35262 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_12 HTTP/1.1" 200 OK
+client              | 18:53.38: Ending run 12
+client              | 18:53.38: Preparing run 13
+client              | 18:53.38: Creating file /tmp/files/16MB_13
+client              | 18:53.39: Uploading file /tmp/files/16MB_13
+service             | INFO:     127.0.0.1:35262 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_13 HTTP/1.1" 200 OK
+client              | 18:53.40: Running garbage collector
+client              | 18:53.40: Sleeping for 60.0 seconds
+client              | 18:54.40: Starting
+service             | INFO:     127.0.0.1:35362 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_13 HTTP/1.1" 200 OK
+client              | 18:54.40: Finished
+client              | 18:54.40: Collecting metrics from service
+service             | INFO:     127.0.0.1:35362 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:54.40: Deleting local file /tmp/files/16MB_13
+client              | 18:54.40: Deleting uploaded file /tmp/files/16MB_13
+service             | INFO:     127.0.0.1:35362 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_13 HTTP/1.1" 200 OK
+client              | 18:54.40: Ending run 13
+client              | 18:54.40: Preparing run 14
+client              | 18:54.40: Creating file /tmp/files/16MB_14
+client              | 18:54.41: Uploading file /tmp/files/16MB_14
+service             | INFO:     127.0.0.1:35362 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_14 HTTP/1.1" 200 OK
+client              | 18:54.41: Running garbage collector
+client              | 18:54.41: Sleeping for 60.0 seconds
+client              | 18:55.41: Starting
+service             | INFO:     127.0.0.1:35464 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_14 HTTP/1.1" 200 OK
+client              | 18:55.41: Finished
+client              | 18:55.41: Collecting metrics from service
+service             | INFO:     127.0.0.1:35464 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:55.41: Deleting local file /tmp/files/16MB_14
+client              | 18:55.41: Deleting uploaded file /tmp/files/16MB_14
+service             | INFO:     127.0.0.1:35464 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_14 HTTP/1.1" 200 OK
+client              | 18:55.42: Ending run 14
+client              | 18:55.42: Preparing run 15
+client              | 18:55.42: Creating file /tmp/files/16MB_15
+client              | 18:55.42: Uploading file /tmp/files/16MB_15
+service             | INFO:     127.0.0.1:35464 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F16MB_15 HTTP/1.1" 200 OK
+client              | 18:55.43: Running garbage collector
+client              | 18:55.43: Sleeping for 60.0 seconds
+client              | 18:56.43: Starting
+service             | INFO:     127.0.0.1:35568 - "GET /download/?file_path=%2Ftmp%2Ffiles%2F16MB_15 HTTP/1.1" 200 OK
+client              | 18:56.43: Finished
+client              | 18:56.43: Collecting metrics from service
+service             | INFO:     127.0.0.1:35568 - "GET /metrics/ HTTP/1.1" 200 OK
+client              | 18:56.43: Deleting local file /tmp/files/16MB_15
+client              | 18:56.43: Deleting uploaded file /tmp/files/16MB_15
+service             | INFO:     127.0.0.1:35568 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F16MB_15 HTTP/1.1" 200 OK
+client              | 18:56.44: Ending run 15
+client              | 18:56.44: Writing metrics file
+client exited with code 0
+Stopping service ... 
+Stopping ipfs    ... 
+Stopping ipfs    ... done
+Stopping service ... done
+Aborting on container exit...
+Removing service ... 
+Removing client  ... 
+Removing ipfs    ... 
+Removing ipfs    ... done
+Removing client  ... done
+Removing service ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Deleted Volumes:
+890d6c78db058fb701f621344d7bdb475e8ebb75af7d6a1fa701a59033201118
+
+Total reclaimed space: 252.8MB

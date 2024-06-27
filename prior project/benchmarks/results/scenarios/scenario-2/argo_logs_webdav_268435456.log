@@ -1,0 +1,412 @@
+[35mscenario-2-webdav-cjx7t-4017612258: (09:51:16) Starting benchmark scenario_2_webdav_268435456 run 1 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3979298208: (09:51:16) Starting benchmark scenario_2_webdav_268435456 run 1 at dm2[0m
+[33mscenario-2-webdav-cjx7t-112595656: (09:51:16) Starting benchmark scenario_2_webdav_268435456 run 1 at dm4[0m
+[32mscenario-2-webdav-cjx7t-1842975542: (09:51:16) Starting benchmark scenario_2_webdav_268435456 run 1 at dm1[0m
+[37mscenario-2-webdav-cjx7t-444635657: (09:51:26) Started task 1-T1 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-444635657: (09:51:28) Created file /tmp/data/1_f of size 268435456 bytes[0m
+[37mscenario-2-webdav-cjx7t-444635657: (09:51:30) Uploaded file /tmp/data/1_f of size 268435456 bytes[0m
+[32mscenario-2-webdav-cjx7t-2424252577: (09:51:36) Started task 1-T2 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-2424252577: (09:51:40) Downloaded file /tmp/data/1_f of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-2424252577: (09:51:42) Partitioned file /tmp/data/1_f into files ['/tmp/data/1_a1', '/tmp/data/1_a2', '/tmp/data/1_a3'] of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-2424252577: (09:51:45) Uploaded files ['/tmp/data/1_a1', '/tmp/data/1_a2', '/tmp/data/1_a3'] of size 268435456[0m
+[32mscenario-2-webdav-cjx7t-3879536517: (09:51:57) Started task 1-T3 with scenario_2_webdav_268435456 at dm4[0m
+[36mscenario-2-webdav-cjx7t-3778870803: (09:51:57) Started task 1-T5 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3762093184: (09:51:58) Started task 1-T4 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-3778870803: (09:52:00) Downloaded file /tmp/data/1_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-3879536517: (09:52:00) Downloaded file /tmp/data/1_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-3778870803: (09:52:00) Read file /tmp/data/1_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-3762093184: (09:52:00) Downloaded file /tmp/data/1_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-3879536517: (09:52:00) Partitioned file /tmp/data/1_a1 into files ['/tmp/data/1_a4', '/tmp/data/1_a5', '/tmp/data/1_a6'] of size 29826161 bytes[0m
+[35mscenario-2-webdav-cjx7t-3762093184: (09:52:00) Read file /tmp/data/1_a2 of size 89478485 bytes[0m
+[36mscenario-2-webdav-cjx7t-3778870803: (09:52:00) Wrote file /tmp/data/1_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-3762093184: (09:52:01) Wrote file /tmp/data/1_a7 of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-3879536517: (09:52:01) Uploaded files ['/tmp/data/1_a4', '/tmp/data/1_a5', '/tmp/data/1_a6'] of size 89478485[0m
+[36mscenario-2-webdav-cjx7t-3778870803: (09:52:01) Uploaded file /tmp/data/1_a8 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-3762093184: (09:52:02) Uploaded file /tmp/data/1_a7 of size 89478485[0m
+[32mscenario-2-webdav-cjx7t-1362854713: (09:52:07) Started task 1-T8 with scenario_2_webdav_268435456 at dm4[0m
+[32mscenario-2-webdav-cjx7t-1513853284: (09:52:07) Started task 1-T7 with scenario_2_webdav_268435456 at dm3[0m
+[36mscenario-2-webdav-cjx7t-1530630903: (09:52:07) Started task 1-T6 with scenario_2_webdav_268435456 at dm2[0m
+[32mscenario-2-webdav-cjx7t-1513853284: (09:52:08) Downloaded file /tmp/data/1_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-1513853284: (09:52:08) Read file /tmp/data/1_a5 with length of 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-1530630903: (09:52:08) Downloaded file /tmp/data/1_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-1530630903: (09:52:08) Read file /tmp/data/1_a4 with length of 29826161 bytes[0m
+[32mscenario-2-webdav-cjx7t-1362854713: (09:52:11) Downloaded files ['/tmp/data/1_a6', '/tmp/data/1_a7', '/tmp/data/1_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-1362854713: (09:52:11) Merged files ['/tmp/data/1_a6', '/tmp/data/1_a7', '/tmp/data/1_a8'] into single file /tmp/data/1_a9 of size 208783131 bytes[0m
+[32mscenario-2-webdav-cjx7t-1362854713: (09:52:14) Uploaded file /tmp/data/1_a9 of size 208783131[0m
+[36mscenario-2-webdav-cjx7t-1375723646: (09:52:32) Ending benchmark scenario_2_webdav_268435456 run 1 at dm1[0m
+[34mscenario-2-webdav-cjx7t-3149579792: (09:52:28) Ending benchmark scenario_2_webdav_268435456 run 1 at dm4[0m
+[33mscenario-2-webdav-cjx7t-1457087466: (09:52:28) Ending benchmark scenario_2_webdav_268435456 run 1 at dm3[0m
+[31mscenario-2-webdav-cjx7t-1998255752: (09:52:28) Ending benchmark scenario_2_webdav_268435456 run 1 at dm2[0m
+[36mscenario-2-webdav-cjx7t-1430012919: (09:52:38) Collecting results of benchmark scenario_2_webdav_268435456 run 1 at dm1[0m
+[36mscenario-2-webdav-cjx7t-1430012919: (09:52:38) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[31mscenario-2-webdav-cjx7t-885137256: (09:52:47) Starting benchmark scenario_2_webdav_268435456 run 2 at dm1[0m
+[36mscenario-2-webdav-cjx7t-2417811454: (09:52:47) Starting benchmark scenario_2_webdav_268435456 run 2 at dm2[0m
+[36mscenario-2-webdav-cjx7t-2261676588: (09:52:47) Starting benchmark scenario_2_webdav_268435456 run 2 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3914076398: (09:52:48) Starting benchmark scenario_2_webdav_268435456 run 2 at dm4[0m
+[31mscenario-2-webdav-cjx7t-145573247: (09:52:58) Started task 2-T1 with scenario_2_webdav_268435456 at dm2[0m
+[31mscenario-2-webdav-cjx7t-145573247: (09:53:00) Created file /tmp/data/2_f of size 268435456 bytes[0m
+[31mscenario-2-webdav-cjx7t-145573247: (09:53:02) Uploaded file /tmp/data/2_f of size 268435456 bytes[0m
+[35mscenario-2-webdav-cjx7t-537062559: (09:53:08) Started task 2-T2 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-537062559: (09:53:12) Downloaded file /tmp/data/2_f of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-537062559: (09:53:16) Partitioned file /tmp/data/2_f into files ['/tmp/data/2_a1', '/tmp/data/2_a2', '/tmp/data/2_a3'] of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-537062559: (09:53:19) Uploaded files ['/tmp/data/2_a1', '/tmp/data/2_a2', '/tmp/data/2_a3'] of size 268435456[0m
+[35mscenario-2-webdav-cjx7t-422194051: (09:53:28) Started task 2-T3 with scenario_2_webdav_268435456 at dm4[0m
+[35mscenario-2-webdav-cjx7t-522859765: (09:53:28) Started task 2-T5 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-506082146: (09:53:28) Started task 2-T4 with scenario_2_webdav_268435456 at dm2[0m
+[35mscenario-2-webdav-cjx7t-422194051: (09:53:31) Downloaded file /tmp/data/2_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-506082146: (09:53:31) Downloaded file /tmp/data/2_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-522859765: (09:53:31) Downloaded file /tmp/data/2_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-506082146: (09:53:31) Read file /tmp/data/2_a2 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-522859765: (09:53:31) Read file /tmp/data/2_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-422194051: (09:53:31) Partitioned file /tmp/data/2_a1 into files ['/tmp/data/2_a4', '/tmp/data/2_a5', '/tmp/data/2_a6'] of size 29826161 bytes[0m
+[32mscenario-2-webdav-cjx7t-506082146: (09:53:32) Wrote file /tmp/data/2_a7 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-522859765: (09:53:32) Wrote file /tmp/data/2_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-422194051: (09:53:32) Uploaded files ['/tmp/data/2_a4', '/tmp/data/2_a5', '/tmp/data/2_a6'] of size 89478485[0m
+[32mscenario-2-webdav-cjx7t-506082146: (09:53:32) Uploaded file /tmp/data/2_a7 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-522859765: (09:53:33) Uploaded file /tmp/data/2_a8 of size 89478485[0m
+[34mscenario-2-webdav-cjx7t-3958409310: (09:53:48) Started task 2-T7 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-3874521215: (09:53:48) Started task 2-T8 with scenario_2_webdav_268435456 at dm4[0m
+[34mscenario-2-webdav-cjx7t-3958409310: (09:53:49) Downloaded file /tmp/data/2_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[34mscenario-2-webdav-cjx7t-3958409310: (09:53:49) Read file /tmp/data/2_a5 with length of 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-3874521215: (09:53:51) Downloaded files ['/tmp/data/2_a6', '/tmp/data/2_a7', '/tmp/data/2_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-3874521215: (09:53:52) Merged files ['/tmp/data/2_a6', '/tmp/data/2_a7', '/tmp/data/2_a8'] into single file /tmp/data/2_a9 of size 208783131 bytes[0m
+[37mscenario-2-webdav-cjx7t-3874521215: (09:53:54) Uploaded file /tmp/data/2_a9 of size 208783131[0m
+[37mscenario-2-webdav-cjx7t-3975186929: (09:53:48) Started task 2-T6 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-3975186929: (09:53:49) Downloaded file /tmp/data/2_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-3975186929: (09:53:49) Read file /tmp/data/2_a4 with length of 29826161 bytes[0m
+[34mscenario-2-webdav-cjx7t-3435177320: (09:54:08) Ending benchmark scenario_2_webdav_268435456 run 2 at dm3[0m
+[32mscenario-2-webdav-cjx7t-3148217610: (09:54:09) Ending benchmark scenario_2_webdav_268435456 run 2 at dm2[0m
+[32mscenario-2-webdav-cjx7t-2826041442: (09:54:09) Ending benchmark scenario_2_webdav_268435456 run 2 at dm4[0m
+[32mscenario-2-webdav-cjx7t-2032435284: (09:54:09) Ending benchmark scenario_2_webdav_268435456 run 2 at dm1[0m
+[33mscenario-2-webdav-cjx7t-2791892217: (09:54:19) Collecting results of benchmark scenario_2_webdav_268435456 run 2 at dm1[0m
+[33mscenario-2-webdav-cjx7t-2791892217: (09:54:19) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[37mscenario-2-webdav-cjx7t-1231765992: (09:54:28) Starting benchmark scenario_2_webdav_268435456 run 3 at dm2[0m
+[31mscenario-2-webdav-cjx7t-2838029770: (09:54:28) Starting benchmark scenario_2_webdav_268435456 run 3 at dm3[0m
+[36mscenario-2-webdav-cjx7t-2330356062: (09:54:28) Starting benchmark scenario_2_webdav_268435456 run 3 at dm1[0m
+[37mscenario-2-webdav-cjx7t-2381134448: (09:54:28) Starting benchmark scenario_2_webdav_268435456 run 3 at dm4[0m
+[36mscenario-2-webdav-cjx7t-449506001: (09:54:39) Started task 3-T1 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-449506001: (09:54:41) Created file /tmp/data/3_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-449506001: (09:54:44) Uploaded file /tmp/data/3_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-2974403305: (09:54:48) Started task 3-T2 with scenario_2_webdav_268435456 at dm3[0m
+[36mscenario-2-webdav-cjx7t-2974403305: (09:54:53) Downloaded file /tmp/data/3_f of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-2974403305: (09:54:56) Partitioned file /tmp/data/3_f into files ['/tmp/data/3_a1', '/tmp/data/3_a2', '/tmp/data/3_a3'] of size 89478485 bytes[0m
+[36mscenario-2-webdav-cjx7t-2974403305: (09:54:59) Uploaded files ['/tmp/data/3_a1', '/tmp/data/3_a2', '/tmp/data/3_a3'] of size 268435456[0m
+[33mscenario-2-webdav-cjx7t-301124877: (09:55:11) Started task 3-T3 with scenario_2_webdav_268435456 at dm4[0m
+[33mscenario-2-webdav-cjx7t-183681544: (09:55:11) Started task 3-T4 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-200459163: (09:55:11) Started task 3-T5 with scenario_2_webdav_268435456 at dm3[0m
+[33mscenario-2-webdav-cjx7t-301124877: (09:55:13) Downloaded file /tmp/data/3_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-183681544: (09:55:13) Downloaded file /tmp/data/3_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-200459163: (09:55:13) Downloaded file /tmp/data/3_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-183681544: (09:55:14) Read file /tmp/data/3_a2 of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-200459163: (09:55:14) Read file /tmp/data/3_a3 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-301124877: (09:55:14) Partitioned file /tmp/data/3_a1 into files ['/tmp/data/3_a4', '/tmp/data/3_a5', '/tmp/data/3_a6'] of size 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-200459163: (09:55:14) Wrote file /tmp/data/3_a8 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-183681544: (09:55:14) Wrote file /tmp/data/3_a7 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-301124877: (09:55:15) Uploaded files ['/tmp/data/3_a4', '/tmp/data/3_a5', '/tmp/data/3_a6'] of size 89478485[0m
+[37mscenario-2-webdav-cjx7t-200459163: (09:55:15) Uploaded file /tmp/data/3_a8 of size 89478485[0m
+[33mscenario-2-webdav-cjx7t-183681544: (09:55:15) Uploaded file /tmp/data/3_a7 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-2435855756: (09:55:21) Started task 3-T7 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-2452633375: (09:55:21) Started task 3-T6 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-2553299089: (09:55:21) Started task 3-T8 with scenario_2_webdav_268435456 at dm4[0m
+[35mscenario-2-webdav-cjx7t-2435855756: (09:55:22) Downloaded file /tmp/data/3_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-2435855756: (09:55:22) Read file /tmp/data/3_a5 with length of 29826161 bytes[0m
+[32mscenario-2-webdav-cjx7t-2452633375: (09:55:22) Downloaded file /tmp/data/3_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-2452633375: (09:55:22) Read file /tmp/data/3_a4 with length of 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-2553299089: (09:55:25) Downloaded files ['/tmp/data/3_a6', '/tmp/data/3_a7', '/tmp/data/3_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-2553299089: (09:55:25) Merged files ['/tmp/data/3_a6', '/tmp/data/3_a7', '/tmp/data/3_a8'] into single file /tmp/data/3_a9 of size 208783131 bytes[0m
+[37mscenario-2-webdav-cjx7t-2553299089: (09:55:27) Uploaded file /tmp/data/3_a9 of size 208783131[0m
+[32mscenario-2-webdav-cjx7t-3070978562: (09:55:41) Ending benchmark scenario_2_webdav_268435456 run 3 at dm3[0m
+[33mscenario-2-webdav-cjx7t-3489019734: (09:55:46) Ending benchmark scenario_2_webdav_268435456 run 3 at dm1[0m
+[37mscenario-2-webdav-cjx7t-2482137704: (09:55:41) Ending benchmark scenario_2_webdav_268435456 run 3 at dm4[0m
+[36mscenario-2-webdav-cjx7t-885129280: (09:55:41) Ending benchmark scenario_2_webdav_268435456 run 3 at dm2[0m
+[35mscenario-2-webdav-cjx7t-1133637311: (09:55:51) Collecting results of benchmark scenario_2_webdav_268435456 run 3 at dm1[0m
+[35mscenario-2-webdav-cjx7t-1133637311: (09:55:52) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[33mscenario-2-webdav-cjx7t-145933800: (09:56:01) Starting benchmark scenario_2_webdav_268435456 run 4 at dm3[0m
+[36mscenario-2-webdav-cjx7t-4153941386: (09:56:01) Starting benchmark scenario_2_webdav_268435456 run 4 at dm2[0m
+[34mscenario-2-webdav-cjx7t-3038159060: (09:56:01) Starting benchmark scenario_2_webdav_268435456 run 4 at dm1[0m
+[36mscenario-2-webdav-cjx7t-3831765218: (09:56:01) Starting benchmark scenario_2_webdav_268435456 run 4 at dm4[0m
+[35mscenario-2-webdav-cjx7t-1271126835: (09:56:11) Started task 4-T1 with scenario_2_webdav_268435456 at dm2[0m
+[35mscenario-2-webdav-cjx7t-1271126835: (09:56:13) Created file /tmp/data/4_f of size 268435456 bytes[0m
+[35mscenario-2-webdav-cjx7t-1271126835: (09:56:16) Uploaded file /tmp/data/4_f of size 268435456 bytes[0m
+[37mscenario-2-webdav-cjx7t-3028054995: (09:56:21) Started task 4-T2 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-3028054995: (09:56:25) Downloaded file /tmp/data/4_f of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-3028054995: (09:56:28) Partitioned file /tmp/data/4_f into files ['/tmp/data/4_a1', '/tmp/data/4_a2', '/tmp/data/4_a3'] of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-3028054995: (09:56:30) Uploaded files ['/tmp/data/4_a1', '/tmp/data/4_a2', '/tmp/data/4_a3'] of size 268435456[0m
+[37mscenario-2-webdav-cjx7t-2400241022: (09:56:42) Started task 4-T4 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-2400241022: (09:56:44) Downloaded file /tmp/data/4_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-2400241022: (09:56:44) Read file /tmp/data/4_a2 of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-2400241022: (09:56:45) Wrote file /tmp/data/4_a7 of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-2400241022: (09:56:47) Uploaded file /tmp/data/4_a7 of size 89478485[0m
+[33mscenario-2-webdav-cjx7t-2417018641: (09:56:41) Started task 4-T5 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-2450573879: (09:56:41) Started task 4-T3 with scenario_2_webdav_268435456 at dm4[0m
+[33mscenario-2-webdav-cjx7t-2417018641: (09:56:44) Downloaded file /tmp/data/4_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-2450573879: (09:56:44) Downloaded file /tmp/data/4_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-2417018641: (09:56:44) Read file /tmp/data/4_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-2450573879: (09:56:44) Partitioned file /tmp/data/4_a1 into files ['/tmp/data/4_a4', '/tmp/data/4_a5', '/tmp/data/4_a6'] of size 29826161 bytes[0m
+[33mscenario-2-webdav-cjx7t-2417018641: (09:56:45) Wrote file /tmp/data/4_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-2450573879: (09:56:45) Uploaded files ['/tmp/data/4_a4', '/tmp/data/4_a5', '/tmp/data/4_a6'] of size 89478485[0m
+[33mscenario-2-webdav-cjx7t-2417018641: (09:56:45) Uploaded file /tmp/data/4_a8 of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-3667268258: (09:56:51) Started task 4-T7 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-3684045877: (09:56:51) Started task 4-T6 with scenario_2_webdav_268435456 at dm2[0m
+[31mscenario-2-webdav-cjx7t-3717601115: (09:56:51) Started task 4-T8 with scenario_2_webdav_268435456 at dm4[0m
+[31mscenario-2-webdav-cjx7t-3667268258: (09:56:52) Downloaded file /tmp/data/4_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-3667268258: (09:56:52) Read file /tmp/data/4_a5 with length of 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-3684045877: (09:56:52) Downloaded file /tmp/data/4_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-3684045877: (09:56:52) Read file /tmp/data/4_a4 with length of 29826161 bytes[0m
+[31mscenario-2-webdav-cjx7t-3717601115: (09:56:56) Downloaded files ['/tmp/data/4_a6', '/tmp/data/4_a7', '/tmp/data/4_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-3717601115: (09:56:57) Merged files ['/tmp/data/4_a6', '/tmp/data/4_a7', '/tmp/data/4_a8'] into single file /tmp/data/4_a9 of size 208783131 bytes[0m
+[31mscenario-2-webdav-cjx7t-3717601115: (09:56:59) Uploaded file /tmp/data/4_a9 of size 208783131[0m
+[33mscenario-2-webdav-cjx7t-1136041558: (09:57:12) Ending benchmark scenario_2_webdav_268435456 run 4 at dm2[0m
+[31mscenario-2-webdav-cjx7t-1087605892: (09:57:12) Ending benchmark scenario_2_webdav_268435456 run 4 at dm3[0m
+[32mscenario-2-webdav-cjx7t-2727282566: (09:57:12) Ending benchmark scenario_2_webdav_268435456 run 4 at dm4[0m
+[31mscenario-2-webdav-cjx7t-1087605892: Took 2 attempts to upload log...[0m
+[32mscenario-2-webdav-cjx7t-2727282566: Took 2 attempts to upload log...[0m
+[31mscenario-2-webdav-cjx7t-3711389248: (09:57:17) Ending benchmark scenario_2_webdav_268435456 run 4 at dm1[0m
+[32mscenario-2-webdav-cjx7t-1640937613: (09:57:22) Collecting results of benchmark scenario_2_webdav_268435456 run 4 at dm1[0m
+[32mscenario-2-webdav-cjx7t-1640937613: (09:57:22) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[33mscenario-2-webdav-cjx7t-852545038: (09:57:32) Starting benchmark scenario_2_webdav_268435456 run 5 at dm1[0m
+[35mscenario-2-webdav-cjx7t-365945210: (09:57:32) Starting benchmark scenario_2_webdav_268435456 run 5 at dm3[0m
+[35mscenario-2-webdav-cjx7t-4118716960: (09:57:32) Starting benchmark scenario_2_webdav_268435456 run 5 at dm4[0m
+[34mscenario-2-webdav-cjx7t-3974734552: (09:57:32) Starting benchmark scenario_2_webdav_268435456 run 5 at dm2[0m
+[36mscenario-2-webdav-cjx7t-4248081953: (09:57:42) Started task 5-T1 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-4248081953: (09:57:44) Created file /tmp/data/5_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-4248081953: (09:57:46) Uploaded file /tmp/data/5_f of size 268435456 bytes[0m
+[33mscenario-2-webdav-cjx7t-1654338873: (09:57:52) Started task 5-T2 with scenario_2_webdav_268435456 at dm3[0m
+[33mscenario-2-webdav-cjx7t-1654338873: (09:57:56) Downloaded file /tmp/data/5_f of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-1654338873: (09:57:58) Partitioned file /tmp/data/5_f into files ['/tmp/data/5_a1', '/tmp/data/5_a2', '/tmp/data/5_a3'] of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-1654338873: (09:58:01) Uploaded files ['/tmp/data/5_a1', '/tmp/data/5_a2', '/tmp/data/5_a3'] of size 268435456[0m
+[36mscenario-2-webdav-cjx7t-852689899: (09:58:13) Started task 5-T5 with scenario_2_webdav_268435456 at dm3[0m
+[33mscenario-2-webdav-cjx7t-953355613: (09:58:13) Started task 5-T3 with scenario_2_webdav_268435456 at dm4[0m
+[31mscenario-2-webdav-cjx7t-835912280: (09:58:13) Started task 5-T4 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-852689899: (09:58:15) Downloaded file /tmp/data/5_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-953355613: (09:58:15) Downloaded file /tmp/data/5_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-852689899: (09:58:15) Read file /tmp/data/5_a3 of size 89478485 bytes[0m
+[31mscenario-2-webdav-cjx7t-835912280: (09:58:16) Downloaded file /tmp/data/5_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-835912280: (09:58:16) Read file /tmp/data/5_a2 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-953355613: (09:58:16) Partitioned file /tmp/data/5_a1 into files ['/tmp/data/5_a4', '/tmp/data/5_a5', '/tmp/data/5_a6'] of size 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-852689899: (09:58:16) Wrote file /tmp/data/5_a8 of size 89478485 bytes[0m
+[31mscenario-2-webdav-cjx7t-835912280: (09:58:16) Wrote file /tmp/data/5_a7 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-953355613: (09:58:17) Uploaded files ['/tmp/data/5_a4', '/tmp/data/5_a5', '/tmp/data/5_a6'] of size 89478485[0m
+[36mscenario-2-webdav-cjx7t-852689899: (09:58:17) Uploaded file /tmp/data/5_a8 of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-835912280: (09:58:17) Uploaded file /tmp/data/5_a7 of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-982231132: (09:58:23) Started task 5-T7 with scenario_2_webdav_268435456 at dm3[0m
+[31mscenario-2-webdav-cjx7t-982231132: (09:58:24) Downloaded file /tmp/data/5_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-982231132: (09:58:24) Read file /tmp/data/5_a5 with length of 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-1099674465: (09:58:23) Started task 5-T8 with scenario_2_webdav_268435456 at dm4[0m
+[34mscenario-2-webdav-cjx7t-999008751: (09:58:23) Started task 5-T6 with scenario_2_webdav_268435456 at dm2[0m
+[34mscenario-2-webdav-cjx7t-999008751: (09:58:24) Downloaded file /tmp/data/5_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[34mscenario-2-webdav-cjx7t-999008751: (09:58:24) Read file /tmp/data/5_a4 with length of 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-1099674465: (09:58:28) Downloaded files ['/tmp/data/5_a6', '/tmp/data/5_a7', '/tmp/data/5_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-1099674465: (09:58:28) Merged files ['/tmp/data/5_a6', '/tmp/data/5_a7', '/tmp/data/5_a8'] into single file /tmp/data/5_a9 of size 208783131 bytes[0m
+[36mscenario-2-webdav-cjx7t-1099674465: (09:58:30) Uploaded file /tmp/data/5_a9 of size 208783131[0m
+[34mscenario-2-webdav-cjx7t-3727234482: (09:58:43) Ending benchmark scenario_2_webdav_268435456 run 5 at dm3[0m
+[32mscenario-2-webdav-cjx7t-49069424: (09:58:43) Ending benchmark scenario_2_webdav_268435456 run 5 at dm2[0m
+[33mscenario-2-webdav-cjx7t-174090822: (09:58:44) Ending benchmark scenario_2_webdav_268435456 run 5 at dm1[0m
+[33mscenario-2-webdav-cjx7t-155573016: (09:58:43) Ending benchmark scenario_2_webdav_268435456 run 5 at dm4[0m
+[34mscenario-2-webdav-cjx7t-708074447: (09:58:53) Collecting results of benchmark scenario_2_webdav_268435456 run 5 at dm1[0m
+[34mscenario-2-webdav-cjx7t-708074447: (09:58:54) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[33mscenario-2-webdav-cjx7t-4268040316: (09:59:03) Starting benchmark scenario_2_webdav_268435456 run 6 at dm3[0m
+[33mscenario-2-webdav-cjx7t-2546537592: (09:59:03) Starting benchmark scenario_2_webdav_268435456 run 6 at dm1[0m
+[33mscenario-2-webdav-cjx7t-2475847614: (09:59:03) Starting benchmark scenario_2_webdav_268435456 run 6 at dm4[0m
+[33mscenario-2-webdav-cjx7t-3011353486: (09:59:03) Starting benchmark scenario_2_webdav_268435456 run 6 at dm2[0m
+[36mscenario-2-webdav-cjx7t-380902511: (09:59:13) Started task 6-T1 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-380902511: (09:59:15) Created file /tmp/data/6_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-380902511: (09:59:18) Uploaded file /tmp/data/6_f of size 268435456 bytes[0m
+[33mscenario-2-webdav-cjx7t-4110125839: (09:59:23) Started task 6-T2 with scenario_2_webdav_268435456 at dm3[0m
+[33mscenario-2-webdav-cjx7t-4110125839: (09:59:27) Downloaded file /tmp/data/6_f of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-4110125839: (09:59:30) Partitioned file /tmp/data/6_f into files ['/tmp/data/6_a1', '/tmp/data/6_a2', '/tmp/data/6_a3'] of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-4110125839: (09:59:32) Uploaded files ['/tmp/data/6_a1', '/tmp/data/6_a2', '/tmp/data/6_a3'] of size 268435456[0m
+[33mscenario-2-webdav-cjx7t-3182030003: (09:59:47) Started task 6-T3 with scenario_2_webdav_268435456 at dm4[0m
+[36mscenario-2-webdav-cjx7t-3265918098: (09:59:47) Started task 6-T4 with scenario_2_webdav_268435456 at dm2[0m
+[33mscenario-2-webdav-cjx7t-3182030003: (09:59:49) Downloaded file /tmp/data/6_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-3265918098: (09:59:49) Downloaded file /tmp/data/6_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-3265918098: (09:59:49) Read file /tmp/data/6_a2 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-3182030003: (09:59:49) Partitioned file /tmp/data/6_a1 into files ['/tmp/data/6_a4', '/tmp/data/6_a5', '/tmp/data/6_a6'] of size 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-3265918098: (09:59:50) Wrote file /tmp/data/6_a7 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-3182030003: (09:59:50) Uploaded files ['/tmp/data/6_a4', '/tmp/data/6_a5', '/tmp/data/6_a6'] of size 89478485[0m
+[36mscenario-2-webdav-cjx7t-3265918098: (09:59:51) Uploaded file /tmp/data/6_a7 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-3282695717: (09:59:47) Started task 6-T5 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3282695717: (09:59:49) Downloaded file /tmp/data/6_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-3282695717: (09:59:49) Read file /tmp/data/6_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-3282695717: (09:59:50) Wrote file /tmp/data/6_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-3282695717: (09:59:51) Uploaded file /tmp/data/6_a8 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-2242231758: (09:59:57) Started task 6-T7 with scenario_2_webdav_268435456 at dm3[0m
+[36mscenario-2-webdav-cjx7t-2259009377: (09:59:57) Started task 6-T6 with scenario_2_webdav_268435456 at dm2[0m
+[33mscenario-2-webdav-cjx7t-2158343663: (09:59:57) Started task 6-T8 with scenario_2_webdav_268435456 at dm4[0m
+[35mscenario-2-webdav-cjx7t-2242231758: (09:59:57) Downloaded file /tmp/data/6_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-2242231758: (09:59:58) Read file /tmp/data/6_a5 with length of 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-2259009377: (09:59:58) Downloaded file /tmp/data/6_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-2259009377: (09:59:58) Read file /tmp/data/6_a4 with length of 29826161 bytes[0m
+[33mscenario-2-webdav-cjx7t-2158343663: (10:00:01) Downloaded files ['/tmp/data/6_a6', '/tmp/data/6_a7', '/tmp/data/6_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-2158343663: (10:00:02) Merged files ['/tmp/data/6_a6', '/tmp/data/6_a7', '/tmp/data/6_a8'] into single file /tmp/data/6_a9 of size 208783131 bytes[0m
+[33mscenario-2-webdav-cjx7t-2158343663: (10:00:04) Uploaded file /tmp/data/6_a9 of size 208783131[0m
+[33mscenario-2-webdav-cjx7t-3151147570: (10:00:17) Ending benchmark scenario_2_webdav_268435456 run 6 at dm4[0m
+[33mscenario-2-webdav-cjx7t-2357034424: (10:00:17) Ending benchmark scenario_2_webdav_268435456 run 6 at dm3[0m
+[32mscenario-2-webdav-cjx7t-1431980250: (10:00:17) Ending benchmark scenario_2_webdav_268435456 run 6 at dm2[0m
+[37mscenario-2-webdav-cjx7t-236703844: (10:00:17) Ending benchmark scenario_2_webdav_268435456 run 6 at dm1[0m
+[31mscenario-2-webdav-cjx7t-2649319401: (10:00:27) Collecting results of benchmark scenario_2_webdav_268435456 run 6 at dm1[0m
+[31mscenario-2-webdav-cjx7t-2649319401: (10:00:28) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[36mscenario-2-webdav-cjx7t-1876110832: (10:00:37) Starting benchmark scenario_2_webdav_268435456 run 7 at dm2[0m
+[31mscenario-2-webdav-cjx7t-1259308594: (10:00:37) Starting benchmark scenario_2_webdav_268435456 run 7 at dm3[0m
+[33mscenario-2-webdav-cjx7t-1982614424: (10:00:37) Starting benchmark scenario_2_webdav_268435456 run 7 at dm4[0m
+[34mscenario-2-webdav-cjx7t-2001132230: (10:00:37) Starting benchmark scenario_2_webdav_268435456 run 7 at dm1[0m
+[36mscenario-2-webdav-cjx7t-1970714681: (10:00:47) Started task 7-T1 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-1970714681: (10:00:49) Created file /tmp/data/7_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-1970714681: (10:00:51) Uploaded file /tmp/data/7_f of size 268435456 bytes[0m
+[37mscenario-2-webdav-cjx7t-397694929: (10:00:57) Started task 7-T2 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-397694929: (10:01:01) Downloaded file /tmp/data/7_f of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-397694929: (10:01:04) Partitioned file /tmp/data/7_f into files ['/tmp/data/7_a1', '/tmp/data/7_a2', '/tmp/data/7_a3'] of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-397694929: (10:01:07) Uploaded files ['/tmp/data/7_a1', '/tmp/data/7_a2', '/tmp/data/7_a3'] of size 268435456[0m
+[32mscenario-2-webdav-cjx7t-1487722869: (10:01:21) Started task 7-T3 with scenario_2_webdav_268435456 at dm4[0m
+[34mscenario-2-webdav-cjx7t-1387057155: (10:01:21) Started task 7-T5 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-1370279536: (10:01:21) Started task 7-T4 with scenario_2_webdav_268435456 at dm2[0m
+[32mscenario-2-webdav-cjx7t-1487722869: (10:01:23) Downloaded file /tmp/data/7_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[34mscenario-2-webdav-cjx7t-1387057155: (10:01:23) Downloaded file /tmp/data/7_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-1370279536: (10:01:23) Downloaded file /tmp/data/7_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[34mscenario-2-webdav-cjx7t-1387057155: (10:01:23) Read file /tmp/data/7_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-1370279536: (10:01:23) Read file /tmp/data/7_a2 of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-1487722869: (10:01:24) Partitioned file /tmp/data/7_a1 into files ['/tmp/data/7_a4', '/tmp/data/7_a5', '/tmp/data/7_a6'] of size 29826161 bytes[0m
+[34mscenario-2-webdav-cjx7t-1387057155: (10:01:24) Wrote file /tmp/data/7_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-1370279536: (10:01:24) Wrote file /tmp/data/7_a7 of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-1487722869: (10:01:25) Uploaded files ['/tmp/data/7_a4', '/tmp/data/7_a5', '/tmp/data/7_a6'] of size 89478485[0m
+[34mscenario-2-webdav-cjx7t-1387057155: (10:01:25) Uploaded file /tmp/data/7_a8 of size 89478485[0m
+[35mscenario-2-webdav-cjx7t-1370279536: (10:01:25) Uploaded file /tmp/data/7_a7 of size 89478485[0m
+[36mscenario-2-webdav-cjx7t-3623377940: (10:01:31) Started task 7-T7 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3640155559: (10:01:31) Started task 7-T6 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-3623377940: (10:01:32) Downloaded file /tmp/data/7_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-3640155559: (10:01:32) Downloaded file /tmp/data/7_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-3623377940: (10:01:32) Read file /tmp/data/7_a5 with length of 29826161 bytes[0m
+[35mscenario-2-webdav-cjx7t-3640155559: (10:01:32) Read file /tmp/data/7_a4 with length of 29826161 bytes[0m
+[31mscenario-2-webdav-cjx7t-3472379369: (10:01:31) Started task 7-T8 with scenario_2_webdav_268435456 at dm4[0m
+[31mscenario-2-webdav-cjx7t-3472379369: (10:01:35) Downloaded files ['/tmp/data/7_a6', '/tmp/data/7_a7', '/tmp/data/7_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-3472379369: (10:01:35) Merged files ['/tmp/data/7_a6', '/tmp/data/7_a7', '/tmp/data/7_a8'] into single file /tmp/data/7_a9 of size 208783131 bytes[0m
+[31mscenario-2-webdav-cjx7t-3472379369: (10:01:37) Uploaded file /tmp/data/7_a9 of size 208783131[0m
+[32mscenario-2-webdav-cjx7t-1701545888: (10:01:51) Ending benchmark scenario_2_webdav_268435456 run 7 at dm4[0m
+[33mscenario-2-webdav-cjx7t-2243741434: (10:01:51) Ending benchmark scenario_2_webdav_268435456 run 7 at dm3[0m
+[36mscenario-2-webdav-cjx7t-1557563480: (10:01:51) Ending benchmark scenario_2_webdav_268435456 run 7 at dm2[0m
+[36mscenario-2-webdav-cjx7t-2730341262: (10:01:52) Ending benchmark scenario_2_webdav_268435456 run 7 at dm1[0m
+[32mscenario-2-webdav-cjx7t-277462567: (10:02:01) Collecting results of benchmark scenario_2_webdav_268435456 run 7 at dm1[0m
+[32mscenario-2-webdav-cjx7t-277462567: (10:02:02) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[32mscenario-2-webdav-cjx7t-2941760666: (10:02:11) Starting benchmark scenario_2_webdav_268435456 run 8 at dm4[0m
+[37mscenario-2-webdav-cjx7t-1945549474: (10:02:11) Starting benchmark scenario_2_webdav_268435456 run 8 at dm2[0m
+[37mscenario-2-webdav-cjx7t-2050786656: (10:02:11) Starting benchmark scenario_2_webdav_268435456 run 8 at dm3[0m
+[31mscenario-2-webdav-cjx7t-4279582540: (10:02:11) Starting benchmark scenario_2_webdav_268435456 run 8 at dm1[0m
+[36mscenario-2-webdav-cjx7t-2383079147: (10:02:21) Started task 8-T1 with scenario_2_webdav_268435456 at dm2[0m
+[36mscenario-2-webdav-cjx7t-2383079147: (10:02:23) Created file /tmp/data/8_f of size 268435456 bytes[0m
+[36mscenario-2-webdav-cjx7t-2383079147: (10:02:26) Uploaded file /tmp/data/8_f of size 268435456 bytes[0m
+[32mscenario-2-webdav-cjx7t-1327689515: (10:02:31) Started task 8-T2 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-1327689515: (10:02:35) Downloaded file /tmp/data/8_f of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-1327689515: (10:02:40) Partitioned file /tmp/data/8_f into files ['/tmp/data/8_a1', '/tmp/data/8_a2', '/tmp/data/8_a3'] of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-1327689515: (10:02:42) Uploaded files ['/tmp/data/8_a1', '/tmp/data/8_a2', '/tmp/data/8_a3'] of size 268435456[0m
+[34mscenario-2-webdav-cjx7t-883433199: (10:02:56) Started task 8-T3 with scenario_2_webdav_268435456 at dm4[0m
+[31mscenario-2-webdav-cjx7t-849877961: (10:02:56) Started task 8-T5 with scenario_2_webdav_268435456 at dm3[0m
+[31mscenario-2-webdav-cjx7t-833100342: (10:02:56) Started task 8-T4 with scenario_2_webdav_268435456 at dm2[0m
+[34mscenario-2-webdav-cjx7t-883433199: (10:02:58) Downloaded file /tmp/data/8_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-849877961: (10:02:58) Downloaded file /tmp/data/8_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-849877961: (10:02:58) Read file /tmp/data/8_a3 of size 89478485 bytes[0m
+[31mscenario-2-webdav-cjx7t-833100342: (10:02:58) Downloaded file /tmp/data/8_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-833100342: (10:02:58) Read file /tmp/data/8_a2 of size 89478485 bytes[0m
+[34mscenario-2-webdav-cjx7t-883433199: (10:02:58) Partitioned file /tmp/data/8_a1 into files ['/tmp/data/8_a4', '/tmp/data/8_a5', '/tmp/data/8_a6'] of size 29826161 bytes[0m
+[31mscenario-2-webdav-cjx7t-849877961: (10:02:59) Wrote file /tmp/data/8_a8 of size 89478485 bytes[0m
+[31mscenario-2-webdav-cjx7t-833100342: (10:02:59) Wrote file /tmp/data/8_a7 of size 89478485 bytes[0m
+[34mscenario-2-webdav-cjx7t-883433199: (10:02:59) Uploaded files ['/tmp/data/8_a4', '/tmp/data/8_a5', '/tmp/data/8_a6'] of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-833100342: (10:03:00) Uploaded file /tmp/data/8_a7 of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-849877961: (10:03:02) Uploaded file /tmp/data/8_a8 of size 89478485[0m
+[33mscenario-2-webdav-cjx7t-2338754522: (10:03:16) Started task 8-T7 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-2355532141: (10:03:16) Started task 8-T6 with scenario_2_webdav_268435456 at dm2[0m
+[35mscenario-2-webdav-cjx7t-2120645475: (10:03:16) Started task 8-T8 with scenario_2_webdav_268435456 at dm4[0m
+[33mscenario-2-webdav-cjx7t-2338754522: (10:03:17) Downloaded file /tmp/data/8_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-2338754522: (10:03:17) Read file /tmp/data/8_a5 with length of 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-2355532141: (10:03:17) Downloaded file /tmp/data/8_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-2355532141: (10:03:17) Read file /tmp/data/8_a4 with length of 29826161 bytes[0m
+[35mscenario-2-webdav-cjx7t-2120645475: (10:03:20) Downloaded files ['/tmp/data/8_a6', '/tmp/data/8_a7', '/tmp/data/8_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-2120645475: (10:03:20) Merged files ['/tmp/data/8_a6', '/tmp/data/8_a7', '/tmp/data/8_a8'] into single file /tmp/data/8_a9 of size 208783131 bytes[0m
+[35mscenario-2-webdav-cjx7t-2120645475: (10:03:22) Uploaded file /tmp/data/8_a9 of size 208783131[0m
+[32mscenario-2-webdav-cjx7t-3372532780: (10:03:36) Ending benchmark scenario_2_webdav_268435456 run 8 at dm3[0m
+[32mscenario-2-webdav-cjx7t-1995993448: (10:03:38) Ending benchmark scenario_2_webdav_268435456 run 8 at dm1[0m
+[31mscenario-2-webdav-cjx7t-3528667646: (10:03:36) Ending benchmark scenario_2_webdav_268435456 run 8 at dm2[0m
+[32mscenario-2-webdav-cjx7t-729965294: (10:03:36) Ending benchmark scenario_2_webdav_268435456 run 8 at dm4[0m
+[32mscenario-2-webdav-cjx7t-3926445061: (10:03:46) Collecting results of benchmark scenario_2_webdav_268435456 run 8 at dm1[0m
+[32mscenario-2-webdav-cjx7t-3926445061: (10:03:47) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[35mscenario-2-webdav-cjx7t-2074435650: (10:03:56) Starting benchmark scenario_2_webdav_268435456 run 9 at dm3[0m
+[31mscenario-2-webdav-cjx7t-1803467944: (10:03:56) Starting benchmark scenario_2_webdav_268435456 run 9 at dm4[0m
+[33mscenario-2-webdav-cjx7t-3234807446: (10:03:56) Starting benchmark scenario_2_webdav_268435456 run 9 at dm1[0m
+[37mscenario-2-webdav-cjx7t-4183553664: (10:03:56) Starting benchmark scenario_2_webdav_268435456 run 9 at dm2[0m
+[33mscenario-2-webdav-cjx7t-398317097: (10:04:06) Started task 9-T1 with scenario_2_webdav_268435456 at dm2[0m
+[33mscenario-2-webdav-cjx7t-398317097: (10:04:08) Created file /tmp/data/9_f of size 268435456 bytes[0m
+[33mscenario-2-webdav-cjx7t-398317097: (10:04:11) Uploaded file /tmp/data/9_f of size 268435456 bytes[0m
+[35mscenario-2-webdav-cjx7t-3120264641: (10:04:16) Started task 9-T2 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3120264641: (10:04:20) Downloaded file /tmp/data/9_f of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-3120264641: (10:04:23) Partitioned file /tmp/data/9_f into files ['/tmp/data/9_a1', '/tmp/data/9_a2', '/tmp/data/9_a3'] of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-3120264641: (10:04:26) Uploaded files ['/tmp/data/9_a1', '/tmp/data/9_a2', '/tmp/data/9_a3'] of size 268435456[0m
+[35mscenario-2-webdav-cjx7t-21030579: (10:04:40) Started task 9-T5 with scenario_2_webdav_268435456 at dm3[0m
+[35mscenario-2-webdav-cjx7t-21030579: (10:04:42) Downloaded file /tmp/data/9_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-21030579: (10:04:42) Read file /tmp/data/9_a3 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-21030579: (10:04:43) Wrote file /tmp/data/9_a8 of size 89478485 bytes[0m
+[35mscenario-2-webdav-cjx7t-21030579: (10:04:46) Uploaded file /tmp/data/9_a8 of size 89478485[0m
+[32mscenario-2-webdav-cjx7t-121696293: (10:04:40) Started task 9-T3 with scenario_2_webdav_268435456 at dm4[0m
+[37mscenario-2-webdav-cjx7t-4252960: (10:04:40) Started task 9-T4 with scenario_2_webdav_268435456 at dm2[0m
+[32mscenario-2-webdav-cjx7t-121696293: (10:04:42) Downloaded file /tmp/data/9_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-121696293: (10:04:42) Partitioned file /tmp/data/9_a1 into files ['/tmp/data/9_a4', '/tmp/data/9_a5', '/tmp/data/9_a6'] of size 29826161 bytes[0m
+[37mscenario-2-webdav-cjx7t-4252960: (10:04:42) Downloaded file /tmp/data/9_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-4252960: (10:04:42) Read file /tmp/data/9_a2 of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-4252960: (10:04:43) Wrote file /tmp/data/9_a7 of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-121696293: (10:04:43) Uploaded files ['/tmp/data/9_a4', '/tmp/data/9_a5', '/tmp/data/9_a6'] of size 89478485[0m
+[37mscenario-2-webdav-cjx7t-4252960: (10:04:44) Uploaded file /tmp/data/9_a7 of size 89478485[0m
+[37mscenario-2-webdav-cjx7t-2050980356: (10:04:50) Started task 9-T7 with scenario_2_webdav_268435456 at dm3[0m
+[36mscenario-2-webdav-cjx7t-1899981785: (10:04:50) Started task 9-T8 with scenario_2_webdav_268435456 at dm4[0m
+[33mscenario-2-webdav-cjx7t-2067757975: (10:04:50) Started task 9-T6 with scenario_2_webdav_268435456 at dm2[0m
+[37mscenario-2-webdav-cjx7t-2050980356: (10:04:51) Downloaded file /tmp/data/9_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-2050980356: (10:04:51) Read file /tmp/data/9_a5 with length of 29826161 bytes[0m
+[33mscenario-2-webdav-cjx7t-2067757975: (10:04:51) Downloaded file /tmp/data/9_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[33mscenario-2-webdav-cjx7t-2067757975: (10:04:51) Read file /tmp/data/9_a4 with length of 29826161 bytes[0m
+[36mscenario-2-webdav-cjx7t-1899981785: (10:04:55) Downloaded files ['/tmp/data/9_a6', '/tmp/data/9_a7', '/tmp/data/9_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[36mscenario-2-webdav-cjx7t-1899981785: (10:04:55) Merged files ['/tmp/data/9_a6', '/tmp/data/9_a7', '/tmp/data/9_a8'] into single file /tmp/data/9_a9 of size 208783131 bytes[0m
+[36mscenario-2-webdav-cjx7t-1899981785: (10:04:57) Uploaded file /tmp/data/9_a9 of size 208783131[0m
+[34mscenario-2-webdav-cjx7t-1436593738: (10:05:10) Ending benchmark scenario_2_webdav_268435456 run 9 at dm3[0m
+[31mscenario-2-webdav-cjx7t-979698416: (10:05:10) Ending benchmark scenario_2_webdav_268435456 run 9 at dm4[0m
+[35mscenario-2-webdav-cjx7t-4125297256: (10:05:10) Ending benchmark scenario_2_webdav_268435456 run 9 at dm2[0m
+[33mscenario-2-webdav-cjx7t-928920030: (10:05:11) Ending benchmark scenario_2_webdav_268435456 run 9 at dm1[0m
+[33mscenario-2-webdav-cjx7t-2979257815: (10:05:20) Collecting results of benchmark scenario_2_webdav_268435456 run 9 at dm1[0m
+[33mscenario-2-webdav-cjx7t-2979257815: (10:05:21) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m
+[37mscenario-2-webdav-cjx7t-2714062682: (10:05:30) Starting benchmark scenario_2_webdav_268435456 run 10 at dm3[0m
+[35mscenario-2-webdav-cjx7t-3556180224: (10:05:30) Starting benchmark scenario_2_webdav_268435456 run 10 at dm4[0m
+[33mscenario-2-webdav-cjx7t-3202514926: (10:05:30) Starting benchmark scenario_2_webdav_268435456 run 10 at dm1[0m
+[31mscenario-2-webdav-cjx7t-1028304824: (10:05:30) Starting benchmark scenario_2_webdav_268435456 run 10 at dm2[0m
+[34mscenario-2-webdav-cjx7t-1319274177: (10:05:40) Started task 10-T1 with scenario_2_webdav_268435456 at dm2[0m
+[34mscenario-2-webdav-cjx7t-1319274177: (10:05:42) Created file /tmp/data/10_f of size 268435456 bytes[0m
+[34mscenario-2-webdav-cjx7t-1319274177: (10:05:45) Uploaded file /tmp/data/10_f of size 268435456 bytes[0m
+[37mscenario-2-webdav-cjx7t-151524057: (10:05:50) Started task 10-T2 with scenario_2_webdav_268435456 at dm3[0m
+[37mscenario-2-webdav-cjx7t-151524057: (10:05:54) Downloaded file /tmp/data/10_f of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-151524057: (10:05:56) Partitioned file /tmp/data/10_f into files ['/tmp/data/10_a1', '/tmp/data/10_a2', '/tmp/data/10_a3'] of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-151524057: (10:05:59) Uploaded files ['/tmp/data/10_a1', '/tmp/data/10_a2', '/tmp/data/10_a3'] of size 268435456[0m
+[33mscenario-2-webdav-cjx7t-1777749373: (10:06:13) Started task 10-T3 with scenario_2_webdav_268435456 at dm4[0m
+[37mscenario-2-webdav-cjx7t-1677083659: (10:06:13) Started task 10-T5 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-1660306040: (10:06:13) Started task 10-T4 with scenario_2_webdav_268435456 at dm2[0m
+[33mscenario-2-webdav-cjx7t-1777749373: (10:06:15) Downloaded file /tmp/data/10_a1 of size 89478485 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-1677083659: (10:06:15) Downloaded file /tmp/data/10_a3 of size 89478485 bytes in 1 attempt(s)[0m
+[37mscenario-2-webdav-cjx7t-1677083659: (10:06:15) Read file /tmp/data/10_a3 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-1777749373: (10:06:15) Partitioned file /tmp/data/10_a1 into files ['/tmp/data/10_a4', '/tmp/data/10_a5', '/tmp/data/10_a6'] of size 29826161 bytes[0m
+[32mscenario-2-webdav-cjx7t-1660306040: (10:06:15) Downloaded file /tmp/data/10_a2 of size 89478485 bytes in 1 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-1660306040: (10:06:16) Read file /tmp/data/10_a2 of size 89478485 bytes[0m
+[37mscenario-2-webdav-cjx7t-1677083659: (10:06:16) Wrote file /tmp/data/10_a8 of size 89478485 bytes[0m
+[32mscenario-2-webdav-cjx7t-1660306040: (10:06:16) Wrote file /tmp/data/10_a7 of size 89478485 bytes[0m
+[33mscenario-2-webdav-cjx7t-1777749373: (10:06:16) Uploaded files ['/tmp/data/10_a4', '/tmp/data/10_a5', '/tmp/data/10_a6'] of size 89478485[0m
+[37mscenario-2-webdav-cjx7t-1677083659: (10:06:17) Uploaded file /tmp/data/10_a8 of size 89478485[0m
+[32mscenario-2-webdav-cjx7t-1660306040: (10:06:17) Uploaded file /tmp/data/10_a7 of size 89478485[0m
+[31mscenario-2-webdav-cjx7t-3929257871: (10:06:23) Started task 10-T6 with scenario_2_webdav_268435456 at dm2[0m
+[31mscenario-2-webdav-cjx7t-3929257871: (10:06:24) Downloaded file /tmp/data/10_a4 of size 29826161 bytes in 1 attempt(s)[0m
+[31mscenario-2-webdav-cjx7t-3929257871: (10:06:24) Read file /tmp/data/10_a4 with length of 29826161 bytes[0m
+[35mscenario-2-webdav-cjx7t-3912480252: (10:06:23) Started task 10-T7 with scenario_2_webdav_268435456 at dm3[0m
+[32mscenario-2-webdav-cjx7t-4029923585: (10:06:23) Started task 10-T8 with scenario_2_webdav_268435456 at dm4[0m
+[35mscenario-2-webdav-cjx7t-3912480252: (10:06:24) Downloaded file /tmp/data/10_a5 of size 29826161 bytes in 1 attempt(s)[0m
+[35mscenario-2-webdav-cjx7t-3912480252: (10:06:24) Read file /tmp/data/10_a5 with length of 29826161 bytes[0m
+[32mscenario-2-webdav-cjx7t-4029923585: (10:06:27) Downloaded files ['/tmp/data/10_a6', '/tmp/data/10_a7', '/tmp/data/10_a8'] of combined size 208783131 bytes in combined 3 attempt(s)[0m
+[32mscenario-2-webdav-cjx7t-4029923585: (10:06:28) Merged files ['/tmp/data/10_a6', '/tmp/data/10_a7', '/tmp/data/10_a8'] into single file /tmp/data/10_a9 of size 208783131 bytes[0m
+[32mscenario-2-webdav-cjx7t-4029923585: (10:06:30) Uploaded file /tmp/data/10_a9 of size 208783131[0m
+[31mscenario-2-webdav-cjx7t-4235430648: (10:06:43) Ending benchmark scenario_2_webdav_268435456 run 10 at dm4[0m
+[31mscenario-2-webdav-cjx7t-3913254480: (10:06:43) Ending benchmark scenario_2_webdav_268435456 run 10 at dm2[0m
+[36mscenario-2-webdav-cjx7t-2106413222: (10:06:44) Ending benchmark scenario_2_webdav_268435456 run 10 at dm1[0m
+[36mscenario-2-webdav-cjx7t-2851206418: (10:06:43) Ending benchmark scenario_2_webdav_268435456 run 10 at dm3[0m
+[35mscenario-2-webdav-cjx7t-758932143: (10:06:53) Collecting results of benchmark scenario_2_webdav_268435456 run 10 at dm1[0m
+[35mscenario-2-webdav-cjx7t-758932143: (10:06:54) Inserting into final log file /tmp/scenario_2_webdav_268435456.json[0m

@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: webdav-server
+  namespace: argo
+  labels:
+    app: webdav
+spec:
+  selector:
+    matchLabels:
+      name: webdav-server
+  template:
+    metadata:
+      labels:
+        name: webdav-server
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: dm1
+      hostNetwork: true
+      containers:
+      - name: webdav-server
+        image: bytemark/webdav:2.4
+        env:
+          - name: AUTH_TYPE
+            value: Digest
+          - name: USERNAME
+            value: username
+          - name: PASSWORD
+            value: password
+
+---
+
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: webdav-service
+  namespace: argo
+spec:
+  selector:
+    matchLabels:
+      name: webdav-service
+  template:
+    metadata:
+      labels:
+        name: webdav-service
+    spec:
+      volumes:
+        - name: workflow-storage
+          hostPath:
+            path: /tmp
+      hostNetwork: true
+      containers:
+      - name: webdav-service
+        image: nicoja/webdav-service2
+        env:
+          - name: BIND_ADDRESS
+            value: 127.0.0.1
+          - name: HOST_ADDRESS
+            value: "http://172.21.0.4:80"
+          - name: USERNAME
+            value: username
+          - name: PASSWORD
+            value: password
+        volumeMounts:
+          - name: workflow-storage
+            mountPath: /tmp

@@ -1,0 +1,45 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: hostnames-
+spec:
+  entrypoint: print-hostnames
+
+  templates:
+  - name: print-hostnames
+    steps:
+    - - name: vm1
+        template: print-hostname
+        arguments:
+          parameters:
+          - name: vm
+            value: dm1
+      - name: vm2
+        template: print-hostname
+        arguments:
+          parameters:
+          - name: vm
+            value: dm2
+      - name: vm3
+        template: print-hostname
+        arguments:
+          parameters:
+          - name: vm
+            value: dm3
+      - name: vm4
+        template: print-hostname
+        arguments:
+          parameters:
+          - name: vm
+            value: dm4
+
+  - name: print-hostname
+    inputs:
+      parameters:
+      - name: vm
+    nodeSelector:
+      kubernetes.io/hostname: "{{inputs.parameters.vm}}"
+    container:
+      image: alpine:latest
+      command: [sh, -c]
+      args: ["hostname -i"]

@@ -1,0 +1,642 @@
+[33mscenario-1-xzrpw-2172603479: (12:17:28) Starting benchmark scenario_1_ipfs_268435456 run 1 at dm2[0m
+[32mscenario-1-xzrpw-3439603397: (12:17:28) Starting benchmark scenario_1_ipfs_268435456 run 1 at dm3[0m
+[33mscenario-1-xzrpw-2705770193: (12:17:28) Starting benchmark scenario_1_ipfs_268435456 run 1 at dm1[0m
+[34mscenario-1-xzrpw-1815221087: (12:17:28) Starting benchmark scenario_1_ipfs_268435456 run 1 at dm4[0m
+[33mscenario-1-xzrpw-3772848646: (12:17:38) Started task 1-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[33mscenario-1-xzrpw-3772848646: (12:17:40) Created file /tmp/data/1_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-3772848646: (12:17:48) Uploaded file /tmp/data/1_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-4163352550: (12:17:58) Started task 1-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[33mscenario-1-xzrpw-4163352550: (12:18:05) Downloaded file /tmp/data/1_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-4163352550: (12:18:05) Read file /tmp/data/1_f1 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3586421650: (12:18:18) Started task 1-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[32mscenario-1-xzrpw-3586421650: (12:18:25) Downloaded file /tmp/data/1_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3586421650: (12:18:26) Read file /tmp/data/1_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3586421650: (12:18:28) Wrote file /tmp/data/1_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3586421650: (12:18:39) Uploaded file /tmp/data/1_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-2262340650: (12:18:51) Started task 1-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-2262340650: (12:19:01) Downloaded file /tmp/data/1_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-2262340650: (12:19:02) Read file /tmp/data/1_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3428067278: (12:19:11) Started task 1-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-3428067278: (12:19:19) Downloaded file /tmp/data/1_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3428067278: (12:19:19) Read file /tmp/data/1_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3428067278: (12:19:21) Wrote file /tmp/data/1_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3428067278: (12:19:30) Uploaded file /tmp/data/1_f3 of size 268435456[0m
+[35mscenario-1-xzrpw-1587784910: (12:19:43) Started task 1-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[35mscenario-1-xzrpw-1587784910: (12:19:51) Downloaded file /tmp/data/1_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1587784910: (12:19:51) Read file /tmp/data/1_f3 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-3474562921: (12:20:07) Ending benchmark scenario_1_ipfs_268435456 run 1 at dm2[0m
+[34mscenario-1-xzrpw-1801138875: (12:20:07) Ending benchmark scenario_1_ipfs_268435456 run 1 at dm3[0m
+[36mscenario-1-xzrpw-1477041625: (12:20:08) Ending benchmark scenario_1_ipfs_268435456 run 1 at dm4[0m
+[34mscenario-1-xzrpw-635470943: (12:20:08) Ending benchmark scenario_1_ipfs_268435456 run 1 at dm1[0m
+[36mscenario-1-xzrpw-2881688888: (12:20:18) Collecting results of benchmark scenario_1_ipfs_268435456 run 1 at dm1[0m
+[36mscenario-1-xzrpw-2881688888: (12:20:18) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[33mscenario-1-xzrpw-2330313005: (12:20:27) Starting benchmark scenario_1_ipfs_268435456 run 2 at dm2[0m
+[36mscenario-1-xzrpw-3025335011: (12:20:27) Starting benchmark scenario_1_ipfs_268435456 run 2 at dm1[0m
+[31mscenario-1-xzrpw-336631493: (12:20:27) Starting benchmark scenario_1_ipfs_268435456 run 2 at dm4[0m
+[31mscenario-1-xzrpw-3772732159: (12:20:27) Starting benchmark scenario_1_ipfs_268435456 run 2 at dm3[0m
+[35mscenario-1-xzrpw-1213763884: (12:20:37) Started task 2-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[35mscenario-1-xzrpw-1213763884: (12:20:40) Created file /tmp/data/2_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1213763884: (12:20:49) Uploaded file /tmp/data/2_f1 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-3574375812: (12:21:02) Started task 2-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[37mscenario-1-xzrpw-3574375812: (12:21:15) Downloaded file /tmp/data/2_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-3574375812: (12:21:15) Read file /tmp/data/2_f1 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-1441767584: (12:21:22) Started task 2-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[32mscenario-1-xzrpw-1441767584: (12:21:29) Downloaded file /tmp/data/2_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-1441767584: (12:21:29) Read file /tmp/data/2_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-1441767584: (12:21:32) Wrote file /tmp/data/2_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-1441767584: (12:21:45) Uploaded file /tmp/data/2_f2 of size 268435456[0m
+[33mscenario-1-xzrpw-4252425064: (12:21:58) Started task 2-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[33mscenario-1-xzrpw-4252425064: (12:22:07) Downloaded file /tmp/data/2_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-4252425064: (12:22:07) Read file /tmp/data/2_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-829702236: (12:22:18) Started task 2-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-829702236: (12:22:24) Downloaded file /tmp/data/2_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-829702236: (12:22:25) Read file /tmp/data/2_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-829702236: (12:22:27) Wrote file /tmp/data/2_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-829702236: (12:22:40) Uploaded file /tmp/data/2_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-4184650180: (12:22:53) Started task 2-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-4184650180: (12:23:01) Downloaded file /tmp/data/2_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-4184650180: (12:23:01) Read file /tmp/data/2_f3 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-874298957: (12:23:13) Ending benchmark scenario_1_ipfs_268435456 run 2 at dm3[0m
+[31mscenario-1-xzrpw-1717938719: (12:23:13) Ending benchmark scenario_1_ipfs_268435456 run 2 at dm2[0m
+[35mscenario-1-xzrpw-2362530375: (12:23:13) Ending benchmark scenario_1_ipfs_268435456 run 2 at dm4[0m
+[37mscenario-1-xzrpw-95266681: (12:23:13) Ending benchmark scenario_1_ipfs_268435456 run 2 at dm1[0m
+[34mscenario-1-xzrpw-2779797422: (12:23:23) Collecting results of benchmark scenario_1_ipfs_268435456 run 2 at dm1[0m
+[34mscenario-1-xzrpw-2779797422: (12:23:23) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[32mscenario-1-xzrpw-162549093: (12:23:33) Starting benchmark scenario_1_ipfs_268435456 run 3 at dm1[0m
+[35mscenario-1-xzrpw-1414710713: (12:23:33) Starting benchmark scenario_1_ipfs_268435456 run 3 at dm3[0m
+[33mscenario-1-xzrpw-2528707467: (12:23:33) Starting benchmark scenario_1_ipfs_268435456 run 3 at dm4[0m
+[31mscenario-1-xzrpw-2934421275: (12:23:33) Starting benchmark scenario_1_ipfs_268435456 run 3 at dm2[0m
+[35mscenario-1-xzrpw-2181398434: (12:23:43) Started task 3-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[35mscenario-1-xzrpw-2181398434: (12:23:45) Created file /tmp/data/3_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-2181398434: (12:23:56) Uploaded file /tmp/data/3_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2747142402: (12:24:08) Started task 3-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-2747142402: (12:24:17) Downloaded file /tmp/data/3_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-2747142402: (12:24:17) Read file /tmp/data/3_f1 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-4016826846: (12:24:32) Started task 3-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[37mscenario-1-xzrpw-4016826846: (12:24:37) Downloaded file /tmp/data/3_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-4016826846: (12:24:37) Read file /tmp/data/3_f1 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-4016826846: (12:24:42) Wrote file /tmp/data/3_f2 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-4016826846: (12:24:57) Uploaded file /tmp/data/3_f2 of size 268435456[0m
+[32mscenario-1-xzrpw-255611014: (12:25:10) Started task 3-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-255611014: (12:25:23) Downloaded file /tmp/data/3_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-255611014: (12:25:24) Read file /tmp/data/3_f2 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-1009328346: (12:25:37) Started task 3-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[35mscenario-1-xzrpw-1009328346: (12:25:49) Downloaded file /tmp/data/3_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1009328346: (12:25:49) Read file /tmp/data/3_f2 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1009328346: (12:25:51) Wrote file /tmp/data/3_f3 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1009328346: (12:26:05) Uploaded file /tmp/data/3_f3 of size 268435456[0m
+[32mscenario-1-xzrpw-3665847834: (12:26:17) Started task 3-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-3665847834: (12:26:28) Downloaded file /tmp/data/3_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3665847834: (12:26:28) Read file /tmp/data/3_f3 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-924004189: (12:26:43) Ending benchmark scenario_1_ipfs_268435456 run 3 at dm2[0m
+[32mscenario-1-xzrpw-968976431: (12:26:43) Ending benchmark scenario_1_ipfs_268435456 run 3 at dm3[0m
+[36mscenario-1-xzrpw-1963932713: (12:33:21) Ending benchmark scenario_1_ipfs_268435456 run 5 at dm4[0m
+[37mscenario-1-xzrpw-2986910901: (12:26:43) Ending benchmark scenario_1_ipfs_268435456 run 3 at dm4[0m
+[36mscenario-1-xzrpw-2300732947: (12:26:43) Ending benchmark scenario_1_ipfs_268435456 run 3 at dm1[0m
+[35mscenario-1-xzrpw-3202464332: (12:26:53) Collecting results of benchmark scenario_1_ipfs_268435456 run 3 at dm1[0m
+[35mscenario-1-xzrpw-3202464332: (12:26:53) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[32mscenario-1-xzrpw-2131769013: (12:27:03) Starting benchmark scenario_1_ipfs_268435456 run 4 at dm4[0m
+[32mscenario-1-xzrpw-113834543: (12:27:03) Starting benchmark scenario_1_ipfs_268435456 run 4 at dm3[0m
+[35mscenario-1-xzrpw-68862301: (12:27:02) Starting benchmark scenario_1_ipfs_268435456 run 4 at dm2[0m
+[35mscenario-1-xzrpw-1445591059: (12:27:02) Starting benchmark scenario_1_ipfs_268435456 run 4 at dm1[0m
+[35mscenario-1-xzrpw-3203827004: (12:27:13) Started task 4-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[35mscenario-1-xzrpw-3203827004: (12:27:14) Created file /tmp/data/4_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-3203827004: (12:27:23) Uploaded file /tmp/data/4_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2247493268: (12:27:33) Started task 4-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-2247493268: (12:27:45) Downloaded file /tmp/data/4_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-2247493268: (12:27:45) Read file /tmp/data/4_f1 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-1294741232: (12:27:58) Started task 4-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[34mscenario-1-xzrpw-1294741232: (12:28:05) Downloaded file /tmp/data/4_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-1294741232: (12:28:05) Read file /tmp/data/4_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-1294741232: (12:28:08) Wrote file /tmp/data/4_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-1294741232: (12:28:24) Uploaded file /tmp/data/4_f2 of size 268435456[0m
+[32mscenario-1-xzrpw-4105398712: (12:28:36) Started task 4-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-4105398712: (12:28:44) Downloaded file /tmp/data/4_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-4105398712: (12:28:44) Read file /tmp/data/4_f2 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-2654971052: (12:29:01) Started task 4-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[33mscenario-1-xzrpw-2654971052: (12:29:08) Downloaded file /tmp/data/4_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-2654971052: (12:29:09) Read file /tmp/data/4_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2654971052: (12:29:11) Wrote file /tmp/data/4_f3 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2654971052: (12:29:26) Uploaded file /tmp/data/4_f3 of size 268435456[0m
+[32mscenario-1-xzrpw-3080390548: (12:29:39) Started task 4-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-3080390548: (12:29:52) Downloaded file /tmp/data/4_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3080390548: (12:29:53) Read file /tmp/data/4_f3 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-2736879055: (12:30:06) Ending benchmark scenario_1_ipfs_268435456 run 4 at dm2[0m
+[32mscenario-1-xzrpw-421711869: (12:30:06) Ending benchmark scenario_1_ipfs_268435456 run 4 at dm3[0m
+[32mscenario-1-xzrpw-2850811177: (12:30:06) Ending benchmark scenario_1_ipfs_268435456 run 4 at dm1[0m
+[35mscenario-1-xzrpw-2332445175: (12:30:06) Ending benchmark scenario_1_ipfs_268435456 run 4 at dm4[0m
+[34mscenario-1-xzrpw-1772150462: (12:30:16) Collecting results of benchmark scenario_1_ipfs_268435456 run 4 at dm1[0m
+[34mscenario-1-xzrpw-1772150462: (12:30:16) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[33mscenario-1-xzrpw-2811331233: (12:30:26) Starting benchmark scenario_1_ipfs_268435456 run 5 at dm1[0m
+[31mscenario-1-xzrpw-1520810215: (12:30:27) Starting benchmark scenario_1_ipfs_268435456 run 5 at dm2[0m
+[36mscenario-1-xzrpw-3941071829: (12:30:26) Starting benchmark scenario_1_ipfs_268435456 run 5 at dm3[0m
+[33mscenario-1-xzrpw-1574358895: (12:30:26) Starting benchmark scenario_1_ipfs_268435456 run 5 at dm4[0m
+[31mscenario-1-xzrpw-3107265654: (12:30:36) Started task 5-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[31mscenario-1-xzrpw-3107265654: (12:30:38) Created file /tmp/data/5_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-3107265654: (12:30:50) Uploaded file /tmp/data/5_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-324829846: (12:31:03) Started task 5-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-324829846: (12:31:11) Downloaded file /tmp/data/5_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-324829846: (12:31:11) Read file /tmp/data/5_f1 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-1134126146: (12:31:27) Started task 5-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[35mscenario-1-xzrpw-1134126146: (12:31:33) Downloaded file /tmp/data/5_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1134126146: (12:31:35) Read file /tmp/data/5_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1134126146: (12:31:38) Wrote file /tmp/data/5_f2 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1134126146: (12:31:49) Uploaded file /tmp/data/5_f2 of size 268435456[0m
+[34mscenario-1-xzrpw-2904367898: (12:32:02) Started task 5-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[34mscenario-1-xzrpw-2904367898: (12:32:07) Downloaded file /tmp/data/5_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2904367898: (12:32:09) Read file /tmp/data/5_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-577908798: (12:32:25) Started task 5-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-577908798: (12:32:33) Downloaded file /tmp/data/5_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-577908798: (12:32:34) Read file /tmp/data/5_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-577908798: (12:32:36) Wrote file /tmp/data/5_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-577908798: (12:32:48) Uploaded file /tmp/data/5_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-3811964606: (12:33:01) Started task 5-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-3811964606: (12:33:06) Downloaded file /tmp/data/5_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-3811964606: (12:33:09) Read file /tmp/data/5_f3 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-63683823: (12:33:21) Ending benchmark scenario_1_ipfs_268435456 run 5 at dm1[0m
+[34mscenario-1-xzrpw-1538044811: (12:33:21) Ending benchmark scenario_1_ipfs_268435456 run 5 at dm3[0m
+[35mscenario-1-xzrpw-2052401017: (12:33:21) Ending benchmark scenario_1_ipfs_268435456 run 5 at dm2[0m
+[31mscenario-1-xzrpw-2744540904: (12:33:31) Collecting results of benchmark scenario_1_ipfs_268435456 run 5 at dm1[0m
+[31mscenario-1-xzrpw-2744540904: (12:33:31) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[37mscenario-1-xzrpw-731669381: (12:33:41) Starting benchmark scenario_1_ipfs_268435456 run 6 at dm2[0m
+[36mscenario-1-xzrpw-1148824727: (12:33:41) Starting benchmark scenario_1_ipfs_268435456 run 6 at dm3[0m
+[32mscenario-1-xzrpw-2771496765: (12:33:41) Starting benchmark scenario_1_ipfs_268435456 run 6 at dm4[0m
+[34mscenario-1-xzrpw-1659415099: (12:33:41) Starting benchmark scenario_1_ipfs_268435456 run 6 at dm1[0m
+[31mscenario-1-xzrpw-3854555396: (12:33:51) Started task 6-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[31mscenario-1-xzrpw-3854555396: (12:33:53) Created file /tmp/data/6_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-3854555396: (12:34:05) Uploaded file /tmp/data/6_f1 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-3978233980: (12:34:17) Started task 6-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[37mscenario-1-xzrpw-3978233980: (12:34:29) Downloaded file /tmp/data/6_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-3978233980: (12:34:31) Read file /tmp/data/6_f1 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-1903892920: (12:34:38) Started task 6-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[35mscenario-1-xzrpw-1903892920: (12:34:45) Downloaded file /tmp/data/6_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1903892920: (12:34:45) Read file /tmp/data/6_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1903892920: (12:34:48) Wrote file /tmp/data/6_f2 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-1903892920: (12:35:01) Uploaded file /tmp/data/6_f2 of size 268435456[0m
+[34mscenario-1-xzrpw-4219243296: (12:35:13) Started task 6-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[34mscenario-1-xzrpw-4219243296: (12:35:19) Downloaded file /tmp/data/6_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-4219243296: (12:35:21) Read file /tmp/data/6_f2 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-3057065300: (12:35:37) Started task 6-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[35mscenario-1-xzrpw-3057065300: (12:35:45) Downloaded file /tmp/data/6_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-3057065300: (12:35:45) Read file /tmp/data/6_f2 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-3057065300: (12:35:49) Wrote file /tmp/data/6_f3 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-3057065300: (12:36:03) Uploaded file /tmp/data/6_f3 of size 268435456[0m
+[31mscenario-1-xzrpw-335117756: (12:36:16) Started task 6-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[31mscenario-1-xzrpw-335117756: (12:36:21) Downloaded file /tmp/data/6_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-335117756: (12:36:23) Read file /tmp/data/6_f3 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-1170569351: (12:36:40) Ending benchmark scenario_1_ipfs_268435456 run 6 at dm2[0m
+[33mscenario-1-xzrpw-2459134785: (12:36:40) Ending benchmark scenario_1_ipfs_268435456 run 6 at dm1[0m
+[31mscenario-1-xzrpw-479831823: (12:36:40) Ending benchmark scenario_1_ipfs_268435456 run 6 at dm4[0m
+[33mscenario-1-xzrpw-1443295733: (12:36:40) Ending benchmark scenario_1_ipfs_268435456 run 6 at dm3[0m
+[34mscenario-1-xzrpw-1796536246: (12:36:50) Collecting results of benchmark scenario_1_ipfs_268435456 run 6 at dm1[0m
+[34mscenario-1-xzrpw-1796536246: (12:36:50) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[34mscenario-1-xzrpw-3942558643: (12:37:00) Starting benchmark scenario_1_ipfs_268435456 run 7 at dm2[0m
+[37mscenario-1-xzrpw-1725716529: (12:37:00) Starting benchmark scenario_1_ipfs_268435456 run 7 at dm3[0m
+[32mscenario-1-xzrpw-3381716803: (12:37:00) Starting benchmark scenario_1_ipfs_268435456 run 7 at dm4[0m
+[31mscenario-1-xzrpw-1857867997: (12:37:00) Starting benchmark scenario_1_ipfs_268435456 run 7 at dm1[0m
+[32mscenario-1-xzrpw-2621256986: (12:37:10) Started task 7-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-2621256986: (12:37:12) Created file /tmp/data/7_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2621256986: (12:37:21) Uploaded file /tmp/data/7_f1 of size 268435456 bytes[0m
+[36mscenario-1-xzrpw-780974618: (12:37:30) Started task 7-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-780974618: (12:37:37) Downloaded file /tmp/data/7_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-780974618: (12:37:38) Read file /tmp/data/7_f1 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-1518998134: (12:37:53) Started task 7-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[34mscenario-1-xzrpw-1518998134: (12:37:59) Downloaded file /tmp/data/7_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-1518998134: (12:37:59) Read file /tmp/data/7_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-1518998134: (12:38:02) Wrote file /tmp/data/7_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-1518998134: (12:38:13) Uploaded file /tmp/data/7_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-4222095006: (12:38:26) Started task 7-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-4222095006: (12:38:40) Downloaded file /tmp/data/7_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-4222095006: (12:38:40) Read file /tmp/data/7_f2 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-2966038354: (12:38:53) Started task 7-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[31mscenario-1-xzrpw-2966038354: (12:39:04) Downloaded file /tmp/data/7_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-2966038354: (12:39:04) Read file /tmp/data/7_f2 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-2966038354: (12:39:06) Wrote file /tmp/data/7_f3 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-2966038354: (12:39:17) Uploaded file /tmp/data/7_f3 of size 268435456[0m
+[35mscenario-1-xzrpw-3356542258: (12:39:30) Started task 7-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[35mscenario-1-xzrpw-3356542258: (12:39:35) Downloaded file /tmp/data/7_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-3356542258: (12:39:39) Read file /tmp/data/7_f3 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-140912759: (12:39:50) Ending benchmark scenario_1_ipfs_268435456 run 7 at dm3[0m
+[36mscenario-1-xzrpw-2424503197: (12:39:50) Ending benchmark scenario_1_ipfs_268435456 run 7 at dm4[0m
+[33mscenario-1-xzrpw-2907521332: (12:40:00) Collecting results of benchmark scenario_1_ipfs_268435456 run 7 at dm1[0m
+[33mscenario-1-xzrpw-2907521332: (12:40:00) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[36mscenario-1-xzrpw-3719787493: (12:39:50) Ending benchmark scenario_1_ipfs_268435456 run 7 at dm2[0m
+[36mscenario-1-xzrpw-1312421531: (12:39:50) Ending benchmark scenario_1_ipfs_268435456 run 7 at dm1[0m
+[33mscenario-1-xzrpw-1858143837: (12:40:10) Starting benchmark scenario_1_ipfs_268435456 run 8 at dm4[0m
+[37mscenario-1-xzrpw-2411097509: (12:40:10) Starting benchmark scenario_1_ipfs_268435456 run 8 at dm2[0m
+[34mscenario-1-xzrpw-746062171: (12:40:10) Starting benchmark scenario_1_ipfs_268435456 run 8 at dm1[0m
+[35mscenario-1-xzrpw-3551647543: (12:40:10) Starting benchmark scenario_1_ipfs_268435456 run 8 at dm3[0m
+[33mscenario-1-xzrpw-1562110308: (12:40:20) Started task 8-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[33mscenario-1-xzrpw-1562110308: (12:40:22) Created file /tmp/data/8_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1562110308: (12:40:30) Uploaded file /tmp/data/8_f1 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-3090993500: (12:40:43) Started task 8-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[37mscenario-1-xzrpw-3090993500: (12:40:49) Downloaded file /tmp/data/8_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-3090993500: (12:40:55) Read file /tmp/data/8_f1 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-3535249816: (12:41:09) Started task 8-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[31mscenario-1-xzrpw-3535249816: (12:41:16) Downloaded file /tmp/data/8_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-3535249816: (12:41:16) Read file /tmp/data/8_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-3535249816: (12:41:20) Wrote file /tmp/data/8_f2 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-3535249816: (12:41:35) Uploaded file /tmp/data/8_f2 of size 268435456[0m
+[35mscenario-1-xzrpw-1555632896: (12:41:48) Started task 8-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[35mscenario-1-xzrpw-1555632896: (12:41:56) Downloaded file /tmp/data/8_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1555632896: (12:41:56) Read file /tmp/data/8_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-234569908: (12:42:13) Started task 8-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-234569908: (12:42:19) Downloaded file /tmp/data/8_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-234569908: (12:42:20) Read file /tmp/data/8_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-234569908: (12:42:24) Wrote file /tmp/data/8_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-234569908: (12:42:38) Uploaded file /tmp/data/8_f3 of size 268435456[0m
+[37mscenario-1-xzrpw-2549920284: (12:42:51) Started task 8-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[37mscenario-1-xzrpw-2549920284: (12:43:03) Downloaded file /tmp/data/8_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-2549920284: (12:43:04) Read file /tmp/data/8_f3 with length of 268435456 bytes[0m
+[35mscenario-1-xzrpw-2284498913: (12:43:18) Ending benchmark scenario_1_ipfs_268435456 run 8 at dm1[0m
+[32mscenario-1-xzrpw-2671908885: (12:43:18) Ending benchmark scenario_1_ipfs_268435456 run 8 at dm3[0m
+[34mscenario-1-xzrpw-1047526575: (12:43:19) Ending benchmark scenario_1_ipfs_268435456 run 8 at dm4[0m
+[35mscenario-1-xzrpw-251647271: (12:43:18) Ending benchmark scenario_1_ipfs_268435456 run 8 at dm2[0m
+[37mscenario-1-xzrpw-398346326: (12:43:28) Collecting results of benchmark scenario_1_ipfs_268435456 run 8 at dm1[0m
+[37mscenario-1-xzrpw-398346326: (12:43:28) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[35mscenario-1-xzrpw-2645798689: (12:43:38) Starting benchmark scenario_1_ipfs_268435456 run 9 at dm1[0m
+[37mscenario-1-xzrpw-1408826351: (12:43:38) Starting benchmark scenario_1_ipfs_268435456 run 9 at dm4[0m
+[32mscenario-1-xzrpw-3775539285: (12:43:38) Starting benchmark scenario_1_ipfs_268435456 run 9 at dm3[0m
+[36mscenario-1-xzrpw-1355277671: (12:43:38) Starting benchmark scenario_1_ipfs_268435456 run 9 at dm2[0m
+[31mscenario-1-xzrpw-1986446582: (12:43:48) Started task 9-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[31mscenario-1-xzrpw-1986446582: (12:43:50) Created file /tmp/data/9_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-1986446582: (12:43:59) Uploaded file /tmp/data/9_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-3498978070: (12:44:11) Started task 9-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[33mscenario-1-xzrpw-3498978070: (12:44:21) Downloaded file /tmp/data/9_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-3498978070: (12:44:22) Read file /tmp/data/9_f1 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-13307074: (12:44:37) Started task 9-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[33mscenario-1-xzrpw-13307074: (12:44:41) Downloaded file /tmp/data/9_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-13307074: (12:44:42) Read file /tmp/data/9_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-13307074: (12:44:46) Wrote file /tmp/data/9_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-13307074: (12:44:59) Uploaded file /tmp/data/9_f2 of size 268435456[0m
+[37mscenario-1-xzrpw-1783548826: (12:45:11) Started task 9-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[37mscenario-1-xzrpw-1783548826: (12:45:18) Downloaded file /tmp/data/9_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-1783548826: (12:45:19) Read file /tmp/data/9_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3752057022: (12:45:37) Started task 9-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-3752057022: (12:45:44) Downloaded file /tmp/data/9_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3752057022: (12:45:47) Read file /tmp/data/9_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3752057022: (12:45:50) Wrote file /tmp/data/9_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3752057022: (12:46:05) Uploaded file /tmp/data/9_f3 of size 268435456[0m
+[32mscenario-1-xzrpw-2691145534: (12:46:17) Started task 9-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[32mscenario-1-xzrpw-2691145534: (12:46:26) Downloaded file /tmp/data/9_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-2691145534: (12:46:27) Read file /tmp/data/9_f3 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2233134091: (12:46:42) Ending benchmark scenario_1_ipfs_268435456 run 9 at dm3[0m
+[34mscenario-1-xzrpw-758773103: (12:46:42) Ending benchmark scenario_1_ipfs_268435456 run 9 at dm1[0m
+[31mscenario-1-xzrpw-2659021993: (12:46:42) Ending benchmark scenario_1_ipfs_268435456 run 9 at dm4[0m
+[36mscenario-1-xzrpw-2747490297: (12:46:42) Ending benchmark scenario_1_ipfs_268435456 run 9 at dm2[0m
+[33mscenario-1-xzrpw-1906653288: (12:46:52) Collecting results of benchmark scenario_1_ipfs_268435456 run 9 at dm1[0m
+[33mscenario-1-xzrpw-1906653288: (12:46:53) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[31mscenario-1-xzrpw-3161706627: (12:47:02) Starting benchmark scenario_1_ipfs_268435456 run 10 at dm4[0m
+[37mscenario-1-xzrpw-1819891877: (13:01:30) Ending benchmark scenario_1_webdav_268435456 run 4 at dm1[0m
+[32mscenario-1-xzrpw-3956583404: (13:08:21) Started task 8-T3 with scenario_1_webdav_268435456 at dm4[0m
+[32mscenario-1-xzrpw-3956583404: (13:08:25) Downloaded file /tmp/data/8_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3956583404: (13:08:25) Read file /tmp/data/8_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3956583404: (13:08:29) Wrote file /tmp/data/8_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3956583404: (13:08:31) Uploaded file /tmp/data/8_f2 of size 268435456[0m
+[34mscenario-1-xzrpw-4147005939: (12:47:02) Starting benchmark scenario_1_ipfs_268435456 run 10 at dm2[0m
+[33mscenario-1-xzrpw-2248036977: (12:47:02) Starting benchmark scenario_1_ipfs_268435456 run 10 at dm3[0m
+[35mscenario-1-xzrpw-2380188445: (12:47:02) Starting benchmark scenario_1_ipfs_268435456 run 10 at dm1[0m
+[36mscenario-1-xzrpw-2563803226: (12:47:12) Started task 10-T1 with scenario_1_ipfs_268435456 at dm2[0m
+[36mscenario-1-xzrpw-2563803226: (12:47:14) Created file /tmp/data/10_f1 of size 268435456 bytes[0m
+[36mscenario-1-xzrpw-2563803226: (12:47:27) Uploaded file /tmp/data/10_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-1424274778: (12:47:39) Started task 10-T2 with scenario_1_ipfs_268435456 at dm3[0m
+[31mscenario-1-xzrpw-1424274778: (12:47:51) Downloaded file /tmp/data/10_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-1424274778: (12:47:53) Read file /tmp/data/10_f1 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-2162298294: (12:48:06) Started task 10-T3 with scenario_1_ipfs_268435456 at dm4[0m
+[37mscenario-1-xzrpw-2162298294: (12:48:13) Downloaded file /tmp/data/10_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-2162298294: (12:48:14) Read file /tmp/data/10_f1 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-2162298294: (12:48:18) Wrote file /tmp/data/10_f2 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-2162298294: (12:48:33) Uploaded file /tmp/data/10_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-612004574: (12:48:46) Started task 10-T4 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-612004574: (12:48:53) Downloaded file /tmp/data/10_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-612004574: (12:48:53) Read file /tmp/data/10_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-2908584594: (12:49:10) Started task 10-T5 with scenario_1_ipfs_268435456 at dm2[0m
+[32mscenario-1-xzrpw-2908584594: (12:49:17) Downloaded file /tmp/data/10_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-2908584594: (12:49:18) Read file /tmp/data/10_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2908584594: (12:49:22) Wrote file /tmp/data/10_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2908584594: (12:49:31) Uploaded file /tmp/data/10_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-3257511794: (12:49:44) Started task 10-T6 with scenario_1_ipfs_268435456 at dm3[0m
+[36mscenario-1-xzrpw-3257511794: (12:49:51) Downloaded file /tmp/data/10_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-3257511794: (12:49:51) Read file /tmp/data/10_f3 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-161481655: (12:50:08) Ending benchmark scenario_1_ipfs_268435456 run 10 at dm3[0m
+[31mscenario-1-xzrpw-2762945245: (12:50:08) Ending benchmark scenario_1_ipfs_268435456 run 10 at dm4[0m
+[32mscenario-1-xzrpw-3315898917: (12:50:08) Ending benchmark scenario_1_ipfs_268435456 run 10 at dm2[0m
+[35mscenario-1-xzrpw-1650863579: (12:50:09) Ending benchmark scenario_1_ipfs_268435456 run 10 at dm1[0m
+[34mscenario-1-xzrpw-1173863668: (12:50:18) Collecting results of benchmark scenario_1_ipfs_268435456 run 10 at dm1[0m
+[34mscenario-1-xzrpw-1173863668: (12:50:18) Inserting into final log file /tmp/scenario_1_ipfs_268435456.json[0m
+[34mscenario-1-xzrpw-1555323693: (12:53:42) Starting benchmark scenario_1_webdav_268435456 run 1 at dm1[0m
+[37mscenario-1-xzrpw-2924278211: (12:53:42) Starting benchmark scenario_1_webdav_268435456 run 1 at dm2[0m
+[33mscenario-1-xzrpw-1039681427: (12:53:43) Starting benchmark scenario_1_webdav_268435456 run 1 at dm4[0m
+[33mscenario-1-xzrpw-2807485313: (12:53:44) Starting benchmark scenario_1_webdav_268435456 run 1 at dm3[0m
+[33mscenario-1-xzrpw-1023589706: (12:53:52) Started task 1-T1 with scenario_1_webdav_268435456 at dm2[0m
+[33mscenario-1-xzrpw-1023589706: (12:53:54) Created file /tmp/data/1_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1023589706: (12:53:57) Uploaded file /tmp/data/1_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-4216068810: (12:54:07) Started task 1-T2 with scenario_1_webdav_268435456 at dm3[0m
+[35mscenario-1-xzrpw-4216068810: (12:54:11) Downloaded file /tmp/data/1_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-4216068810: (12:54:12) Read file /tmp/data/1_f1 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-622084774: (12:54:24) Started task 1-T3 with scenario_1_webdav_268435456 at dm4[0m
+[33mscenario-1-xzrpw-622084774: (12:54:28) Downloaded file /tmp/data/1_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-622084774: (12:54:28) Read file /tmp/data/1_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-622084774: (12:54:32) Wrote file /tmp/data/1_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-622084774: (12:54:34) Uploaded file /tmp/data/1_f2 of size 268435456[0m
+[32mscenario-1-xzrpw-426887310: (12:54:48) Started task 1-T4 with scenario_1_webdav_268435456 at dm3[0m
+[32mscenario-1-xzrpw-426887310: (12:54:53) Downloaded file /tmp/data/1_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-426887310: (12:54:53) Read file /tmp/data/1_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-309890: (12:54:58) Started task 1-T5 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-309890: (12:55:02) Downloaded file /tmp/data/1_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-309890: (12:55:03) Read file /tmp/data/1_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-309890: (12:55:06) Wrote file /tmp/data/1_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-309890: (12:55:08) Uploaded file /tmp/data/1_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-770510754: (12:55:22) Started task 1-T6 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-770510754: (12:55:26) Downloaded file /tmp/data/1_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-770510754: (12:55:26) Read file /tmp/data/1_f3 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-636181237: (12:55:32) Ending benchmark scenario_1_webdav_268435456 run 1 at dm2[0m
+[31mscenario-1-xzrpw-2765198663: (12:55:32) Ending benchmark scenario_1_webdav_268435456 run 1 at dm3[0m
+[37mscenario-1-xzrpw-2651266541: (12:55:32) Ending benchmark scenario_1_webdav_268435456 run 1 at dm4[0m
+[37mscenario-1-xzrpw-2215089515: (12:55:32) Ending benchmark scenario_1_webdav_268435456 run 1 at dm1[0m
+[35mscenario-1-xzrpw-711041124: (12:55:42) Collecting results of benchmark scenario_1_webdav_268435456 run 1 at dm1[0m
+[35mscenario-1-xzrpw-711041124: (12:55:42) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[35mscenario-1-xzrpw-1598403049: (12:55:52) Starting benchmark scenario_1_webdav_268435456 run 2 at dm4[0m
+[37mscenario-1-xzrpw-854641995: (12:55:52) Starting benchmark scenario_1_webdav_268435456 run 2 at dm3[0m
+[32mscenario-1-xzrpw-2111328825: (12:55:52) Starting benchmark scenario_1_webdav_268435456 run 2 at dm2[0m
+[33mscenario-1-xzrpw-3675248303: (12:55:52) Starting benchmark scenario_1_webdav_268435456 run 2 at dm1[0m
+[32mscenario-1-xzrpw-2922090896: (12:56:02) Started task 2-T1 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-2922090896: (12:56:04) Created file /tmp/data/2_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2922090896: (12:56:07) Uploaded file /tmp/data/2_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1982071544: (12:56:12) Started task 2-T2 with scenario_1_webdav_268435456 at dm3[0m
+[33mscenario-1-xzrpw-1982071544: (12:56:16) Downloaded file /tmp/data/2_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-1982071544: (12:56:16) Read file /tmp/data/2_f1 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-3323595828: (12:56:22) Started task 2-T3 with scenario_1_webdav_268435456 at dm4[0m
+[33mscenario-1-xzrpw-3323595828: (12:56:26) Downloaded file /tmp/data/2_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-3323595828: (12:56:26) Read file /tmp/data/2_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-3323595828: (12:56:30) Wrote file /tmp/data/2_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-3323595828: (12:56:32) Uploaded file /tmp/data/2_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-4017304396: (12:56:43) Started task 2-T4 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-4017304396: (12:56:47) Downloaded file /tmp/data/2_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-4017304396: (12:56:47) Read file /tmp/data/2_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3306152544: (12:56:52) Started task 2-T5 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-3306152544: (12:56:56) Downloaded file /tmp/data/2_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3306152544: (12:56:57) Read file /tmp/data/2_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3306152544: (12:57:00) Wrote file /tmp/data/2_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3306152544: (12:57:03) Uploaded file /tmp/data/2_f3 of size 268435456[0m
+[34mscenario-1-xzrpw-1371797176: (12:57:18) Started task 2-T6 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-1371797176: (12:57:22) Downloaded file /tmp/data/2_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-1371797176: (12:57:22) Read file /tmp/data/2_f3 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2626597899: (12:57:28) Ending benchmark scenario_1_webdav_268435456 run 2 at dm2[0m
+[34mscenario-1-xzrpw-3890561449: (12:57:28) Ending benchmark scenario_1_webdav_268435456 run 2 at dm3[0m
+[35mscenario-1-xzrpw-2309950843: (12:57:28) Ending benchmark scenario_1_webdav_268435456 run 2 at dm4[0m
+[32mscenario-1-xzrpw-3038115221: (12:57:28) Ending benchmark scenario_1_webdav_268435456 run 2 at dm1[0m
+[36mscenario-1-xzrpw-325485466: (12:57:38) Collecting results of benchmark scenario_1_webdav_268435456 run 2 at dm1[0m
+[36mscenario-1-xzrpw-325485466: (12:57:38) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[36mscenario-1-xzrpw-432486439: (12:57:48) Starting benchmark scenario_1_webdav_268435456 run 3 at dm2[0m
+[33mscenario-1-xzrpw-1228365743: (12:57:48) Starting benchmark scenario_1_webdav_268435456 run 3 at dm4[0m
+[36mscenario-1-xzrpw-2852748053: (12:57:48) Starting benchmark scenario_1_webdav_268435456 run 3 at dm3[0m
+[32mscenario-1-xzrpw-2465338081: (12:57:48) Starting benchmark scenario_1_webdav_268435456 run 3 at dm1[0m
+[36mscenario-1-xzrpw-2131627958: (12:57:58) Started task 3-T1 with scenario_1_webdav_268435456 at dm2[0m
+[36mscenario-1-xzrpw-2131627958: (12:58:00) Created file /tmp/data/3_f1 of size 268435456 bytes[0m
+[36mscenario-1-xzrpw-2131627958: (12:58:02) Uploaded file /tmp/data/3_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2901828822: (12:58:08) Started task 3-T2 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-2901828822: (12:58:12) Downloaded file /tmp/data/3_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2901828822: (12:58:12) Read file /tmp/data/3_f1 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3669548418: (12:58:18) Started task 3-T3 with scenario_1_webdav_268435456 at dm4[0m
+[32mscenario-1-xzrpw-3669548418: (12:58:22) Downloaded file /tmp/data/3_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3669548418: (12:58:22) Read file /tmp/data/3_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3669548418: (12:58:25) Wrote file /tmp/data/3_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3669548418: (12:58:29) Uploaded file /tmp/data/3_f2 of size 268435456[0m
+[35mscenario-1-xzrpw-1186399578: (12:58:42) Started task 3-T4 with scenario_1_webdav_268435456 at dm3[0m
+[35mscenario-1-xzrpw-1186399578: (12:58:46) Downloaded file /tmp/data/3_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-1186399578: (12:58:47) Read file /tmp/data/3_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3154907774: (12:58:52) Started task 3-T5 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-3154907774: (12:58:56) Downloaded file /tmp/data/3_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3154907774: (12:58:57) Read file /tmp/data/3_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3154907774: (12:59:00) Wrote file /tmp/data/3_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3154907774: (12:59:03) Uploaded file /tmp/data/3_f3 of size 268435456[0m
+[37mscenario-1-xzrpw-2052419582: (12:59:20) Started task 3-T6 with scenario_1_webdav_268435456 at dm3[0m
+[37mscenario-1-xzrpw-2052419582: (12:59:24) Downloaded file /tmp/data/3_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-2052419582: (12:59:24) Read file /tmp/data/3_f3 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-271037369: (12:59:30) Ending benchmark scenario_1_webdav_268435456 run 3 at dm2[0m
+[37mscenario-1-xzrpw-4053078889: (12:59:30) Ending benchmark scenario_1_webdav_268435456 run 3 at dm4[0m
+[34mscenario-1-xzrpw-3309317835: (12:59:30) Ending benchmark scenario_1_webdav_268435456 run 3 at dm3[0m
+[33mscenario-1-xzrpw-1834956847: (12:59:31) Ending benchmark scenario_1_webdav_268435456 run 3 at dm1[0m
+[35mscenario-1-xzrpw-2375320232: (12:59:40) Collecting results of benchmark scenario_1_webdav_268435456 run 3 at dm1[0m
+[35mscenario-1-xzrpw-2375320232: (12:59:40) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[34mscenario-1-xzrpw-1779118537: (12:59:50) Starting benchmark scenario_1_webdav_268435456 run 4 at dm2[0m
+[34mscenario-1-xzrpw-2589947705: (12:59:50) Starting benchmark scenario_1_webdav_268435456 run 4 at dm4[0m
+[33mscenario-1-xzrpw-3635587227: (12:59:50) Starting benchmark scenario_1_webdav_268435456 run 4 at dm3[0m
+[35mscenario-1-xzrpw-2471874879: (12:59:50) Starting benchmark scenario_1_webdav_268435456 run 4 at dm1[0m
+[34mscenario-1-xzrpw-1056288320: (13:00:00) Started task 4-T1 with scenario_1_webdav_268435456 at dm2[0m
+[34mscenario-1-xzrpw-1056288320: (13:00:02) Created file /tmp/data/4_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-1056288320: (13:00:04) Uploaded file /tmp/data/4_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-55818024: (13:00:10) Started task 4-T2 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-55818024: (13:00:14) Downloaded file /tmp/data/4_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-55818024: (13:00:14) Read file /tmp/data/4_f1 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2158547172: (13:00:20) Started task 4-T3 with scenario_1_webdav_268435456 at dm4[0m
+[34mscenario-1-xzrpw-2158547172: (13:00:24) Downloaded file /tmp/data/4_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2158547172: (13:00:24) Read file /tmp/data/4_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2158547172: (13:00:27) Wrote file /tmp/data/4_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2158547172: (13:00:30) Uploaded file /tmp/data/4_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-1905468220: (13:00:44) Started task 4-T4 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-1905468220: (13:00:49) Downloaded file /tmp/data/4_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-1905468220: (13:00:49) Read file /tmp/data/4_f2 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-1039127387: (13:01:29) Ending benchmark scenario_1_webdav_268435456 run 4 at dm2[0m
+[35mscenario-1-xzrpw-2104173898: (13:01:39) Collecting results of benchmark scenario_1_webdav_268435456 run 4 at dm1[0m
+[35mscenario-1-xzrpw-2104173898: (13:01:39) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[37mscenario-1-xzrpw-2933901425: (13:01:49) Starting benchmark scenario_1_webdav_268435456 run 5 at dm3[0m
+[37mscenario-1-xzrpw-537903091: (13:01:49) Starting benchmark scenario_1_webdav_268435456 run 5 at dm2[0m
+[32mscenario-1-xzrpw-3847571075: (13:01:49) Starting benchmark scenario_1_webdav_268435456 run 5 at dm4[0m
+[34mscenario-1-xzrpw-3066052893: (13:01:49) Starting benchmark scenario_1_webdav_268435456 run 5 at dm1[0m
+[36mscenario-1-xzrpw-1532546650: (13:01:59) Started task 5-T1 with scenario_1_webdav_268435456 at dm2[0m
+[36mscenario-1-xzrpw-1532546650: (13:02:01) Created file /tmp/data/5_f1 of size 268435456 bytes[0m
+[36mscenario-1-xzrpw-1532546650: (13:02:04) Uploaded file /tmp/data/5_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-393018202: (13:02:09) Started task 5-T2 with scenario_1_webdav_268435456 at dm3[0m
+[35mscenario-1-xzrpw-393018202: (13:02:13) Downloaded file /tmp/data/5_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-393018202: (13:02:13) Read file /tmp/data/5_f1 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-1131041718: (13:02:19) Started task 5-T3 with scenario_1_webdav_268435456 at dm4[0m
+[33mscenario-1-xzrpw-1131041718: (13:02:23) Downloaded file /tmp/data/5_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-1131041718: (13:02:23) Read file /tmp/data/5_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1131041718: (13:02:26) Wrote file /tmp/data/5_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1131041718: (13:02:30) Uploaded file /tmp/data/5_f2 of size 268435456[0m
+[36mscenario-1-xzrpw-3875715294: (13:02:44) Started task 5-T4 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-3875715294: (13:02:48) Downloaded file /tmp/data/5_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-3875715294: (13:02:48) Read file /tmp/data/5_f2 with length of 268435456 bytes[0m
+[37mscenario-1-xzrpw-1877328018: (13:02:54) Started task 5-T5 with scenario_1_webdav_268435456 at dm2[0m
+[37mscenario-1-xzrpw-1877328018: (13:02:57) Downloaded file /tmp/data/5_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[37mscenario-1-xzrpw-1877328018: (13:02:58) Read file /tmp/data/5_f2 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-1877328018: (13:03:01) Wrote file /tmp/data/5_f3 of size 268435456 bytes[0m
+[37mscenario-1-xzrpw-1877328018: (13:03:03) Uploaded file /tmp/data/5_f3 of size 268435456[0m
+[34mscenario-1-xzrpw-2226255218: (13:03:18) Started task 5-T6 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-2226255218: (13:03:22) Downloaded file /tmp/data/5_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2226255218: (13:03:22) Read file /tmp/data/5_f3 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-4046430245: (13:03:28) Ending benchmark scenario_1_webdav_268435456 run 5 at dm2[0m
+[35mscenario-1-xzrpw-892012983: (13:03:28) Ending benchmark scenario_1_webdav_268435456 run 5 at dm3[0m
+[36mscenario-1-xzrpw-3493476573: (13:03:28) Ending benchmark scenario_1_webdav_268435456 run 5 at dm4[0m
+[31mscenario-1-xzrpw-2381394907: (13:03:29) Ending benchmark scenario_1_webdav_268435456 run 5 at dm1[0m
+[35mscenario-1-xzrpw-3912175348: (13:03:39) Collecting results of benchmark scenario_1_webdav_268435456 run 5 at dm1[0m
+[35mscenario-1-xzrpw-3912175348: (13:03:39) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[31mscenario-1-xzrpw-2064852723: (13:03:48) Starting benchmark scenario_1_webdav_268435456 run 6 at dm3[0m
+[33mscenario-1-xzrpw-2442919217: (13:03:48) Starting benchmark scenario_1_webdav_268435456 run 6 at dm4[0m
+[36mscenario-1-xzrpw-3855156065: (13:03:48) Starting benchmark scenario_1_webdav_268435456 run 6 at dm2[0m
+[34mscenario-1-xzrpw-32819575: (13:03:48) Starting benchmark scenario_1_webdav_268435456 run 6 at dm1[0m
+[32mscenario-1-xzrpw-362516664: (13:03:58) Started task 6-T1 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-362516664: (13:04:00) Created file /tmp/data/6_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-362516664: (13:04:03) Uploaded file /tmp/data/6_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-1893959712: (13:04:08) Started task 6-T2 with scenario_1_webdav_268435456 at dm3[0m
+[32mscenario-1-xzrpw-1893959712: (13:04:12) Downloaded file /tmp/data/6_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-1893959712: (13:04:13) Read file /tmp/data/6_f1 with length of 268435456 bytes[0m
+[33mscenario-1-xzrpw-2822055548: (13:04:18) Started task 6-T3 with scenario_1_webdav_268435456 at dm4[0m
+[33mscenario-1-xzrpw-2822055548: (13:04:23) Downloaded file /tmp/data/6_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-2822055548: (13:04:23) Read file /tmp/data/6_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2822055548: (13:04:26) Wrote file /tmp/data/6_f2 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2822055548: (13:04:29) Uploaded file /tmp/data/6_f2 of size 268435456[0m
+[31mscenario-1-xzrpw-11537652: (13:04:42) Started task 6-T4 with scenario_1_webdav_268435456 at dm3[0m
+[31mscenario-1-xzrpw-11537652: (13:04:46) Downloaded file /tmp/data/6_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-11537652: (13:04:46) Read file /tmp/data/6_f2 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-937383848: (13:04:52) Started task 6-T5 with scenario_1_webdav_268435456 at dm2[0m
+[32mscenario-1-xzrpw-937383848: (13:04:56) Downloaded file /tmp/data/6_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-937383848: (13:04:56) Read file /tmp/data/6_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-937383848: (13:05:00) Wrote file /tmp/data/6_f3 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-937383848: (13:05:04) Uploaded file /tmp/data/6_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-896268128: (13:05:20) Started task 6-T6 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-896268128: (13:05:24) Downloaded file /tmp/data/6_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-896268128: (13:05:24) Read file /tmp/data/6_f3 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-914282723: (13:05:30) Ending benchmark scenario_1_webdav_268435456 run 6 at dm2[0m
+[37mscenario-1-xzrpw-3985571635: (13:05:30) Ending benchmark scenario_1_webdav_268435456 run 6 at dm4[0m
+[37mscenario-1-xzrpw-2221527201: (13:05:30) Ending benchmark scenario_1_webdav_268435456 run 6 at dm3[0m
+[31mscenario-1-xzrpw-971217997: (13:05:30) Ending benchmark scenario_1_webdav_268435456 run 6 at dm1[0m
+[34mscenario-1-xzrpw-3439775954: (13:05:40) Collecting results of benchmark scenario_1_webdav_268435456 run 6 at dm1[0m
+[34mscenario-1-xzrpw-3439775954: (13:05:40) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[32mscenario-1-xzrpw-395040047: (13:05:50) Starting benchmark scenario_1_webdav_268435456 run 7 at dm2[0m
+[37mscenario-1-xzrpw-2882324439: (13:05:50) Starting benchmark scenario_1_webdav_268435456 run 7 at dm4[0m
+[37mscenario-1-xzrpw-3400690441: (13:05:50) Starting benchmark scenario_1_webdav_268435456 run 7 at dm1[0m
+[35mscenario-1-xzrpw-206516573: (13:05:50) Starting benchmark scenario_1_webdav_268435456 run 7 at dm3[0m
+[34mscenario-1-xzrpw-2012817374: (13:06:00) Started task 7-T1 with scenario_1_webdav_268435456 at dm2[0m
+[34mscenario-1-xzrpw-2012817374: (13:06:02) Created file /tmp/data/7_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2012817374: (13:06:04) Uploaded file /tmp/data/7_f1 of size 268435456 bytes[0m
+[35mscenario-1-xzrpw-708494622: (13:06:10) Started task 7-T2 with scenario_1_webdav_268435456 at dm3[0m
+[35mscenario-1-xzrpw-708494622: (13:06:14) Downloaded file /tmp/data/7_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-708494622: (13:06:14) Read file /tmp/data/7_f1 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-3963479850: (13:06:20) Started task 7-T3 with scenario_1_webdav_268435456 at dm4[0m
+[32mscenario-1-xzrpw-3963479850: (13:06:24) Downloaded file /tmp/data/7_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-3963479850: (13:06:24) Read file /tmp/data/7_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3963479850: (13:06:28) Wrote file /tmp/data/7_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-3963479850: (13:06:32) Uploaded file /tmp/data/7_f2 of size 268435456[0m
+[35mscenario-1-xzrpw-444042210: (13:06:45) Started task 7-T4 with scenario_1_webdav_268435456 at dm3[0m
+[35mscenario-1-xzrpw-444042210: (13:06:50) Downloaded file /tmp/data/7_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[35mscenario-1-xzrpw-444042210: (13:06:50) Read file /tmp/data/7_f2 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-424689766: (13:06:56) Started task 7-T5 with scenario_1_webdav_268435456 at dm2[0m
+[31mscenario-1-xzrpw-424689766: (13:07:00) Downloaded file /tmp/data/7_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-424689766: (13:07:00) Read file /tmp/data/7_f2 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-424689766: (13:07:04) Wrote file /tmp/data/7_f3 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-424689766: (13:07:06) Uploaded file /tmp/data/7_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-33200454: (13:07:20) Started task 7-T6 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-33200454: (13:07:25) Downloaded file /tmp/data/7_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-33200454: (13:07:25) Read file /tmp/data/7_f3 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-3155172803: (13:07:30) Ending benchmark scenario_1_webdav_268435456 run 7 at dm3[0m
+[32mscenario-1-xzrpw-3882924209: (13:07:30) Ending benchmark scenario_1_webdav_268435456 run 7 at dm2[0m
+[33mscenario-1-xzrpw-4292591745: (13:07:30) Ending benchmark scenario_1_webdav_268435456 run 7 at dm4[0m
+[37mscenario-1-xzrpw-2128628871: (13:07:31) Ending benchmark scenario_1_webdav_268435456 run 7 at dm1[0m
+[34mscenario-1-xzrpw-629234528: (13:07:41) Collecting results of benchmark scenario_1_webdav_268435456 run 7 at dm1[0m
+[34mscenario-1-xzrpw-629234528: (13:07:41) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[34mscenario-1-xzrpw-2228662257: (13:07:50) Starting benchmark scenario_1_webdav_268435456 run 8 at dm2[0m
+[37mscenario-1-xzrpw-1076453379: (13:07:50) Starting benchmark scenario_1_webdav_268435456 run 8 at dm3[0m
+[33mscenario-1-xzrpw-49909447: (13:07:50) Starting benchmark scenario_1_webdav_268435456 run 8 at dm1[0m
+[37mscenario-1-xzrpw-1471541697: (13:07:50) Starting benchmark scenario_1_webdav_268435456 run 8 at dm4[0m
+[33mscenario-1-xzrpw-1526364520: (13:08:00) Started task 8-T1 with scenario_1_webdav_268435456 at dm2[0m
+[33mscenario-1-xzrpw-1526364520: (13:08:02) Created file /tmp/data/8_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1526364520: (13:08:05) Uploaded file /tmp/data/8_f1 of size 268435456 bytes[0m
+[36mscenario-1-xzrpw-3841714896: (13:08:10) Started task 8-T2 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-3841714896: (13:08:14) Downloaded file /tmp/data/8_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-3841714896: (13:08:15) Read file /tmp/data/8_f1 with length of 268435456 bytes[0m
+[31mscenario-1-xzrpw-1721687716: (13:08:56) Started task 8-T4 with scenario_1_webdav_268435456 at dm3[0m
+[31mscenario-1-xzrpw-1721687716: (13:09:00) Downloaded file /tmp/data/8_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-1721687716: (13:09:00) Read file /tmp/data/8_f2 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2853904920: (13:09:05) Started task 8-T5 with scenario_1_webdav_268435456 at dm2[0m
+[34mscenario-1-xzrpw-2853904920: (13:09:10) Downloaded file /tmp/data/8_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2853904920: (13:09:10) Read file /tmp/data/8_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2853904920: (13:09:13) Wrote file /tmp/data/8_f3 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2853904920: (13:09:16) Uploaded file /tmp/data/8_f3 of size 268435456[0m
+[34mscenario-1-xzrpw-87820816: (13:09:31) Started task 8-T6 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-87820816: (13:09:36) Downloaded file /tmp/data/8_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-87820816: (13:09:36) Read file /tmp/data/8_f3 with length of 268435456 bytes[0m
+[36mscenario-1-xzrpw-1587083955: (13:09:41) Ending benchmark scenario_1_webdav_268435456 run 8 at dm2[0m
+[34mscenario-1-xzrpw-3665209137: (13:09:41) Ending benchmark scenario_1_webdav_268435456 run 8 at dm3[0m
+[37mscenario-1-xzrpw-1026242115: (13:09:42) Ending benchmark scenario_1_webdav_268435456 run 8 at dm4[0m
+[31mscenario-1-xzrpw-3797360605: (13:09:44) Ending benchmark scenario_1_webdav_268435456 run 8 at dm1[0m
+[32mscenario-1-xzrpw-3871502914: (13:09:53) Collecting results of benchmark scenario_1_webdav_268435456 run 8 at dm1[0m
+[32mscenario-1-xzrpw-3871502914: (13:09:53) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[33mscenario-1-xzrpw-3099433969: (13:10:01) Starting benchmark scenario_1_webdav_268435456 run 9 at dm3[0m
+[36mscenario-1-xzrpw-703435635: (13:10:01) Starting benchmark scenario_1_webdav_268435456 run 9 at dm2[0m
+[34mscenario-1-xzrpw-4013103619: (13:10:02) Starting benchmark scenario_1_webdav_268435456 run 9 at dm4[0m
+[33mscenario-1-xzrpw-3231585437: (13:10:02) Starting benchmark scenario_1_webdav_268435456 run 9 at dm1[0m
+[33mscenario-1-xzrpw-2653365722: (13:10:12) Started task 9-T1 with scenario_1_webdav_268435456 at dm2[0m
+[33mscenario-1-xzrpw-2653365722: (13:10:13) Created file /tmp/data/9_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2653365722: (13:10:17) Uploaded file /tmp/data/9_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-1513837274: (13:10:22) Started task 9-T2 with scenario_1_webdav_268435456 at dm3[0m
+[33mscenario-1-xzrpw-1513837274: (13:10:26) Downloaded file /tmp/data/9_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-1513837274: (13:10:27) Read file /tmp/data/9_f1 with length of 268435456 bytes[0m
+[32mscenario-1-xzrpw-2251860790: (13:10:32) Started task 9-T3 with scenario_1_webdav_268435456 at dm4[0m
+[32mscenario-1-xzrpw-2251860790: (13:10:36) Downloaded file /tmp/data/9_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[32mscenario-1-xzrpw-2251860790: (13:10:36) Read file /tmp/data/9_f1 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2251860790: (13:10:39) Wrote file /tmp/data/9_f2 of size 268435456 bytes[0m
+[32mscenario-1-xzrpw-2251860790: (13:10:44) Uploaded file /tmp/data/9_f2 of size 268435456[0m
+[33mscenario-1-xzrpw-701567070: (13:10:59) Started task 9-T4 with scenario_1_webdav_268435456 at dm3[0m
+[33mscenario-1-xzrpw-701567070: (13:11:03) Downloaded file /tmp/data/9_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[33mscenario-1-xzrpw-701567070: (13:11:03) Read file /tmp/data/9_f2 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2998147090: (13:11:09) Started task 9-T5 with scenario_1_webdav_268435456 at dm2[0m
+[34mscenario-1-xzrpw-2998147090: (13:11:13) Downloaded file /tmp/data/9_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2998147090: (13:11:13) Read file /tmp/data/9_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2998147090: (13:11:16) Wrote file /tmp/data/9_f3 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2998147090: (13:11:20) Uploaded file /tmp/data/9_f3 of size 268435456[0m
+[31mscenario-1-xzrpw-3347074290: (13:11:33) Started task 9-T6 with scenario_1_webdav_268435456 at dm3[0m
+[31mscenario-1-xzrpw-3347074290: (13:11:37) Downloaded file /tmp/data/9_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-3347074290: (13:11:37) Read file /tmp/data/9_f3 with length of 268435456 bytes[0m
+[36mscenario-1-xzrpw-1686305627: (13:11:47) Ending benchmark scenario_1_webdav_268435456 run 9 at dm1[0m
+[31mscenario-1-xzrpw-3351340965: (13:11:43) Ending benchmark scenario_1_webdav_268435456 run 9 at dm2[0m
+[33mscenario-1-xzrpw-196923703: (13:11:43) Ending benchmark scenario_1_webdav_268435456 run 9 at dm3[0m
+[36mscenario-1-xzrpw-2798387293: (13:11:43) Ending benchmark scenario_1_webdav_268435456 run 9 at dm4[0m
+[33mscenario-1-xzrpw-196923703: Took 2 attempts to upload log...[0m
+[36mscenario-1-xzrpw-2798387293: Took 2 attempts to upload log...[0m
+[34mscenario-1-xzrpw-455095668: (13:11:53) Collecting results of benchmark scenario_1_webdav_268435456 run 9 at dm1[0m
+[34mscenario-1-xzrpw-455095668: (13:11:54) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[34mscenario-1-xzrpw-434096249: (13:12:04) Starting benchmark scenario_1_webdav_268435456 run 10 at dm1[0m
+[36mscenario-1-xzrpw-2056768287: (13:12:03) Starting benchmark scenario_1_webdav_268435456 run 10 at dm2[0m
+[36mscenario-1-xzrpw-1213128525: (13:12:03) Starting benchmark scenario_1_webdav_268435456 run 10 at dm3[0m
+[35mscenario-1-xzrpw-2701359943: (13:12:03) Starting benchmark scenario_1_webdav_268435456 run 10 at dm4[0m
+[33mscenario-1-xzrpw-2971848878: (13:12:13) Started task 10-T1 with scenario_1_webdav_268435456 at dm2[0m
+[33mscenario-1-xzrpw-2971848878: (13:12:15) Created file /tmp/data/10_f1 of size 268435456 bytes[0m
+[33mscenario-1-xzrpw-2971848878: (13:12:18) Uploaded file /tmp/data/10_f1 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-3619032942: (13:12:23) Started task 10-T2 with scenario_1_webdav_268435456 at dm3[0m
+[31mscenario-1-xzrpw-3619032942: (13:12:28) Downloaded file /tmp/data/10_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-3619032942: (13:12:28) Read file /tmp/data/10_f1 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2743845178: (13:12:34) Started task 10-T3 with scenario_1_webdav_268435456 at dm4[0m
+[34mscenario-1-xzrpw-2743845178: (13:12:37) Downloaded file /tmp/data/10_f1 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2743845178: (13:12:38) Read file /tmp/data/10_f1 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2743845178: (13:12:41) Wrote file /tmp/data/10_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2743845178: (13:12:44) Uploaded file /tmp/data/10_f2 of size 268435456[0m
+[31mscenario-1-xzrpw-1361497010: (13:12:58) Started task 10-T4 with scenario_1_webdav_268435456 at dm3[0m
+[31mscenario-1-xzrpw-1361497010: (13:13:02) Downloaded file /tmp/data/10_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-1361497010: (13:13:02) Read file /tmp/data/10_f2 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-2017275254: (13:13:08) Started task 10-T5 with scenario_1_webdav_268435456 at dm2[0m
+[34mscenario-1-xzrpw-2017275254: (13:13:12) Downloaded file /tmp/data/10_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-2017275254: (13:13:12) Read file /tmp/data/10_f2 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2017275254: (13:13:15) Wrote file /tmp/data/10_f3 of size 268435456 bytes[0m
+[34mscenario-1-xzrpw-2017275254: (13:13:20) Uploaded file /tmp/data/10_f3 of size 268435456[0m
+[34mscenario-1-xzrpw-43530326: (13:13:33) Started task 10-T6 with scenario_1_webdav_268435456 at dm3[0m
+[34mscenario-1-xzrpw-43530326: (13:13:37) Downloaded file /tmp/data/10_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[34mscenario-1-xzrpw-43530326: (13:13:37) Read file /tmp/data/10_f3 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-4251161825: (13:13:43) Ending benchmark scenario_1_webdav_268435456 run 10 at dm2[0m
+[31mscenario-1-xzrpw-4186050251: (13:01:29) Ending benchmark scenario_1_webdav_268435456 run 4 at dm4[0m
+[33mscenario-1-xzrpw-2460858483: (13:13:43) Ending benchmark scenario_1_webdav_268435456 run 10 at dm3[0m
+[37mscenario-1-xzrpw-2838924977: (13:13:43) Ending benchmark scenario_1_webdav_268435456 run 10 at dm4[0m
+[33mscenario-1-xzrpw-428825335: (13:13:47) Ending benchmark scenario_1_webdav_268435456 run 10 at dm1[0m
+[33mscenario-1-xzrpw-2161117168: (13:13:53) Collecting results of benchmark scenario_1_webdav_268435456 run 10 at dm1[0m
+[33mscenario-1-xzrpw-2161117168: (13:13:54) Inserting into final log file /tmp/scenario_1_webdav_268435456.json[0m
+[31mscenario-1-xzrpw-2580543568: (13:00:54) Started task 4-T5 with scenario_1_webdav_268435456 at dm2[0m
+[31mscenario-1-xzrpw-2580543568: (13:00:59) Downloaded file /tmp/data/4_f2 of size 268435456 bytes in 1 attempt(s)[0m
+[31mscenario-1-xzrpw-2580543568: (13:00:59) Read file /tmp/data/4_f2 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-2580543568: (13:01:02) Wrote file /tmp/data/4_f3 of size 268435456 bytes[0m
+[31mscenario-1-xzrpw-2580543568: (13:01:05) Uploaded file /tmp/data/4_f3 of size 268435456[0m
+[36mscenario-1-xzrpw-861090856: (13:01:19) Started task 4-T6 with scenario_1_webdav_268435456 at dm3[0m
+[36mscenario-1-xzrpw-861090856: (13:01:24) Downloaded file /tmp/data/4_f3 of size 268435456 bytes in 1 attempt(s)[0m
+[36mscenario-1-xzrpw-861090856: (13:01:24) Read file /tmp/data/4_f3 with length of 268435456 bytes[0m
+[34mscenario-1-xzrpw-3814384121: (13:01:29) Ending benchmark scenario_1_webdav_268435456 run 4 at dm3[0m

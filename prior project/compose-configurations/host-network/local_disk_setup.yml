@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  client-container:
+    image: nicoja/client-container
+    command: python ${SCRIPT}
+    environment:
+      - FILE_SIZE=${FILE_SIZE}
+      - RUN_COUNT=${RUN_COUNT}
+      - INTERVAL_SECONDS=${INTERVAL_SECONDS}
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/

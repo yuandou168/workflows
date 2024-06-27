@@ -1,0 +1,58 @@
+version: "3"
+
+services:
+  ipfs-node:
+    image: nicoja/ipfs-node
+    container_name: ipfs
+    hostname: ipfs
+    command: daemon --offline
+    environment:
+      # Localhost if running --net=host, or 0.0.0.0 running using Docker networks
+      - ADDRESS=0.0.0.0
+      # - SWARM_KEY=
+      # - PEER_ID=
+      # - BOOT_ADDRESS=
+    ports:
+      - 4001:4001
+      - 127.0.0.1:5001:5001
+    volumes:
+      - /tmp/:/tmp/
+    networks:
+      - interface
+  ipfs-service:
+    image: nicoja/ipfs-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=0.0.0.0
+      - DAEMON_ADDRESS=/dns/ipfs/tcp/5001
+      - BENCHMARK=True
+      - OFFLINE_MODE=True
+      - CHUNKER=size-262144
+    ports: 
+      - 127.0.0.1:8000:8000
+    volumes:
+      - /tmp/:/tmp/
+    networks: 
+      - interface
+    depends_on:
+      - ipfs-node
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python
+    environment:
+      - SERVICE_ADDRESS=http://service:8000
+      - DEBUG=True
+    stdin_open: true
+    tty: true
+    volumes:
+      - /tmp/:/tmp/
+    networks:
+      - interface
+    depends_on:
+      - ipfs-service
+  
+networks:
+  interface:

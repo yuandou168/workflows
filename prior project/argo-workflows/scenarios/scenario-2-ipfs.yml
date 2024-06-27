@@ -1,0 +1,469 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: scenario-2-ipfs-
+spec:
+  entrypoint: entry
+  hostNetwork: true
+  volumes:
+    - name: workflow-storage
+      hostPath:
+        path: /tmp
+
+  templates:
+  - name: entry
+    steps:
+    - - name: ipfs
+        template: size-loop
+        arguments:
+          parameters:
+            - name: data-mesh
+              value: "ipfs"
+
+  - name: size-loop
+    inputs:
+      parameters:
+        - name: data-mesh
+    steps:
+    # - - name: size-1024
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "1024"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-4096
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "4096"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-16384
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "16384"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-65536
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "65536"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-262144
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "262144"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-1048576
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "1048576"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-4194304
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "4194304"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-16777216
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "16777216"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-67108864
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "67108864"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+    - - name: size-268435456
+        template: run-loop
+        arguments:
+          parameters:
+            - name: file-size
+              value: "268435456"
+            - name: data-mesh
+              value: "{{inputs.parameters.data-mesh}}"
+    # - - name: size-1073741824
+    #     template: run-loop
+    #     arguments:
+    #       parameters:
+    #         - name: file-size
+    #           value: "1073741824"
+    #         - name: data-mesh
+    #           value: "{{inputs.parameters.data-mesh}}"
+
+  - name: run-loop
+    inputs:
+      parameters:
+        - name: data-mesh
+        - name: file-size
+    steps:
+    - - name: setup-dm
+        template: task
+        arguments:
+          parameters:
+            - name: location
+              value: dm1
+            - name: script
+              value: benchmark_setup_dm.py
+            - name: args
+              value: "{{inputs.parameters.data-mesh}}"
+    - - name: run-1
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "1"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-2
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "2"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-3
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "3"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-4
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "4"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-5
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "5"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-6
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "6"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-7
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "7"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-8
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "8"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-9
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "9"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+    - - name: run-10
+        template: scenario-2
+        arguments:
+          parameters:
+          - name: run-id
+            value: "10"
+          - name: data-mesh
+            value: "{{inputs.parameters.data-mesh}}"
+          - name: file-size
+            value: "{{inputs.parameters.file-size}}"
+
+  - name: scenario-2
+    inputs:
+      parameters:
+        - name: run-id
+        - name: data-mesh
+        - name: file-size
+    steps:
+    - - name: start
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: "{{item}}"
+          - name: script
+            value: benchmark_start.py
+          - name: args
+            value: '{
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}
+                    }'
+        withItems:
+          - dm1
+          - dm2
+          - dm3
+          - dm4
+    - - name: T1
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm2
+          - name: script
+            value: task_create.py
+          - name: args
+            value: '{
+                      "task_id": "T1", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_out": "/tmp/data/{{inputs.parameters.run-id}}_f"
+                    }'
+    - - name: T2
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm3
+          - name: script
+            value: task_partition.py
+          - name: args
+            value: '{
+                      "task_id": "T2", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_f",
+                      "files_out": 
+                        [
+                          "/tmp/data/{{inputs.parameters.run-id}}_a1",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a2",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a3"
+                        ]
+                    }'
+    - - name: T3
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm4
+          - name: script
+            value: task_partition.py
+          - name: args
+            value: '{
+                      "task_id": "T3", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_a1", 
+                      "files_out": 
+                        [
+                          "/tmp/data/{{inputs.parameters.run-id}}_a4",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a5",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a6"
+                        ]
+                    }'
+      - name: T4
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm2
+          - name: script
+            value: task_write.py
+          - name: args
+            value: '{
+                      "task_id": "T4", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_a2",
+                      "file_out": "/tmp/data/{{inputs.parameters.run-id}}_a7"
+                    }'
+      - name: T5
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm1
+          - name: script
+            value: task_write.py
+          - name: args
+            value: '{
+                      "task_id": "T5", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_a3",
+                      "file_out": "/tmp/data/{{inputs.parameters.run-id}}_a8"
+                    }'
+    - - name: T6
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm1
+          - name: script
+            value: task_read.py
+          - name: args
+            value: '{
+                      "task_id": "T6", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2",
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_a4"
+                    }' 
+      - name: T7
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm2
+          - name: script
+            value: task_read.py
+          - name: args
+            value: '{
+                      "task_id": "T7", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2",
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "file_in": "/tmp/data/{{inputs.parameters.run-id}}_a5"
+                    }' 
+      - name: T8
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: dm3
+          - name: script
+            value: task_merge.py
+          - name: args
+            value: '{
+                      "task_id": "T8", 
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2",
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}, 
+                      "files_in": 
+                        [
+                          "/tmp/data/{{inputs.parameters.run-id}}_a6",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a7",
+                          "/tmp/data/{{inputs.parameters.run-id}}_a8"
+                        ],
+                      "file_out": "/tmp/data/{{inputs.parameters.run-id}}_a9"
+                    }' 
+    - - name: end
+        template: task
+        arguments:
+          parameters:
+          - name: location
+            value: "{{item}}"
+          - name: script
+            value: benchmark_end.py
+          - name: args
+            value: '{
+                      "run_id": {{inputs.parameters.run-id}}, 
+                      "scenario": "scenario_2", 
+                      "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                      "file_size": {{inputs.parameters.file-size}}
+                    }'
+        withItems:
+          - dm1
+          - dm2
+          - dm3
+          - dm4
+    - - name: collect
+        template: task
+        arguments:
+          parameters:
+            - name: location
+              value: dm1
+            - name: script
+              value: benchmark_collect.py
+            - name: args
+              value: '{
+                        "run_id": {{inputs.parameters.run-id}}, 
+                        "scenario": "scenario_2", 
+                        "data_mesh": "{{inputs.parameters.data-mesh}}", 
+                        "file_size": {{inputs.parameters.file-size}},
+                        "tasks": ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8"], 
+                        "dms": ["dm1", "dm2", "dm3", "dm4"]
+                      }'
+              
+  - name: task
+    inputs:
+      parameters:
+      - name: location
+      - name: script
+      - name: args
+    nodeSelector:
+      kubernetes.io/hostname: "{{inputs.parameters.location}}"
+    container:
+      image: nicoja/client-container
+      command: [python, -u]
+      args: ["{{inputs.parameters.script}}", "{{inputs.parameters.args}}"]
+      volumeMounts:
+        - name: workflow-storage
+          mountPath: /tmp

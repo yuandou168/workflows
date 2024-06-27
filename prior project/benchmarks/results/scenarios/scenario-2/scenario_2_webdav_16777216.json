@@ -1,0 +1,1012 @@
+[
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556589.103064,
+                    "bytes_sent": 27154370982,
+                    "bytes_recv": 16583116544
+                },
+                "end": {
+                    "timestamp": 1628556641.559508,
+                    "bytes_sent": 27220629805,
+                    "bytes_recv": 16655381634
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556588.5951176,
+                    "bytes_sent": 8332593943,
+                    "bytes_recv": 14376179321
+                },
+                "end": {
+                    "timestamp": 1628556638.7821326,
+                    "bytes_sent": 8355232352,
+                    "bytes_recv": 14385489808
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556588.475601,
+                    "bytes_sent": 9361393646,
+                    "bytes_recv": 14966322326
+                },
+                "end": {
+                    "timestamp": 1628556639.0170865,
+                    "bytes_sent": 9384106349,
+                    "bytes_recv": 14993267704
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556588.813447,
+                    "bytes_sent": 7385491167,
+                    "bytes_recv": 15638775900
+                },
+                "end": {
+                    "timestamp": 1628556639.2677367,
+                    "bytes_sent": 7409283764,
+                    "bytes_recv": 15669479816
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556598.7343578,
+                "time_create": 1628556598.8548477,
+                "time_upload": 1628556599.2146192
+            },
+            "T2": {
+                "time_start": 1628556608.8450153,
+                "time_download": 1628556609.1981258,
+                "time_partition": 1628556609.2321367,
+                "time_upload": 1628556609.6150568
+            },
+            "T3": {
+                "time_start": 1628556619.1483097,
+                "time_download": 1628556619.2930427,
+                "time_partition": 1628556619.3046834,
+                "time_upload": 1628556619.5779018
+            },
+            "T4": {
+                "time_start": 1628556618.7215846,
+                "time_download": 1628556618.9016838,
+                "time_read": 1628556618.9059036,
+                "time_write": 1628556618.943532,
+                "time_upload": 1628556619.0889213
+            },
+            "T5": {
+                "time_start": 1628556618.985114,
+                "time_download": 1628556619.1335986,
+                "time_read": 1628556619.1368527,
+                "time_write": 1628556619.1743388,
+                "time_upload": 1628556619.316478
+            },
+            "T6": {
+                "time_start": 1628556628.7033443,
+                "time_download": 1628556628.8189597,
+                "time_read": 1628556628.8201609
+            },
+            "T7": {
+                "time_start": 1628556628.8319225,
+                "time_download": 1628556628.9497752,
+                "time_read": 1628556628.951659
+            },
+            "T8": {
+                "time_start": 1628556629.223737,
+                "time_download": 1628556629.5893123,
+                "time_merge": 1628556629.610826,
+                "time_upload": 1628556629.8033478
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556659.2238147,
+                    "bytes_sent": 27226228832,
+                    "bytes_recv": 16657572251
+                },
+                "end": {
+                    "timestamp": 1628556710.5102127,
+                    "bytes_sent": 27292922527,
+                    "bytes_recv": 16730114850
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556658.8988156,
+                    "bytes_sent": 8355345151,
+                    "bytes_recv": 14386121057
+                },
+                "end": {
+                    "timestamp": 1628556709.2416606,
+                    "bytes_sent": 8378003364,
+                    "bytes_recv": 14395448906
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556658.9841597,
+                    "bytes_sent": 9384219050,
+                    "bytes_recv": 14993906289
+                },
+                "end": {
+                    "timestamp": 1628556709.2432892,
+                    "bytes_sent": 9406926584,
+                    "bytes_recv": 15020957047
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556659.4131978,
+                    "bytes_sent": 7411356555,
+                    "bytes_recv": 15677100707
+                },
+                "end": {
+                    "timestamp": 1628556709.7404237,
+                    "bytes_sent": 7435443101,
+                    "bytes_recv": 15710587707
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556669.1667998,
+                "time_create": 1628556669.286852,
+                "time_upload": 1628556669.5303404
+            },
+            "T2": {
+                "time_start": 1628556679.0302093,
+                "time_download": 1628556679.3665314,
+                "time_partition": 1628556679.4011033,
+                "time_upload": 1628556679.7592187
+            },
+            "T3": {
+                "time_start": 1628556689.4960701,
+                "time_download": 1628556690.0887752,
+                "time_partition": 1628556690.1121824,
+                "time_upload": 1628556690.466003
+            },
+            "T4": {
+                "time_start": 1628556689.2486053,
+                "time_download": 1628556689.966911,
+                "time_read": 1628556689.9739394,
+                "time_write": 1628556690.018376,
+                "time_upload": 1628556690.175061
+            },
+            "T5": {
+                "time_start": 1628556689.1716216,
+                "time_download": 1628556689.9749413,
+                "time_read": 1628556689.9787793,
+                "time_write": 1628556690.0203269,
+                "time_upload": 1628556690.1679387
+            },
+            "T6": {
+                "time_start": 1628556699.1035383,
+                "time_download": 1628556699.1896074,
+                "time_read": 1628556699.19082
+            },
+            "T7": {
+                "time_start": 1628556699.133166,
+                "time_download": 1628556699.2139597,
+                "time_read": 1628556699.2154276
+            },
+            "T8": {
+                "time_start": 1628556699.8225596,
+                "time_download": 1628556700.2195425,
+                "time_merge": 1628556700.2387037,
+                "time_upload": 1628556700.4192898
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556729.5014536,
+                    "bytes_sent": 27298657264,
+                    "bytes_recv": 16732348008
+                },
+                "end": {
+                    "timestamp": 1628556782.5247734,
+                    "bytes_sent": 27365668650,
+                    "bytes_recv": 16804826619
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556729.2325282,
+                    "bytes_sent": 8378118078,
+                    "bytes_recv": 14396016162
+                },
+                "end": {
+                    "timestamp": 1628556780.0177689,
+                    "bytes_sent": 8400756219,
+                    "bytes_recv": 14405408090
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556729.4462159,
+                    "bytes_sent": 9407044098,
+                    "bytes_recv": 15021543854
+                },
+                "end": {
+                    "timestamp": 1628556779.732089,
+                    "bytes_sent": 9429755798,
+                    "bytes_recv": 15048557463
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556729.749273,
+                    "bytes_sent": 7437533877,
+                    "bytes_recv": 15715976808
+                },
+                "end": {
+                    "timestamp": 1628556780.375777,
+                    "bytes_sent": 7461529853,
+                    "bytes_recv": 15749420817
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556739.3480055,
+                "time_create": 1628556739.4642613,
+                "time_upload": 1628556739.7372425
+            },
+            "T2": {
+                "time_start": 1628556749.6963007,
+                "time_download": 1628556750.6877463,
+                "time_partition": 1628556750.7212994,
+                "time_upload": 1628556751.0841048
+            },
+            "T3": {
+                "time_start": 1628556759.919214,
+                "time_download": 1628556760.0593104,
+                "time_partition": 1628556760.071638,
+                "time_upload": 1628556760.3605578
+            },
+            "T4": {
+                "time_start": 1628556759.6250823,
+                "time_download": 1628556759.762259,
+                "time_read": 1628556759.7678158,
+                "time_write": 1628556759.8040617,
+                "time_upload": 1628556759.95866
+            },
+            "T5": {
+                "time_start": 1628556760.3560672,
+                "time_download": 1628556760.5274012,
+                "time_read": 1628556760.530768,
+                "time_write": 1628556760.5761318,
+                "time_upload": 1628556760.702557
+            },
+            "T6": {
+                "time_start": 1628556769.7054336,
+                "time_download": 1628556769.810901,
+                "time_read": 1628556769.8121436
+            },
+            "T7": {
+                "time_start": 1628556769.6578941,
+                "time_download": 1628556769.7755675,
+                "time_read": 1628556769.7769854
+            },
+            "T8": {
+                "time_start": 1628556770.3295493,
+                "time_download": 1628556770.7328756,
+                "time_merge": 1628556770.7515655,
+                "time_upload": 1628556770.971532
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556800.2194996,
+                    "bytes_sent": 27371201295,
+                    "bytes_recv": 16807076725
+                },
+                "end": {
+                    "timestamp": 1628556851.025376,
+                    "bytes_sent": 27438170459,
+                    "bytes_recv": 16879592455
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556799.7026844,
+                    "bytes_sent": 8400864589,
+                    "bytes_recv": 14405945948
+                },
+                "end": {
+                    "timestamp": 1628556850.2416825,
+                    "bytes_sent": 8423508732,
+                    "bytes_recv": 14415341980
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556799.836503,
+                    "bytes_sent": 9429865255,
+                    "bytes_recv": 15049135894
+                },
+                "end": {
+                    "timestamp": 1628556850.0616024,
+                    "bytes_sent": 9452588178,
+                    "bytes_recv": 15076262301
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556800.3611162,
+                    "bytes_sent": 7463659069,
+                    "bytes_recv": 15754947960
+                },
+                "end": {
+                    "timestamp": 1628556850.7762802,
+                    "bytes_sent": 7487737063,
+                    "bytes_recv": 15788667883
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556809.9444432,
+                "time_create": 1628556810.074014,
+                "time_upload": 1628556810.9652073
+            },
+            "T2": {
+                "time_start": 1628556819.977612,
+                "time_download": 1628556820.328784,
+                "time_partition": 1628556820.3609743,
+                "time_upload": 1628556820.7764354
+            },
+            "T3": {
+                "time_start": 1628556830.3129537,
+                "time_download": 1628556831.244845,
+                "time_partition": 1628556831.2556427,
+                "time_upload": 1628556831.5037453
+            },
+            "T4": {
+                "time_start": 1628556829.9650705,
+                "time_download": 1628556830.1010947,
+                "time_read": 1628556830.1051884,
+                "time_write": 1628556830.1446362,
+                "time_upload": 1628556830.294146
+            },
+            "T5": {
+                "time_start": 1628556829.9073217,
+                "time_download": 1628556830.0731456,
+                "time_read": 1628556830.077312,
+                "time_write": 1628556830.1201184,
+                "time_upload": 1628556830.245199
+            },
+            "T6": {
+                "time_start": 1628556840.097008,
+                "time_download": 1628556840.192818,
+                "time_read": 1628556840.194137
+            },
+            "T7": {
+                "time_start": 1628556839.9772336,
+                "time_download": 1628556840.1653972,
+                "time_read": 1628556840.1668334
+            },
+            "T8": {
+                "time_start": 1628556840.553351,
+                "time_download": 1628556840.9659142,
+                "time_merge": 1628556840.984398,
+                "time_upload": 1628556841.176699
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556871.235351,
+                    "bytes_sent": 27444296898,
+                    "bytes_recv": 16881935417
+                },
+                "end": {
+                    "timestamp": 1628556921.2171676,
+                    "bytes_sent": 27511173045,
+                    "bytes_recv": 16954499432
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556870.3043258,
+                    "bytes_sent": 8423618107,
+                    "bytes_recv": 14415905530
+                },
+                "end": {
+                    "timestamp": 1628556920.845317,
+                    "bytes_sent": 8446257985,
+                    "bytes_recv": 14425300892
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556870.2979498,
+                    "bytes_sent": 9452697091,
+                    "bytes_recv": 15076833509
+                },
+                "end": {
+                    "timestamp": 1628556920.590442,
+                    "bytes_sent": 9475418807,
+                    "bytes_recv": 15103941310
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556870.3898044,
+                    "bytes_sent": 7489897528,
+                    "bytes_recv": 15794164556
+                },
+                "end": {
+                    "timestamp": 1628556921.1691177,
+                    "bytes_sent": 7514064901,
+                    "bytes_recv": 15828119554
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556880.1566062,
+                "time_create": 1628556880.283717,
+                "time_upload": 1628556880.573987
+            },
+            "T2": {
+                "time_start": 1628556890.587076,
+                "time_download": 1628556890.9497478,
+                "time_partition": 1628556890.9863765,
+                "time_upload": 1628556891.3412483
+            },
+            "T3": {
+                "time_start": 1628556900.5234377,
+                "time_download": 1628556900.7566147,
+                "time_partition": 1628556900.7784476,
+                "time_upload": 1628556901.0750062
+            },
+            "T4": {
+                "time_start": 1628556900.37544,
+                "time_download": 1628556900.646006,
+                "time_read": 1628556900.6499584,
+                "time_write": 1628556900.6900756,
+                "time_upload": 1628556900.8530316
+            },
+            "T5": {
+                "time_start": 1628556900.459838,
+                "time_download": 1628556900.634521,
+                "time_read": 1628556900.6380403,
+                "time_write": 1628556900.6781633,
+                "time_upload": 1628556900.8502653
+            },
+            "T6": {
+                "time_start": 1628556910.6349263,
+                "time_download": 1628556910.7229304,
+                "time_read": 1628556910.7243054
+            },
+            "T7": {
+                "time_start": 1628556910.4503226,
+                "time_download": 1628556910.6214864,
+                "time_read": 1628556910.6228762
+            },
+            "T8": {
+                "time_start": 1628556911.2639997,
+                "time_download": 1628556911.6500676,
+                "time_merge": 1628556911.6692183,
+                "time_upload": 1628556911.8787766
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628556941.2214944,
+                    "bytes_sent": 27517288911,
+                    "bytes_recv": 16956899187
+                },
+                "end": {
+                    "timestamp": 1628556991.8987932,
+                    "bytes_sent": 27585668773,
+                    "bytes_recv": 17029842059
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628556940.6526217,
+                    "bytes_sent": 8446368774,
+                    "bytes_recv": 14425864997
+                },
+                "end": {
+                    "timestamp": 1628556990.9530852,
+                    "bytes_sent": 8469044027,
+                    "bytes_recv": 14435441050
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628556940.8336375,
+                    "bytes_sent": 9475533397,
+                    "bytes_recv": 15104521339
+                },
+                "end": {
+                    "timestamp": 1628556991.2558477,
+                    "bytes_sent": 9498250858,
+                    "bytes_recv": 15131875458
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628556941.3347187,
+                    "bytes_sent": 7516282799,
+                    "bytes_recv": 15833797074
+                },
+                "end": {
+                    "timestamp": 1628556991.632367,
+                    "bytes_sent": 7540747864,
+                    "bytes_recv": 15868520668
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628556950.7519436,
+                "time_create": 1628556950.8774083,
+                "time_upload": 1628556951.1401565
+            },
+            "T2": {
+                "time_start": 1628556960.827623,
+                "time_download": 1628556961.1739335,
+                "time_partition": 1628556961.2071495,
+                "time_upload": 1628556961.5644107
+            },
+            "T3": {
+                "time_start": 1628556971.1420522,
+                "time_download": 1628556971.8541572,
+                "time_partition": 1628556971.8801203,
+                "time_upload": 1628556972.2939262
+            },
+            "T4": {
+                "time_start": 1628556970.9567106,
+                "time_download": 1628556971.8407748,
+                "time_read": 1628556971.8456216,
+                "time_write": 1628556971.8889296,
+                "time_upload": 1628556972.0337517
+            },
+            "T5": {
+                "time_start": 1628556970.9030266,
+                "time_download": 1628556971.8170607,
+                "time_read": 1628556971.8204782,
+                "time_write": 1628556971.8615665,
+                "time_upload": 1628556971.985291
+            },
+            "T6": {
+                "time_start": 1628556980.9158957,
+                "time_download": 1628556981.0533273,
+                "time_read": 1628556981.0546727
+            },
+            "T7": {
+                "time_start": 1628556981.046204,
+                "time_download": 1628556981.1294236,
+                "time_read": 1628556981.1308296
+            },
+            "T8": {
+                "time_start": 1628556981.1567445,
+                "time_download": 1628556981.622233,
+                "time_merge": 1628556981.6394851,
+                "time_upload": 1628556981.832318
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628557011.4665961,
+                    "bytes_sent": 27591669636,
+                    "bytes_recv": 17032227667
+                },
+                "end": {
+                    "timestamp": 1628557062.3070192,
+                    "bytes_sent": 27659442588,
+                    "bytes_recv": 17104984317
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628557010.995926,
+                    "bytes_sent": 8469154107,
+                    "bytes_recv": 14435986540
+                },
+                "end": {
+                    "timestamp": 1628557061.2410734,
+                    "bytes_sent": 8491791652,
+                    "bytes_recv": 14445454491
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628557011.032234,
+                    "bytes_sent": 9498358541,
+                    "bytes_recv": 15132438637
+                },
+                "end": {
+                    "timestamp": 1628557061.4094183,
+                    "bytes_sent": 9521083936,
+                    "bytes_recv": 15159661380
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628557011.2968562,
+                    "bytes_sent": 7542985148,
+                    "bytes_recv": 15871894406
+                },
+                "end": {
+                    "timestamp": 1628557062.3054302,
+                    "bytes_sent": 7567344685,
+                    "bytes_recv": 15908676717
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628557021.373795,
+                "time_create": 1628557021.502265,
+                "time_upload": 1628557022.341866
+            },
+            "T2": {
+                "time_start": 1628557031.177378,
+                "time_download": 1628557031.536173,
+                "time_partition": 1628557031.572399,
+                "time_upload": 1628557031.9569845
+            },
+            "T3": {
+                "time_start": 1628557041.892753,
+                "time_download": 1628557042.0332482,
+                "time_partition": 1628557042.0444572,
+                "time_upload": 1628557042.3175042
+            },
+            "T4": {
+                "time_start": 1628557041.3729913,
+                "time_download": 1628557041.5859785,
+                "time_read": 1628557041.5898852,
+                "time_write": 1628557041.6328409,
+                "time_upload": 1628557041.7606351
+            },
+            "T5": {
+                "time_start": 1628557041.2283106,
+                "time_download": 1628557041.5693803,
+                "time_read": 1628557041.5726876,
+                "time_write": 1628557041.610365,
+                "time_upload": 1628557041.7354085
+            },
+            "T6": {
+                "time_start": 1628557051.316242,
+                "time_download": 1628557051.4898572,
+                "time_read": 1628557051.4914067
+            },
+            "T7": {
+                "time_start": 1628557051.297595,
+                "time_download": 1628557051.4879718,
+                "time_read": 1628557051.4894638
+            },
+            "T8": {
+                "time_start": 1628557051.637747,
+                "time_download": 1628557052.164507,
+                "time_merge": 1628557052.1878285,
+                "time_upload": 1628557052.4186568
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628557083.0580342,
+                    "bytes_sent": 27665842134,
+                    "bytes_recv": 17107481388
+                },
+                "end": {
+                    "timestamp": 1628557133.1982403,
+                    "bytes_sent": 27728452943,
+                    "bytes_recv": 17177478283
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628557081.5219045,
+                    "bytes_sent": 8491903976,
+                    "bytes_recv": 14446033882
+                },
+                "end": {
+                    "timestamp": 1628557131.9293723,
+                    "bytes_sent": 8514543884,
+                    "bytes_recv": 14455578889
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628557081.4597113,
+                    "bytes_sent": 9521204080,
+                    "bytes_recv": 15160228005
+                },
+                "end": {
+                    "timestamp": 1628557131.7528534,
+                    "bytes_sent": 9543920255,
+                    "bytes_recv": 15187477821
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628557081.836967,
+                    "bytes_sent": 7569607952,
+                    "bytes_recv": 15912085631
+                },
+                "end": {
+                    "timestamp": 1628557132.0782342,
+                    "bytes_sent": 7591272074,
+                    "bytes_recv": 15943302324
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628557091.5750086,
+                "time_create": 1628557091.7049894,
+                "time_upload": 1628557091.934215
+            },
+            "T2": {
+                "time_start": 1628557101.7812335,
+                "time_download": 1628557102.1529536,
+                "time_partition": 1628557102.2011461,
+                "time_upload": 1628557102.6531498
+            },
+            "T3": {
+                "time_start": 1628557112.3804476,
+                "time_download": 1628557112.560693,
+                "time_partition": 1628557112.57236,
+                "time_upload": 1628557112.8773384
+            },
+            "T4": {
+                "time_start": 1628557112.1299245,
+                "time_download": 1628557112.3251114,
+                "time_read": 1628557112.328979,
+                "time_write": 1628557112.36788,
+                "time_upload": 1628557112.549199
+            },
+            "T5": {
+                "time_start": 1628557111.728506,
+                "time_download": 1628557111.8835754,
+                "time_read": 1628557111.8870552,
+                "time_write": 1628557111.929409,
+                "time_upload": 1628557112.0501473
+            },
+            "T6": {
+                "time_start": 1628557121.8077853,
+                "time_download": 1628557121.8919208,
+                "time_read": 1628557121.893083
+            },
+            "T7": {
+                "time_start": 1628557121.7295778,
+                "time_download": 1628557121.8206196,
+                "time_read": 1628557121.8219342
+            },
+            "T8": {
+                "time_start": 1628557122.103497,
+                "time_download": 1628557122.5607648,
+                "time_merge": 1628557122.5789003,
+                "time_upload": 1628557122.7950351
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628557151.9383783,
+                    "bytes_sent": 27730864896,
+                    "bytes_recv": 17177983786
+                },
+                "end": {
+                    "timestamp": 1628557204.4509406,
+                    "bytes_sent": 27790676087,
+                    "bytes_recv": 17246273078
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628557152.072615,
+                    "bytes_sent": 8514655081,
+                    "bytes_recv": 14456147768
+                },
+                "end": {
+                    "timestamp": 1628557202.3642714,
+                    "bytes_sent": 8537290254,
+                    "bytes_recv": 14465691745
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628557152.1742663,
+                    "bytes_sent": 9544044518,
+                    "bytes_recv": 15188127753
+                },
+                "end": {
+                    "timestamp": 1628557202.4273722,
+                    "bytes_sent": 9566773371,
+                    "bytes_recv": 15215438284
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628557152.1323366,
+                    "bytes_sent": 7591715379,
+                    "bytes_recv": 15945286701
+                },
+                "end": {
+                    "timestamp": 1628557202.906375,
+                    "bytes_sent": 7611708611,
+                    "bytes_recv": 15970725351
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628557161.9643037,
+                "time_create": 1628557162.0943284,
+                "time_upload": 1628557162.3381007
+            },
+            "T2": {
+                "time_start": 1628557172.0339043,
+                "time_download": 1628557172.392436,
+                "time_partition": 1628557172.4256139,
+                "time_upload": 1628557172.821454
+            },
+            "T3": {
+                "time_start": 1628557182.2853396,
+                "time_download": 1628557182.439955,
+                "time_partition": 1628557182.4511695,
+                "time_upload": 1628557182.7968798
+            },
+            "T4": {
+                "time_start": 1628557182.6476018,
+                "time_download": 1628557182.8138173,
+                "time_read": 1628557182.8182397,
+                "time_write": 1628557182.8578627,
+                "time_upload": 1628557182.9908292
+            },
+            "T5": {
+                "time_start": 1628557182.045352,
+                "time_download": 1628557182.2213998,
+                "time_read": 1628557182.2252376,
+                "time_write": 1628557182.2637784,
+                "time_upload": 1628557182.3960023
+            },
+            "T6": {
+                "time_start": 1628557192.2971847,
+                "time_download": 1628557192.4131086,
+                "time_read": 1628557192.4143305
+            },
+            "T7": {
+                "time_start": 1628557192.3446674,
+                "time_download": 1628557192.4351475,
+                "time_read": 1628557192.4364853
+            },
+            "T8": {
+                "time_start": 1628557192.498431,
+                "time_download": 1628557192.9514973,
+                "time_merge": 1628557192.9711409,
+                "time_upload": 1628557193.1856031
+            }
+        }
+    },
+    {
+        "nodes": {
+            "dm1": {
+                "start": {
+                    "timestamp": 1628557222.4897828,
+                    "bytes_sent": 27792819389,
+                    "bytes_recv": 17246777880
+                },
+                "end": {
+                    "timestamp": 1628557274.479318,
+                    "bytes_sent": 27852817722,
+                    "bytes_recv": 17314911077
+                }
+            },
+            "dm2": {
+                "start": {
+                    "timestamp": 1628557222.254698,
+                    "bytes_sent": 8537398978,
+                    "bytes_recv": 14466252182
+                },
+                "end": {
+                    "timestamp": 1628557272.807568,
+                    "bytes_sent": 8560042276,
+                    "bytes_recv": 14475940853
+                }
+            },
+            "dm3": {
+                "start": {
+                    "timestamp": 1628557222.2720916,
+                    "bytes_sent": 9566887147,
+                    "bytes_recv": 15216005977
+                },
+                "end": {
+                    "timestamp": 1628557272.7219853,
+                    "bytes_sent": 9589614441,
+                    "bytes_recv": 15243564354
+                }
+            },
+            "dm4": {
+                "start": {
+                    "timestamp": 1628557222.7573464,
+                    "bytes_sent": 7612156966,
+                    "bytes_recv": 15972691438
+                },
+                "end": {
+                    "timestamp": 1628557273.171761,
+                    "bytes_sent": 7632012788,
+                    "bytes_recv": 15998092534
+                }
+            }
+        },
+        "tasks": {
+            "T1": {
+                "time_start": 1628557232.7798781,
+                "time_create": 1628557232.9021478,
+                "time_upload": 1628557233.1741529
+            },
+            "T2": {
+                "time_start": 1628557242.5945277,
+                "time_download": 1628557242.9614258,
+                "time_partition": 1628557242.9988012,
+                "time_upload": 1628557243.539853
+            },
+            "T3": {
+                "time_start": 1628557252.8548384,
+                "time_download": 1628557253.0334501,
+                "time_partition": 1628557253.045226,
+                "time_upload": 1628557253.401606
+            },
+            "T4": {
+                "time_start": 1628557252.6791754,
+                "time_download": 1628557252.8332636,
+                "time_read": 1628557252.8372388,
+                "time_write": 1628557252.8767385,
+                "time_upload": 1628557253.021211
+            },
+            "T5": {
+                "time_start": 1628557252.564869,
+                "time_download": 1628557252.721612,
+                "time_read": 1628557252.72507,
+                "time_write": 1628557252.7637541,
+                "time_upload": 1628557252.9413974
+            },
+            "T6": {
+                "time_start": 1628557262.739147,
+                "time_download": 1628557262.8777003,
+                "time_read": 1628557262.879031
+            },
+            "T7": {
+                "time_start": 1628557262.5865245,
+                "time_download": 1628557262.7030237,
+                "time_read": 1628557262.7043438
+            },
+            "T8": {
+                "time_start": 1628557263.0927055,
+                "time_download": 1628557263.5244665,
+                "time_merge": 1628557263.5467982,
+                "time_upload": 1628557263.7283182
+            }
+        }
+    }
+]

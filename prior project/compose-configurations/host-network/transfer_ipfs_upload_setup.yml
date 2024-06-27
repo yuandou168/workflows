@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  ipfs-node:
+    image: nicoja/ipfs-node
+    container_name: ipfs
+    hostname: ipfs
+    command: daemon
+    environment:
+      # Localhost if running --net=host, or 0.0.0.0 running using Docker networks
+      - ADDRESS=127.0.0.1
+      # Hash of 64 char used as fingerprint for private networks
+      - SWARM_KEY=c0228ba5a019f74c7a83ef6e228a27735e42eaef2fe46d82e0c04594597a544f
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/
+  ipfs-service:
+    image: nicoja/ipfs-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=127.0.0.1
+      - DAEMON_ADDRESS=/ip4/127.0.0.1/tcp/5001
+      # True or empty
+      - BENCHMARK=True
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python ${SCRIPT}
+    environment:
+      - SERVICE_ADDRESS=http://127.0.0.1:8000
+      - FILE_SIZE=${FILE_SIZE}
+      - RUN_COUNT=${RUN_COUNT}
+      - INTERVAL_SECONDS=${INTERVAL_SECONDS}
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/

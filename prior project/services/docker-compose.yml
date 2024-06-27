@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  framework:
+    build: ./framework/
+    image: framework
+  ipfs-service:
+    build: ./ipfs-service/
+    image: nicoja/ipfs-service2
+    depends_on: 
+      - framework
+  webdav-service:
+    build: ./webdav-service/
+    image: nicoja/webdav-service2
+    depends_on: 
+      - framework

@@ -1,0 +1,494 @@
+Name:                scenario-2-7dlk8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Failed
+Message:             child 'scenario-2-7dlk8-3266809146' failed
+Conditions:          
+ PodRunning          False
+ Completed           True
+Created:             Mon Aug 09 22:21:43 +0000 (9 hours ago)
+Started:             Mon Aug 09 22:21:43 +0000 (9 hours ago)
+Finished:            Mon Aug 09 22:58:43 +0000 (9 hours ago)
+Duration:            37 minutes 0 seconds
+Progress:            444/444
+ResourcesDuration:   37m47s*(1 cpu),37m47s*(100Mi memory)
+
+[39mSTEP[0m                             TEMPLATE    PODNAME                      DURATION  MESSAGE
+ [31m✖[0m scenario-2-7dlk8              entry                                              child 'scenario-2-7dlk8-3266809146' failed  
+ └───[31m✖[0m webdav                    size-loop                                          child 'scenario-2-7dlk8-1221914984' failed  
+     ├───[32m✔[0m size-1024             run-loop                                                                                       
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-7dlk8-3578985010  2m                                                    
+     │   ├───[32m✔[0m run-1             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-2576899510  5s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-418254880   5s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-456568930   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-846519624   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3323097225  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1007746849  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-2463030789  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2345587456  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2362365075  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-114125175   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-97347556    4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-4241316281  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-1424361214  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2046893320  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1505725034  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-3198217360  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-1699751799  5s                                                    
+     │   ├───[32m✔[0m run-2             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1619061224  5s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3151735422  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-2995600556  5s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-353033070   3s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3024034815  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-3415524127  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3300655619  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3384543714  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3401321333  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2558681201  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2541903582  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2458015487  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2081072852  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-3196855178  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3483814888  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2874679010  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3061631097  4s                                                    
+     │   ├───[32m✔[0m run-3             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3064280030  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-1965689960  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3571953738  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3115058416  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3327967569  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1557897577  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3179586445  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3062143112  6s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3078920731  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-1036127647  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-1019350028  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-1136793361  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3537657302  3s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-933766848   4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3119616130  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2530775272  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-1403376191  3s                                                    
+     │   ├───[32m✔[0m run-4             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3772083028  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-592898058   4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-879857768   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-270721890   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-4149588403  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1611549267  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1034068151  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-983735294   4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1000512913  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2267540149  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2250762530  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2301095387  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3760026816  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1184679126  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1136243460  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2775920134  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-1910676493  4s                                                    
+     │   ├───[32m✔[0m run-5             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1586469006  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-413691224   4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1099869178  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-557673632   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-2831576225  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-237833145   4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3831817181  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3714373848  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3731151467  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-3877470319  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-3860692700  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-3978136033  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-222728390   4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-97706992    3s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3775872050  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-204210584   4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-977813327   4s                                                    
+     │   ├───[32m✔[0m run-6             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3280461560  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3745277454  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-706996988   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3209771582  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3259364079  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-2693620111  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1765524275  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-1849412370  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1866189989  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-842503649   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-825726030   4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-741837935   4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-285341412   4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1480617818  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-2405671992  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-3199785138  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-2919058281  4s                                                    
+     │   ├───[32m✔[0m run-7             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-2735056198  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2610034800  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1993232562  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2716538392  5s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-554208953   4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-3276156497  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-71217141    4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-4248741104  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-4265518723  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2223649831  5s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2206872212  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2055873641  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2778978830  5s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1606201048  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-2292379002  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1750183456  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-547201447   5s                                                    
+     │   ├───[32m✔[0m run-8             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-718539212   4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2679473442  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-2784710624  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3675684634  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-966573419   4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-4206151083  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3761894767  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3711561910  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3728339529  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-939026413   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-922248794   4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-704139747   4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2044631016  5s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-3577305214  5s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3421170348  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-778602862   4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-4196183941  4s                                                    
+     │   ├───[32m✔[0m run-9             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3968731414  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-622510336   4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-2808359618  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2537391912  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3276778665  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1703758913  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3000157861  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2882714528  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2899492147  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-651252247   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-634474628   4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-483476057   4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-977557598   5s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-4173934824  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1485231306  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1028335984  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3248996695  4s                                                    
+     │   └───[32m✔[0m run-10            scenario-2                                                                                     
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-832867950   5s                                                    
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2953625144  4s                                                    
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-344415706   3s                                                    
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-1186533248  4s                                                    
+     │       ├───[32m✔[0m T1            task        scenario-2-7dlk8-3668738369  4s                                                    
+     │       ├───[32m✔[0m T2            task        scenario-2-7dlk8-2500988249  4s                                                    
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-4127213565  4s                                                    
+     │       │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-4009770232  4s                                                    
+     │       │ └─[32m✔[0m T5            task        scenario-2-7dlk8-4026547851  4s                                                    
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-1983754767  4s                                                    
+     │       │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-1966977148  4s                                                    
+     │       │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2084420481  4s                                                    
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2840337190  4s                                                    
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-352211152   4s                                                    
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3585130386  4s                                                    
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-674387320   4s                                                    
+     │       └───[32m✔[0m collect       task        scenario-2-7dlk8-114274863   4s                                                    
+     ├───[32m✔[0m size-4096             run-loop                                                                                       
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-7dlk8-2195978259  2m                                                    
+     │   ├───[32m✔[0m run-1             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1452756073  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2081154575  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-190444861   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-934390071   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-1293376894  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-2348766526  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-2831297354  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2747409259  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2730631640  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-3785552092  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-3802329711  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-3886217806  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3465192097  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2174671079  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-299965397   4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2228219759  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-2161962474  4s                                                    
+     │   ├───[32m✔[0m run-2             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-4108085115  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-52160197    4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-469315543   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-925199485   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-663878468   4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-86803132    4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3049759992  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3167203325  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3150425706  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-319790982   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-336568601   4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-487567172   4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3662645191  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1546430705  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-394221827   4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-789310145   4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-4117791652  4s                                                    
+     │   ├───[32m✔[0m run-3             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3426818301  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-4024892115  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1362804177  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-4187548131  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-1170468858  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-2061064186  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-439375318   4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-489708175   4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-472930556   4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-3500870616  3s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-3517648235  5s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-3467315378  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2549564149  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1497916779  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-296575113   4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1160481371  5s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-4037993062  4s                                                    
+     │   ├───[32m✔[0m run-4             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3764396875  5s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-803027925   4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-784510119   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2073827021  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3566424820  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-3525309100  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-4144805480  5s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-4262248813  5s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-4245471194  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-1621207478  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-1637985097  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-1788983668  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2283080727  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1045375361  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-2167578643  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-3267187409  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-2439543636  4s                                                    
+     │   ├───[32m✔[0m run-5             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3707537593  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-4163421535  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3319781773  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-1679833991  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-533230574   4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1221991342  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-346803578   4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-262915483   4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-246137864   4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-3225867468  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-3242645087  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-3326533182  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-225292913   4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2243227383  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3529163237  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1141661951  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3996982554  4s                                                    
+     │   ├───[32m✔[0m run-6             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1313570131  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3489478045  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3109992815  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-832959989   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-2407462268  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-667221204   4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-456799792   4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-574243125   4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-557465506   4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2600258590  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2617036209  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2499592876  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2858604687  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1296640793  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-2950505003  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-3374540489  4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-951885500   4s                                                    
+     │   ├───[32m✔[0m run-7             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1391026613  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-339379243   4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3008547401  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3554580507  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3580512210  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-2564000562  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1892623950  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-1942956807  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1926179188  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-420525008   4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-437302627   4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-655411674   4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-55019165    4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1821836659  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-4217834993  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-836537347   5s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-611874814   4s                                                    
+     │   ├───[32m✔[0m run-8             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-2794387379  4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-1438446973  4s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-718344655   4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-185177941   4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-3402369820  4s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1682917108  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1080542032  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-1197985365  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1181207746  5s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-1818796222  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-1835573841  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-1718130508  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3932792559  5s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1626542457  5s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1112186251  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1538074153  5s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-1733186460  5s                                                    
+     │   ├───[32m✔[0m run-9             scenario-2                                                                                     
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-174792921   4s                                                    
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2458383359  3s                                                    
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1614743597  4s                                                    
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2143016231  4s                                                    
+     │   │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-2518916558  3s                                                    
+     │   │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-1622799374  4s                                                    
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-2682866522  4s                                                    
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2598978427  4s                                                    
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2582200808  4s                                                    
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-3647463852  4s                                                    
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-3664241471  4s                                                    
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-3748129566  4s                                                    
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-1656449041  4s                                                    
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2290070423  4s                                                    
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3557070341  4s                                                    
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-765899935   4s                                                    
+     │   │   └───[32m✔[0m collect       task        scenario-2-7dlk8-830595130   4s                                                    
+     │   └───[32m✔[0m run-10            scenario-2                                                                                     
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-184855221   4s                                                    
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3428175147  4s                                                    
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1802376009  4s                                                    
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2348409115  4s                                                    
+     │       ├───[32m✔[0m T1            task        scenario-2-7dlk8-3719366866  4s                                                    
+     │       ├───[32m✔[0m T2            task        scenario-2-7dlk8-2702855218  4s                                                    
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-2031478606  4s                                                    
+     │       │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2081811463  4s                                                    
+     │       │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2065033844  4s                                                    
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-559379664   4s                                                    
+     │       │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-576157283   4s                                                    
+     │       │ └─[32m✔[0m T8            task        scenario-2-7dlk8-794266330   4s                                                    
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-1996842909  4s                                                    
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-3763660403  4s                                                    
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1864691441  4s                                                    
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2778361091  4s                                                    
+     │       └───[32m✔[0m collect       task        scenario-2-7dlk8-4175723262  4s                                                    
+     └───[31m✖[0m size-16384            run-loop                                           child 'scenario-2-7dlk8-2072296668' failed  
+         ├───[32m✔[0m setup-dm          task        scenario-2-7dlk8-2204117303  2m                                                    
+         ├───[32m✔[0m run-1             scenario-2                                                                                     
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3372048925  4s                                                    
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-843899123   4s                                                    
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3239897457  4s                                                    
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-4153567107  4s                                                    
+         │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-1752999770  4s                                                    
+         │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-613471322   4s                                                    
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1351494838  4s                                                    
+         │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-1401827695  4s                                                    
+         │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1385050076  4s                                                    
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-4062613176  4s                                                    
+         │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-4079390795  4s                                                    
+         │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-4029057938  4s                                                    
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2419297685  5s                                                    
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2007780363  4s                                                    
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3271743913  4s                                                    
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1691133307  4s                                                    
+         │   └───[32m✔[0m collect       task        scenario-2-7dlk8-49308678    5s                                                    
+         ├───[32m✔[0m run-2             scenario-2                                                                                     
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1939840607  5s                                                    
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-483965289   5s                                                    
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3105508539  5s                                                    
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2781411289  5s                                                    
+         │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-1836711328  4s                                                    
+         │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-3004461448  3s                                                    
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-2609381572  4s                                                    
+         │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-2592603953  4s                                                    
+         │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-2575826334  4s                                                    
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2761023170  4s                                                    
+         │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2777800789  4s                                                    
+         │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2794578408  4s                                                    
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-1772939083  4s                                                    
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-3106537429  4s                                                    
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3088019623  4s                                                    
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-82369229    4s                                                    
+         │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3463359296  3s                                                    
+         ├───[32m✔[0m run-3             scenario-2                                                                                     
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-206833617   4s                                                    
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3968634199  4s                                                    
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-940666821   4s                                                    
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3611251807  4s                                                    
+         │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-4014740230  4s                                                    
+         │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-110276838   4s                                                    
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3828313234  4s                                                    
+         │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3744425139  4s                                                    
+         │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3727647520  4s                                                    
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2470676996  4s                                                    
+         │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2487454615  4s                                                    
+         │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2302900806  4s                                                    
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3549924025  4s                                                    
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-4005807967  4s                                                    
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-3162168205  4s                                                    
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-1522220423  4s                                                    
+         │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3802862130  4s                                                    
+         ├───[32m✔[0m run-4             scenario-2                                                                                     
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1807763567  5s                                                    
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3796480761  4s                                                    
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3282124555  4s                                                    
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-3708012457  4s                                                    
+         │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-2804625488  5s                                                    
+         │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-2606936760  4s                                                    
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3906884340  4s                                                    
+         │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3890106721  4s                                                    
+         │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3873329102  4s                                                    
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-380757554   4s                                                    
+         │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-397535173   4s                                                    
+         │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-414312792   4s                                                    
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3174971291  4s                                                    
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-1287369957  4s                                                    
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-2003462519  4s                                                    
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-4287052957  4s                                                    
+         │   └───[32m✔[0m collect       task        scenario-2-7dlk8-3303647088  5s                                                    
+         ├───[32m✔[0m run-5             scenario-2                                                                                     
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-3050226957  4s                                                    
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-2993291683  4s                                                    
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-3876078689  4s                                                    
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-2087486451  4s                                                    
+         │   ├───[32m✔[0m T1            task        scenario-2-7dlk8-4041826922  4s                                                    
+         │   ├───[32m✔[0m T2            task        scenario-2-7dlk8-600414698   5s                                                    
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-3269156678  5s                                                    
+         │   │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-3319489535  4s                                                    
+         │   │ └─[32m✔[0m T5            task        scenario-2-7dlk8-3302711916  4s                                                    
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-2828123656  4s                                                    
+         │   │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-2844901275  6s                                                    
+         │   │ └─[32m✔[0m T8            task        scenario-2-7dlk8-2794568418  6s                                                    
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-2221915077  5s                                                    
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-3185016699  4s                                                    
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-7dlk8-1644517785  4s                                                    
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-3947943403  4s                                                    
+         │   └───[32m✔[0m collect       task        scenario-2-7dlk8-1636375958  5s                                                    
+         └───[31m✖[0m run-6             scenario-2                                         child 'scenario-2-7dlk8-2786126879' failed  
+             ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-7dlk8-1478309479  5s                                                    
+             │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-7dlk8-3636273937  4s                                                    
+             │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-7dlk8-1739882019  4s                                                    
+             │ └─[32m✔[0m start(3:dm4)  task        scenario-2-7dlk8-1494840289  4s                                                    
+             ├───[32m✔[0m T1            task        scenario-2-7dlk8-3043363016  5s                                                    
+             ├───[32m✔[0m T2            task        scenario-2-7dlk8-1022169392  4s                                                    
+             ├─┬─[32m✔[0m T3            task        scenario-2-7dlk8-1178614604  4s                                                    
+             │ ├─[32m✔[0m T4            task        scenario-2-7dlk8-1161836985  4s                                                    
+             │ └─[32m✔[0m T5            task        scenario-2-7dlk8-1145059366  4s                                                    
+             ├─┬─[32m✔[0m T6            task        scenario-2-7dlk8-1495974698  4s                                                    
+             │ ├─[32m✔[0m T7            task        scenario-2-7dlk8-1512752317  4s                                                    
+             │ └─[32m✔[0m T8            task        scenario-2-7dlk8-1261088032  3s                                                    
+             └─┬─[32m✔[0m end(0:dm1)    task        scenario-2-7dlk8-3441978755  4s                                                    
+               ├─[32m✔[0m end(1:dm2)    task        scenario-2-7dlk8-2086038349  4s                                                    
+               ├─[31m✖[0m end(2:dm3)    task        scenario-2-7dlk8-2786126879  4s        Error (exit code 1)                         
+               └─[32m✔[0m end(3:dm4)    task        scenario-2-7dlk8-2900810469  4s                                                    
+
+This workflow does not have security context set. You can run your workflow pods more securely by setting it.
+Learn more at https://argoproj.github.io/argo-workflows/workflow-pod-security-context/

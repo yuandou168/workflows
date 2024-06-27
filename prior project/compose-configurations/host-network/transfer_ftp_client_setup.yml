@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python ${SCRIPT}
+    environment:
+      - FTP_SERVER_ADDRESS=${FTP_SERVER_ADDRESS}
+      - FTP_USER_NAME=username
+      - FTP_USER_PASS=password
+      - FILE_SIZE=${FILE_SIZE}
+      - RUN_COUNT=${RUN_COUNT}
+      - INTERVAL_SECONDS=${INTERVAL_SECONDS}
+    stdin_open: true
+    tty: true
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/

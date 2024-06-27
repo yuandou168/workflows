@@ -1,0 +1,166 @@
+Time start: 2021-07-19 21:04:03
+Time end: 2021-07-19 21:19:05
+Duration: 0:15:02.196553
+
+Platform: Linux-5.4.0-1051-azure-x86_64-with-Ubuntu-18.04-bionic
+Name: dm2
+Release: #53~18.04.1-Ubuntu SMP Fri Jun 18 22:32:58 UTC 2021
+
+Compose file: /tmp/transfer_ftp_client_setup.yml
+Script: transfer_ftp_upload.py
+Environment vars:
+SCRIPT: transfer_ftp_upload.py
+FTP_SERVER_ADDRESS: 172.21.0.4
+FILE_SIZE: 4096
+RUN_COUNT: 15
+INTERVAL_SECONDS: 60
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client
+Creating client ... done
+Attaching to client
+client              | 21:04.04: Connected to FTP server at 172.21.0.4
+client              | 21:04.04: Preparing run 1
+client              | 21:04.04: Creating file /tmp/files/4KB_1
+client              | 21:04.04: Upload file name is 4KB_1
+client              | 21:04.04: Running garbage collector
+client              | 21:04.04: Sleeping for 60.0 seconds
+client              | 21:05.04: Starting
+client              | 21:05.04: Finished
+client              | 21:05.04: Deleting created file /tmp/files/4KB_1
+client              | 21:05.04: Ending run 1
+client              | 21:05.04: Preparing run 2
+client              | 21:05.04: Creating file /tmp/files/4KB_2
+client              | 21:05.04: Upload file name is 4KB_2
+client              | 21:05.04: Running garbage collector
+client              | 21:05.04: Sleeping for 60.0 seconds
+client              | 21:06.04: Starting
+client              | 21:06.04: Finished
+client              | 21:06.04: Deleting created file /tmp/files/4KB_2
+client              | 21:06.04: Ending run 2
+client              | 21:06.04: Preparing run 3
+client              | 21:06.04: Creating file /tmp/files/4KB_3
+client              | 21:06.04: Upload file name is 4KB_3
+client              | 21:06.04: Running garbage collector
+client              | 21:06.04: Sleeping for 60.0 seconds
+client              | 21:07.04: Starting
+client              | 21:07.04: Finished
+client              | 21:07.04: Deleting created file /tmp/files/4KB_3
+client              | 21:07.04: Ending run 3
+client              | 21:07.04: Preparing run 4
+client              | 21:07.04: Creating file /tmp/files/4KB_4
+client              | 21:07.04: Upload file name is 4KB_4
+client              | 21:07.04: Running garbage collector
+client              | 21:07.04: Sleeping for 60.0 seconds
+client              | 21:08.04: Starting
+client              | 21:08.04: Finished
+client              | 21:08.04: Deleting created file /tmp/files/4KB_4
+client              | 21:08.04: Ending run 4
+client              | 21:08.04: Preparing run 5
+client              | 21:08.04: Creating file /tmp/files/4KB_5
+client              | 21:08.04: Upload file name is 4KB_5
+client              | 21:08.04: Running garbage collector
+client              | 21:08.04: Sleeping for 60.0 seconds
+client              | 21:09.04: Starting
+client              | 21:09.04: Finished
+client              | 21:09.04: Deleting created file /tmp/files/4KB_5
+client              | 21:09.04: Ending run 5
+client              | 21:09.04: Preparing run 6
+client              | 21:09.04: Creating file /tmp/files/4KB_6
+client              | 21:09.04: Upload file name is 4KB_6
+client              | 21:09.04: Running garbage collector
+client              | 21:09.04: Sleeping for 60.0 seconds
+client              | 21:10.04: Starting
+client              | 21:10.04: Finished
+client              | 21:10.04: Deleting created file /tmp/files/4KB_6
+client              | 21:10.04: Ending run 6
+client              | 21:10.04: Preparing run 7
+client              | 21:10.04: Creating file /tmp/files/4KB_7
+client              | 21:10.04: Upload file name is 4KB_7
+client              | 21:10.04: Running garbage collector
+client              | 21:10.04: Sleeping for 60.0 seconds
+client              | 21:11.04: Starting
+client              | 21:11.04: Finished
+client              | 21:11.04: Deleting created file /tmp/files/4KB_7
+client              | 21:11.04: Ending run 7
+client              | 21:11.04: Preparing run 8
+client              | 21:11.04: Creating file /tmp/files/4KB_8
+client              | 21:11.04: Upload file name is 4KB_8
+client              | 21:11.04: Running garbage collector
+client              | 21:11.04: Sleeping for 60.0 seconds
+client              | 21:12.04: Starting
+client              | 21:12.04: Finished
+client              | 21:12.04: Deleting created file /tmp/files/4KB_8
+client              | 21:12.04: Ending run 8
+client              | 21:12.04: Preparing run 9
+client              | 21:12.04: Creating file /tmp/files/4KB_9
+client              | 21:12.04: Upload file name is 4KB_9
+client              | 21:12.04: Running garbage collector
+client              | 21:12.04: Sleeping for 60.0 seconds
+client              | 21:13.04: Starting
+client              | 21:13.04: Finished
+client              | 21:13.04: Deleting created file /tmp/files/4KB_9
+client              | 21:13.04: Ending run 9
+client              | 21:13.04: Preparing run 10
+client              | 21:13.04: Creating file /tmp/files/4KB_10
+client              | 21:13.04: Upload file name is 4KB_10
+client              | 21:13.04: Running garbage collector
+client              | 21:13.04: Sleeping for 60.0 seconds
+client              | 21:14.04: Starting
+client              | 21:14.04: Finished
+client              | 21:14.04: Deleting created file /tmp/files/4KB_10
+client              | 21:14.04: Ending run 10
+client              | 21:14.04: Preparing run 11
+client              | 21:14.04: Creating file /tmp/files/4KB_11
+client              | 21:14.04: Upload file name is 4KB_11
+client              | 21:14.04: Running garbage collector
+client              | 21:14.04: Sleeping for 60.0 seconds
+client              | 21:15.04: Starting
+client              | 21:15.04: Finished
+client              | 21:15.04: Deleting created file /tmp/files/4KB_11
+client              | 21:15.04: Ending run 11
+client              | 21:15.04: Preparing run 12
+client              | 21:15.04: Creating file /tmp/files/4KB_12
+client              | 21:15.04: Upload file name is 4KB_12
+client              | 21:15.04: Running garbage collector
+client              | 21:15.04: Sleeping for 60.0 seconds
+client              | 21:16.04: Starting
+client              | 21:16.04: Finished
+client              | 21:16.04: Deleting created file /tmp/files/4KB_12
+client              | 21:16.04: Ending run 12
+client              | 21:16.04: Preparing run 13
+client              | 21:16.04: Creating file /tmp/files/4KB_13
+client              | 21:16.04: Upload file name is 4KB_13
+client              | 21:16.04: Running garbage collector
+client              | 21:16.04: Sleeping for 60.0 seconds
+client              | 21:17.04: Starting
+client              | 21:17.04: Finished
+client              | 21:17.04: Deleting created file /tmp/files/4KB_13
+client              | 21:17.04: Ending run 13
+client              | 21:17.04: Preparing run 14
+client              | 21:17.04: Creating file /tmp/files/4KB_14
+client              | 21:17.04: Upload file name is 4KB_14
+client              | 21:17.04: Running garbage collector
+client              | 21:17.04: Sleeping for 60.0 seconds
+client              | 21:18.04: Starting
+client              | 21:18.04: Finished
+client              | 21:18.04: Deleting created file /tmp/files/4KB_14
+client              | 21:18.04: Ending run 14
+client              | 21:18.04: Preparing run 15
+client              | 21:18.04: Creating file /tmp/files/4KB_15
+client              | 21:18.04: Upload file name is 4KB_15
+client              | 21:18.04: Running garbage collector
+client              | 21:18.04: Sleeping for 60.0 seconds
+client              | 21:19.04: Starting
+client              | 21:19.04: Finished
+client              | 21:19.04: Deleting created file /tmp/files/4KB_15
+client              | 21:19.04: Ending run 15
+client              | 21:19.04: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

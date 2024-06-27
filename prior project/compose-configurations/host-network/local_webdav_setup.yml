@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  webdav_server:
+    image: bytemark/webdav:2.4
+    container_name: webdav
+    hostname: webdav
+    environment:
+      - AUTH_TYPE=Digest
+      - USERNAME=username
+      - PASSWORD=password
+    network_mode: "host"
+  webdav-service:
+    image: nicoja/webdav-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=127.0.0.1
+      - HOST_ADDRESS=http://127.0.0.1:80
+      - USERNAME=username
+      - PASSWORD=password
+      # True or empty
+      - BENCHMARK=True
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python ${SCRIPT}
+    environment:
+      - SERVICE_ADDRESS=http://127.0.0.1:8000
+      - FILE_SIZE=${FILE_SIZE}
+      - RUN_COUNT=${RUN_COUNT}
+      - INTERVAL_SECONDS=${INTERVAL_SECONDS}
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/

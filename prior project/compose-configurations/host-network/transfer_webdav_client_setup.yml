@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  webdav-service:
+    image: nicoja/webdav-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=127.0.0.1
+      - HOST_ADDRESS=${HOST_ADDRESS} # DataMeshVM1 eth0 address
+      - USERNAME=username
+      - PASSWORD=password
+      - BENCHMARK=True
+    network_mode: "host"
+    volumes:
+      - /tmp/:/tmp/
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python ${SCRIPT}
+    environment:
+      - SERVICE_ADDRESS=http://127.0.0.1:8000
+      - FILE_SIZE=${FILE_SIZE}
+      - RUN_COUNT=${RUN_COUNT}
+      - INTERVAL_SECONDS=${INTERVAL_SECONDS}
+    stdin_open: true
+    tty: true
+    volumes:
+      - /tmp/:/tmp/
+    network_mode: "host"

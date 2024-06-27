@@ -1,0 +1,71 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: ecolidar
+spec:
+  entrypoint: entry
+  hostNetwork: true
+  volumes:
+    - name: workflow-storage
+      hostPath:
+        path: /tmp
+
+  templates:
+  - name: entry
+    steps:
+    - - name: retile
+        template: retile
+        arguments:
+          parameters:
+          - name: input_tile
+            value: "/testdata/AHN3.LAS"
+    - - name: process
+        template: ecolidar-task
+        arguments:
+          parameters:
+          - name: tile
+            value: "{{item}}"
+        withParam: "{{tasks.retile.outputs.tiles}}"
+    - - name: rasterize
+        template: rasterize
+        arguments:
+          parameters:
+          - name: 
+  - name: retile
+    inputs:
+      parameters:
+      - name: input_tile
+    container:
+      image: nicoja/ecolidar-tasks
+      command: [python, -u]
+      args: ["retile.py", "{{inputs.parameters.input_tile}}"]
+      volumeMounts:
+        - name: workflow-storage
+          mountPath: /tmp
+    outputs:
+      parameters:
+        - name: tiles
+          valueFrom:
+            path: /tmp/tiles.json
+  - name: process
+    inputs:
+      parameters:
+      - name: tile
+    container:
+      image: nicoja/ecolidar-tasks
+      command: [python, -u]
+      args: ["process.py", "{{inputs.parameters.tile}}"]
+      volumeMounts:
+        - name: workflow-storage
+          mountPath: /tmp
+  - name: rasterize
+    inputs:
+      parameters:
+      - name: args
+    container:
+      image: nicoja/ecolidar-tasks
+      command: [python, -u]
+      args: ["rasterize.py", "{{inputs.parameters.args}}"]
+      volumeMounts:
+        - name: workflow-storage
+          mountPath: /tmp

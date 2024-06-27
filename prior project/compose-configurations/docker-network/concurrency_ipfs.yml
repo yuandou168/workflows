@@ -1,0 +1,68 @@
+version: "3"
+
+services:
+  ipfs-node:
+    image: nicoja/ipfs-node
+    container_name: ipfs
+    hostname: ipfs
+    command: daemon --offline
+    environment:
+      # Localhost if running --net=host, or 0.0.0.0 running using Docker networks
+      - ADDRESS=0.0.0.0
+    volumes:
+      - /tmp/:/tmp/
+    networks:
+      - interface
+  ipfs-service:
+    image: nicoja/ipfs-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=0.0.0.0
+      - DAEMON_ADDRESS=/dns/ipfs/tcp/5001
+      # Omitable
+      - BENCHMARK=True
+      - OFFLINE_MODE=True
+      - CHUNKER=size-262144
+    networks:
+      - interface
+    volumes:
+      - /tmp/:/tmp/
+  coordinator:
+    image: nicoja/client-container
+    container_name: coordinator
+    hostname: coordinator
+    command: python concurrent_upload_download.py
+    environment:
+      - CLIENT_COUNT=2
+      - IS_COORDINATOR=True
+      - CONTAINER_ID=0
+    networks:
+      - interface
+    volumes:
+      - /tmp/:/tmp/
+  client-1:
+    image: nicoja/client-container
+    container_name: client-1
+    hostname: client-1
+    command: python concurrent_upload_download.py
+    environment:
+        - CONTAINER_ID=1
+    networks:
+      - interface
+    volumes:
+      - /tmp/:/tmp/
+  client-2:
+    image: nicoja/client-container
+    container_name: client-2
+    hostname: client-2
+    command: python concurrent_upload_download.py
+    environment:
+      - CONTAINER_ID=2
+    networks:
+      - interface
+    volumes:
+      - /tmp/:/tmp/
+
+networks:
+  interface:

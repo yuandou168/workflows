@@ -1,0 +1,1294 @@
+Name:                scenario-2-pf7c2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Succeeded
+Conditions:          
+ PodRunning          False
+ Completed           True
+Created:             Mon Aug 09 23:37:39 +0000 (8 hours ago)
+Started:             Mon Aug 09 23:37:39 +0000 (8 hours ago)
+Finished:            Tue Aug 10 01:15:49 +0000 (7 hours ago)
+Duration:            1 hour 38 minutes
+Progress:            1197/1197
+ResourcesDuration:   1h39m11s*(1 cpu),1h39m11s*(100Mi memory)
+
+[39mSTEP[0m                             TEMPLATE    PODNAME                      DURATION  MESSAGE
+ [32m✔[0m scenario-2-pf7c2              entry                                                
+ └───[32m✔[0m webdav                    size-loop                                            
+     ├───[32m✔[0m size-16384            run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-1330718653  2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1290479111  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3044774449  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2317023043  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3454441985  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1738266024  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3269709072  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3426154284  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3409376665  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3392599046  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1967144458  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1983922077  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1732257792  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3154917923  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2777769069  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3902315071  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-466214405   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-182468616   4s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-391489473   5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3397891335  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3670617717  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2707153807  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2565862358  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3940297206  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-221557538   5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-137669443   3s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-120891824   3s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-22989140    4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-39766759    4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4150180246  3s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1191675113  3s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1820073615  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4224331197  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-673309111   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-54392962    4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-410596515   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-33447661    4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1157993663  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2016860293  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2619522540  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-4196227140  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2805949536  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2923392869  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2906615250  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-654441038   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-671218657   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-553775324   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3595239903  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2139364585  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-465940539   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-141843289   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-179927980   4s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2795111729  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-518078903   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-637226661   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3287023295  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2942775462  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1144270598  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3106725426  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3022837331  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3006059712  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1749089188  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1765866807  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1581312998  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2819942937  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1126439231  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-282799469   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-68741479    4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-606943378   5s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2800337103  3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2405161305  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4059025515  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3316272905  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2759678832  3s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-276358232   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3532349076  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3515571457  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3498793838  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-4100727890  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-4117505509  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4134283128  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-4185736699  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-129811781   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-546967127   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1002851069  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1970396112  4s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-431550681   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2715141119  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1871501357  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2399773991  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1930358222  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1034241038  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2094308186  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2010420091  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1993642472  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3058905516  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3075683135  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3159571230  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2143336465  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2776957847  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4043957765  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1252787359  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3958362170  4s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3606169107  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2229440349  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2274412591  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-4292347061  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-282878780   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3621512340  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2668760304  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2786203637  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2769426018  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1218005726  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1234783345  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1117340012  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-526458703   4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-131282905   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1785147115  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1042394505  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2380080380  4s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1538454713  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1994338655  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1150698893  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3805718407  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2169536494  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2858297262  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1983109498  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1899221403  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1882443784  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-567206092   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-583983711   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-667871806   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2825600625  3s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-548567799   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1834503653  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3741969663  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3358736666  4s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4127823431  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2011608945  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-859400067   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1254488385  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3653002472  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1673385552  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1788254060  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1771476441  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1754698822  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3881880906  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3898658525  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3646994240  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1463766883  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-768744877   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2211164031  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3070030661  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2529839560  4s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-927049523   4s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3866076413  4s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3145974095  4s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2612807381  4s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-2033278620  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-313825908   4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4006418128  4s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4123861461  4s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4107083842  4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-449705022   4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-466482641   4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-349039308   4s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-586541679   4s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2575258873  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2060902667  4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2486790569  4s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-3508891164  4s          
+     ├───[32m✔[0m size-65536            run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-1365688767  2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2456970597  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-933875483   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3709132217  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-528161675   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3731937186  5s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2713858     4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1272398302  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1322731159  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1305953540  5s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1772594528  5s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1789372147  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2007481194  3s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-153553485   4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-96618211    4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1403862689  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3167907123  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2753210766  4s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2887902695  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-750899857   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3149475235  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2904433505  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3893189704  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1871996080  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2028441292  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2011663673  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1994886054  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2345801386  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2362579005  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2110914720  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2419503363  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1063562957  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1763651487  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1878335077  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3358462568  4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-738728793   6s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3022319231  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2178679469  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2706952103  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-362161230   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3761011342  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-526111194   4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-442223099   4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-425445480   4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1490708524  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1507486143  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1591374238  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3337109137  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3970730519  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-942763141   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2446560031  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3331052474  4s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2800917207  3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2305542465  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3427745747  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3785023889  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4132563288  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2111369664  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2901368860  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2884591241  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2867813622  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-241714490   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-258492109   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-6827824     4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2958169331  7s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-435440829   5s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4010305807  5s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-348959893   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-224697400   4s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2003669     5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-332816971   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-854449897   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3144349115  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3202496562  5s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2811007250  3s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1514608302  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1564941159  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1548163540  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2402221744  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2418999363  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2637108410  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1685276989  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3450138899  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-788050961   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2446006819  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2014716830  4s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1797255919  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3785973113  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3271616907  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3697504809  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2518607568  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2320918840  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3620866420  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3604088801  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3587311182  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-94739634    4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-111517253   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-128294872   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2715958811  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-828357477   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1544450039  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3828040477  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1839934192  4s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3465842625  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2177277191  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2450003573  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1486539663  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2487065558  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3861500406  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-142760738   4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-58872643    4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-42095024    4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-4239159636  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-4255937255  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4071383446  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-627191017   5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1255589519  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3659847101  5s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-108825015   5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2432495746  5s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1335971295  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-4175063273  5s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2501639227  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2177541977  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2700497184  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3868247304  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3473167428  6s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3456389809  6s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3439612190  6s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3624809026  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3641586645  5s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3658364264  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1395665611  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2729263957  5s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2710746151  5s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-4000063053  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-4190815680  5s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2311248821  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1259601451  5s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3928769609  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-179835419   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4236866002  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3220354354  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2548977742  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2599310599  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2582532980  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1076878800  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1093656419  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1311765466  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2296508573  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-4063326067  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2164357105  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3078026755  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-4225463806  4s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-342259025   4s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-4104059607  4s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1076092229  4s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3746677215  4s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-3119756422  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-3510260326  4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2933329426  4s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2849441331  4s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2832663712  4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1575693188  4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1592470807  4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1407916998  4s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3651263545  4s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-4107147487  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3263507725  4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1623559943  4s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-413505202   5s          
+     ├───[32m✔[0m size-262144           run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-2528873782  2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-690614730   5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3954945892  3s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3072158886  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3532448564  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2612833701  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3396280045  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2336212897  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2352990516  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2369768135  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-859784963   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-843007344   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1094671629  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1236966514  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2682767788  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-345036622   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2233572796  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-112276931   4s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-461817564   5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2335495986  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3095849456  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-44081514    4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2787370331  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2140186267  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1499901535  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1449568678  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1466346297  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2584583261  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2567805642  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2349696595  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-4192255608  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-362104206   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1618791036  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-4121565630  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-467813365   4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-659909762   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2300866364  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-599377246   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1783392972  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1293823165  3s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3228178533  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3805109433  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3821887052  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3838664671  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3077845627  5s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3061068008  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3044290389  5s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-732572090   5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-457334676   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3119422614  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3998367652  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3641164699  6s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-219805880   5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1002494926  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1516851132  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-466989054   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3021803439  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3239966799  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2311870963  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2395759058  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2412536677  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1347273633  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1330496014  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1246607919  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2474844836  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-541942042   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1466996216  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1094321266  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2930134953  3s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1156143794  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3026402540  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1431001998  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2577207548  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-621748813   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1578082549  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1001854921  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1018632540  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1035410159  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1592543947  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1575766328  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1558988709  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-644364586   4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-335270724   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-452063622   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3038997012  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1474665387  4s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1015701132  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3718965986  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3824203168  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3972846554  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-950494251   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-4190071915  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3745815599  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3695482742  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3712260361  5s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-922947245   5s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-906169626   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-688060579   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1561968808  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3094643006  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2620634988  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-720398126   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-760478917   4s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1979149658  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1467451316  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3366420278  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-929189572   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2732074325  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-419283805   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4231720273  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4248497892  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4265275511  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1395762803  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1378985184  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1630649469  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1961426242  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2860052220  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1158563102  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3084909452  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-692423219   5s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1662426704  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3652929190  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2328121428  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1645895894  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1579330407  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-688735079   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1727711531  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1811599626  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1828377245  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3085347769  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3068570150  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3253123959  5s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2985698732  6s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2797245314  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-330489792   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3795308922  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2935882849  4s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2579027002  6s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2303789588  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-670910230   5s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1549855268  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-424447477   5s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1001522813  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2083081585  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2099859204  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2116636823  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1765721491  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1748943872  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2000608157  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3777634722  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3486831836  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3953563134  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3393815916  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2005688979  4s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2355376034  4s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2064573148  4s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2531304446  3s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1971557228  4s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-3930796701  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-418837189   4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2751349657  3s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2768127276  4s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2784904895  4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2182970843  4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2166193224  4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2149415605  4s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3479317850  4s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2967619508  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-571621174   4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2429357764  4s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-3671957435  4s          
+     ├───[32m✔[0m size-1048576          run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-281401061   2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3532400623  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1226150521  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-711794315   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1137682217  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2165584848  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1967896120  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3267843700  3s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3251066081  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3234288462  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-4036684210  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-4053461829  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4070239448  3s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-538192667   5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2945558629  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3661651191  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1650274333  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2850017776  4s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3810220297  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-804569903   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-616046429   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3291854295  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4147062238  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2842739486  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1802757418  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1718869323  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1702091704  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2544731836  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2561509455  3s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2645397550  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3307181121  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2018615687  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2291342069  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1327878159  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3760989066  4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3494342923  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-4085610645  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4067092839  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-636984973   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4187141044  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3403694700  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4023191080  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4140634413  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4123856794  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1499593078  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1516370697  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1667369268  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1472251863  3s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-976877121   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2099080403  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2456358545  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-263643028   4s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1171591385  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3455181823  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2611542061  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3139814695  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4198632910  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3302515726  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-67615578    4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4278694779  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4261917160  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1032212908  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1048990527  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1132878622  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-104323089   4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-737944471   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2004944389  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3508741279  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-4123078714  4s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3991032247  5s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-390222241   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2152555571  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2848495217  5s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4159634424  6s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2180017504  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3108113340  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3091335721  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3074558102  5s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-289573978   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-306351597   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-54687312    4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2958093651  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-839034269   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-459549039   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2477483509  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2845801496  3s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-191783137   3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2453898791  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-579193109   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3249778095  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2313448886  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3083649750  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3851369346  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3767481251  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3750703632  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1334665268  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1351442887  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1166889078  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1215329289  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2504646191  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2316122717  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-696963287   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3626805154  3s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1691356283  3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1930398661  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2347554007  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2803437949  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3614914628  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3037839292  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1705828856  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1823272189  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1806494570  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3270827142  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3287604761  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3438603332  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3045024967  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-928810481   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4071568899  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-171689921   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1341717156  4s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2602577665  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1314012231  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1586738613  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-941147855   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2247084310  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3579942454  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4156170082  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4072281987  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4055504368  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3999178388  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-4015956007  5s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3831402198  5s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2234213417  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2120281295  5s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4100081405  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1715847415  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3992649282  3s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2565726255  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1001806777  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4040087243  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-488881001   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3220893456  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2280874104  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3622398388  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3605620769  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3588843150  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-54694898    4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-71472517    4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-88250136    4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-401023579   4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2066058917  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3206608951  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1513105245  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3621517488  4s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2460724219  3s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2699766597  4s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3116921943  4s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3572805885  4s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-3053583300  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-2476507964  4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1144497528  4s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1261940861  5s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1245163242  4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2709495814  4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2726273433  4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2877272004  4s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2003769415  3s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-4182522225  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3030313347  4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3425401665  4s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-3630458148  4s          
+     ├───[32m✔[0m size-4194304          run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-3511834130  2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-503192598   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1451938816  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3637788098  7s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3366820392  5s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1644324777  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-71305025    4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1367703973  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1250260640  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1267038259  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3313765655  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3296988036  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3145989465  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3719525214  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2620935144  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4227198922  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3770303600  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-849949271   3s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-295824968   3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3955246046  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4246209420  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-177752142   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-575931935   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1592443583  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1435998371  3s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1519886466  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1536664085  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-481743633   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-464966014   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-381077919   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1594158900  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2473480298  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-612904776   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3109307330  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3140104537  4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-654654910   3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-534856392   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4288655402  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2428511056  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2733959537  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2931648265  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2193624749  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2076181416  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2092959035  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-50165951    4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-33388332    5s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-150831665   5s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1549774390  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3686097056  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3724411106  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-4114361800  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-124288159   4s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-319839412   3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1199160810  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3633552584  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1834987842  3s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-781145427   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-390641523   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1780919127  3s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1730586270  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1747363889  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3406344789  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3389567170  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3439900027  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3461317408  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1607511990  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2324047716  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1051217766  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-863910125   3s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1315492718  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3436249912  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-827040474   3s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1669158016  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3417660993  5s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2249910873  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3876136189  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3758692856  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3775470475  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1732677391  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1715899772  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1833343105  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3262355494  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-774229456   4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4007148690  5s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1096405624  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1088096559  4s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-297443672   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3229520366  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1575656156  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1929043102  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2537054991  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-215832623   5s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3720800723  3s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3804688818  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3821466437  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-841736833   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-824959214   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-741071119   4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3937185988  3s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2324008762  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-802590488   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2556662418  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1899695177  3s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-281424678   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2088265936  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1026217874  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2410442104  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2460051673  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-928608625   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3953891477  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3836448144  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3853225763  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2182522183  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2165744564  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2014745993  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1437728622  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3558485816  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-949276378   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1791393920  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2416294023  4s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-760141228   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-571687810   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2399899584  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1569751418  5s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3383086475  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-392441931   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2466782991  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2416450134  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2433227753  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1579169549  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1562391930  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1344282883  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2476408264  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1840862046  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2131825420  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2358335438  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2340820453  5s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2482103542  3s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3451638112  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3489952162  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-751723656   4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-478470601   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3241994849  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3913371461  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3795928128  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3812705747  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2348373175  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2331595556  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2180596985  3s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3314738750  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3194940232  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2653771946  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-793627600   4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-4287546679  4s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4278874446  4s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3848427288  4s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3367817146  4s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2825621600  3s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-3505847649  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-211350649   4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-252698013   5s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-135254680   4s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-152032299   4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3809411119  4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3792633500  4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3910076833  5s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1065782406  4s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1683091632  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4194468594  4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1047264600  5s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-2527903887  4s          
+     ├───[32m✔[0m size-16777216         run-loop                                             
+     │   ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-1440309611  2m          
+     │   ├───[32m✔[0m run-1             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-918384481   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3180500135  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1305794453  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3976379439  3s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-517171254   4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1287372118  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2055091714  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1971203619  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1954426000  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3833354932  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3850132551  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3665578742  3s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2494840457  7s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3784157359  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3595633885  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1976474455  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-4214159138  4s          
+     │   ├───[32m✔[0m run-2             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1251135795  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-4190162685  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3470060367  3s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2936893653  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1671346332  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-4246860916  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3644485840  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3761929173  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3745151554  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-87772734    4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-104550353   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4282074316  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-158631023   5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2147348217  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1632992011  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2058879913  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1818688540  4s          
+     │   ├───[32m✔[0m run-3             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3700348725  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2648701355  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1022902217  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1568935323  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2164961618  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1148449970  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-477073358   4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-527406215   4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-510628596   4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3299941712  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3316719331  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3534828378  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-597401629   6s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2364219123  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-465250161   4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1378919811  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-795563134   4s          
+     │   ├───[32m✔[0m run-4             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-951849251   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-574700397   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1699246399  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2558113029  3s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1791202924  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3367907524  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1977629920  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2095073253  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2078295634  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-4121088718  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-4137866337  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4020423004  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2984143455  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1528268137  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4149811387  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3825714137  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1187636524  4s          
+     │   ├───[32m✔[0m run-5             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-904889009   4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2922823479  5s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3041971237  5s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1396800575  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1341481510  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3837943942  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1505431474  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1421543379  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1404765760  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-147795236   4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-164572855   4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4274986342  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1615317913  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-4216781503  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3373141741  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3159083751  4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-716664082   4s          
+     │   ├───[32m✔[0m run-6             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4008389771  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-304690197   4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-286172391   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1151031821  3s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-4013798196  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3230351852  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3849848232  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3967291565  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3950513946  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1326250230  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1343027849  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1494026420  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3340515159  5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2845140417  3s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3967343699  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-29654545    4s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1247018516  4s          
+     │   ├───[32m✔[0m run-7             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4075056045  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1149043267  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1032250369  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3559413779  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3350866378  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2248378186  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2949361446  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2999694303  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2982916684  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2720608744  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2737386363  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2687053506  5s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-165801573   3s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2937673755  3s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1417963193  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2531959947  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1393673654  4s          
+     │   ├───[32m✔[0m run-8             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1532110379  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3081381301  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-915431431   4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1543829933  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-1146312340  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-734031308   4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1374316040  5s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1491759373  4s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1474981754  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2774520022  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2791297641  4s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2942296212  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1868661623  4s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1396030817  4s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3900694771  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-4278761265  3s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1508601396  3s          
+     │   ├───[32m✔[0m run-9             scenario-2                                           
+     │   │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-2088688945  4s          
+     │   │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-4106623415  4s          
+     │   │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-4225771173  4s          
+     │   │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2580600511  4s          
+     │   │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2838448294  4s          
+     │   │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1039943430  4s          
+     │   │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3002398258  4s          
+     │   │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2918510163  5s          
+     │   │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2901732544  4s          
+     │   │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1644762020  4s          
+     │   │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1661539639  5s          
+     │   │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1476985830  4s          
+     │   │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-868745753   5s          
+     │   │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3470209343  5s          
+     │   │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2626569581  4s          
+     │   │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2412511591  5s          
+     │   │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2386526354  5s          
+     │   └───[32m✔[0m run-10            scenario-2                                           
+     │       ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4021344685  4s          
+     │       │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1095331907  3s          
+     │       │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-978539009   4s          
+     │       │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3505702419  3s          
+     │       ├───[32m✔[0m T1            task        scenario-2-pf7c2-3277301706  4s          
+     │       ├───[32m✔[0m T2            task        scenario-2-pf7c2-2174813514  4s          
+     │       ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2875796774  4s          
+     │       │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2926129631  4s          
+     │       │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2909352012  4s          
+     │       ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2647044072  4s          
+     │       │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2663821691  4s          
+     │       │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2613488834  4s          
+     │       ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2834377829  5s          
+     │       │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1311282715  4s          
+     │       │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-4086539449  4s          
+     │       │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-905568907   4s          
+     │       └───[32m✔[0m collect       task        scenario-2-pf7c2-3690643382  4s          
+     └───[32m✔[0m size-67108864         run-loop                                             
+         ├───[32m✔[0m setup-dm          task        scenario-2-pf7c2-400693303   2m          
+         ├───[32m✔[0m run-1             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1918111517  7s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3684929011  5s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1785960049  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2699629699  5s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2125114458  4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-985586010   5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1723609526  6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1773942383  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1757164764  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-139760568   4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-156538187   4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-106205330   5s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1694315157  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1282797835  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2546761385  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-966150779   3s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3999347462  3s          
+         ├───[32m✔[0m run-2             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-485903199   3s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3324995177  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1651571131  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1327473881  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2208826016  4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3376576136  5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2981496260  6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2964718641  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2947941022  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3133137858  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3149915477  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3166693096  5s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1047956555  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2381554901  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2363037095  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3652353997  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3118430784  4s          
+         ├───[32m✔[0m run-3             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3047863505  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2514696791  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-3781696709  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2157314399  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-91887622    4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-482391526   6s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4200427922  5s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4116539827  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4099762208  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2842791684  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2859569303  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2675015494  5s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2824941497  6s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-3280825439  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2437185677  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-797237895   7s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3457933618  4s          
+         ├───[32m✔[0m run-4             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-353826159   3s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2342543353  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1828187147  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2254075049  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3176740176  5s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-2979051448  6s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-4278999028  5s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-4262221409  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-4245443790  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-752872242   4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-769649861   4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-786427480   6s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2449988763  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-562387429   5s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-1278479991  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3562070429  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2958718576  4s          
+         ├───[32m✔[0m run-5             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-1596289549  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1539354275  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-2422141281  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-633549043   4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-118974314   4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-972529386   5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3641271366  4s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-3691604223  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-3674826604  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3200238344  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3217015963  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-3166683106  4s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-1496932549  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2460034171  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-919535257   4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-3222960875  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1291447446  4s          
+         ├───[32m✔[0m run-6             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-24372071    4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2182336529  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-285944611   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-40902881    4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-3415477704  4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-1394284080  5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1550729292  6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1533951673  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1517174054  3s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1868089386  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1884867005  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1633202720  6s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2716996227  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1361055821  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-2061144351  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2175827941  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1031915240  5s          
+         ├───[32m✔[0m run-7             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-830926521   4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-1286810463  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-443170701   5s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3098190215  5s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2364942830  4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3053703598  5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-2178515834  6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2094627739  4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2077850120  4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-762612428   4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-779390047   4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-863278142   5s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-215754865   7s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-2233689335  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3519625189  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-1132123903  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-2139668250  3s          
+         ├───[32m✔[0m run-8             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3466693879  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-2994063073  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-1203759731  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-1581826225  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2810533944  4s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-47009696    5s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-975105532   7s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-958327913   4s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-941550294   4s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-2493110170  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-2509887789  5s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-2258223504  5s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-2030602131  6s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-653873373   5s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-698845615   4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2716780085  5s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-3516760280  4s          
+         ├───[32m✔[0m run-9             scenario-2                                           
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-4047303053  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3990367779  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-578187489   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-3084562547  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-pf7c2-2517043946  5s          
+         │   ├───[32m✔[0m T2            task        scenario-2-pf7c2-3370599018  4s          
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-1744373702  5s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-1794706559  5s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-pf7c2-1777928940  5s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-1303340680  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-1320118299  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-pf7c2-1269785442  6s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-659158085   3s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1622259707  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-81760793    4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2385186411  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-pf7c2-1281095446  3s          
+         └───[32m✔[0m run-10            scenario-2                                           
+             ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-pf7c2-3285838377  4s          
+             │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-pf7c2-3171906255  4s          
+             │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-pf7c2-856739069   4s          
+             │ └─[32m✔[0m start(3:dm4)  task        scenario-2-pf7c2-2767472375  4s          
+             ├───[32m✔[0m T1            task        scenario-2-pf7c2-696892478   4s          
+             ├───[32m✔[0m T2            task        scenario-2-pf7c2-1752282110  5s          
+             ├─┬─[32m✔[0m T3            task        scenario-2-pf7c2-3018720266  7s          
+             │ ├─[32m✔[0m T4            task        scenario-2-pf7c2-2934832171  7s          
+             │ └─[32m✔[0m T5            task        scenario-2-pf7c2-2918054552  7s          
+             ├─┬─[32m✔[0m T6            task        scenario-2-pf7c2-3972975004  4s          
+             │ ├─[32m✔[0m T7            task        scenario-2-pf7c2-3989752623  4s          
+             │ └─[32m✔[0m T8            task        scenario-2-pf7c2-4073640718  5s          
+             ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-pf7c2-3581425505  6s          
+             │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-pf7c2-1548573863  4s          
+             │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-pf7c2-3968835477  4s          
+             │ └─[32m✔[0m end(3:dm4)    task        scenario-2-pf7c2-2344453167  4s          
+             └───[32m✔[0m collect       task        scenario-2-pf7c2-4046792234  4s          
+
+This workflow does not have security context set. You can run your workflow pods more securely by setting it.
+Learn more at https://argoproj.github.io/argo-workflows/workflow-pod-security-context/

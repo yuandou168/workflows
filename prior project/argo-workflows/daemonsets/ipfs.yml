@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: ipfs
+  namespace: argo
+  labels:
+    app: ipfs
+spec:
+  selector:
+    matchLabels:
+      name: ipfs
+  template:
+    metadata:
+      labels:
+        name: ipfs
+    spec:
+      volumes:
+        - name: workflow-storage
+          hostPath:
+            path: /tmp
+      hostNetwork: true
+      containers:
+      - name: ipfs-node
+        image: nicoja/ipfs-node
+        env:
+          - name: ADDRESS
+            value: 127.0.0.1
+          - name: SWARM_KEY
+            value: c0228ba5a019f74c7a83ef6e228a27735e42eaef2fe46d82e0c04594597a544f
+        volumeMounts:
+          - name: workflow-storage
+            mountPath: /tmp
+      - name: ipfs-service
+        image: nicoja/ipfs-service2
+        env:
+          - name: BIND_ADDRESS
+            value: 127.0.0.1
+          - name: DAEMON_ADDRESS
+            value: /ip4/127.0.0.1/tcp/5001
+          - name: BOOTSTRAP_ADDRESS
+            value: 172.21.0.4
+        volumeMounts:
+          - name: workflow-storage
+            mountPath: /tmp
+                        

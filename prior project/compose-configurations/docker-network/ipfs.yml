@@ -1,0 +1,65 @@
+version: "3"
+
+# services:
+#   ipfs-node:
+#     image: nicoja/ipfs-node
+#     container_name: ipfs
+#     hostname: ipfs
+#     command: daemon
+#     environment:
+#       # Localhost if running --net=host, or 0.0.0.0 running using Docker networks
+#       - ADDRESS=0.0.0.0
+#       - SWARM_KEY=c0228ba5a019f74c7a83ef6e228a27735e42eaef2fe46d82e0c04594597a544f
+#     volumes:
+#       - /tmp/:/tmp/
+#     ports:
+#       - 4001:4001
+#       - 4001:4001/udp
+#       - 127.0.0.1:5001:5001
+#     networks:
+#       - interface
+#   ipfs-service:
+#     image: nicoja/ipfs-service2
+#     container_name: service
+#     hostname: service
+#     environment:
+#       - BIND_ADDRESS=0.0.0.0
+#       - BOOTSTRAP_ADDRESS=172.21.0.4
+#       - DAEMON_ADDRESS=/dns/ipfs/tcp/5001
+#     ports:
+#       - 127.0.0.1:8000:8000
+#       - 12000:12000
+#     volumes:
+#       - /tmp/:/tmp/
+#     networks:
+#       - interface
+
+# networks:
+#   interface:
+
+# version: "3"
+
+services:
+  ipfs-node:
+    image: nicoja/ipfs-node
+    container_name: ipfs
+    hostname: ipfs
+    command: daemon
+    environment:
+      # Localhost if running --net=host, or 0.0.0.0 running using Docker networks
+      - ADDRESS=127.0.0.1
+      - SWARM_KEY=c0228ba5a019f74c7a83ef6e228a27735e42eaef2fe46d82e0c04594597a544f
+    volumes:
+      - /tmp/:/tmp/
+    network_mode: "host"
+  ipfs-service:
+    image: nicoja/ipfs-service2
+    container_name: service
+    hostname: service
+    environment:
+      - BIND_ADDRESS=127.0.0.1
+      - BOOTSTRAP_ADDRESS=172.21.0.4
+      - DAEMON_ADDRESS=/ip4/127.0.0.1/tcp/5001
+    volumes:
+      - /tmp/:/tmp/
+    network_mode: "host"

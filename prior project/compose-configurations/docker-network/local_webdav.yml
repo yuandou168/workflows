@@ -1,0 +1,52 @@
+version: "3"
+
+services:
+  webdav_server:
+    image: bytemark/webdav:2.4
+    container_name: webdav
+    hostname: webdav
+    environment:
+      - AUTH_TYPE=Digest
+      - USERNAME=c98bece12dc7ba462e166ca7c08e1c8d
+      - PASSWORD=e28fb974faac3b647879882e1d53e6f7
+    ports:
+      - 80:80
+    networks:
+      - interface
+
+  webdav-service:
+    image: nicoja/webdav-service2
+    container_name: service
+    hostname: service
+    environment:
+      - HOST_ADDRESS=http://webdav:80
+      - USERNAME=c98bece12dc7ba462e166ca7c08e1c8d
+      - PASSWORD=e28fb974faac3b647879882e1d53e6f7
+      - BENCHMARK=True # True or empty
+    ports: 
+      - 127.0.0.1:8000:8000
+    volumes:
+      - /tmp/:/tmp/
+    networks: 
+      - interface
+    depends_on:
+      - webdav_server
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python local_webdav.py
+    environment:
+      - SERVICE_ADDRESS=http://service:8000
+      - DEBUG=True
+    stdin_open: true
+    tty: true
+    volumes:
+      - /tmp/:/tmp/
+    networks:
+      - interface
+    depends_on:
+      - webdav-service
+  
+networks:
+  interface:

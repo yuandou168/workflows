@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  client-container:
+    image: nicoja/client-container
+    container_name: client
+    hostname: client
+    command: python local_disk.py
+    environment:
+      - DEBUG=True
+    volumes:
+      - /tmp/:/tmp/
+    networks:
+      - interface
+  
+networks:
+  interface:

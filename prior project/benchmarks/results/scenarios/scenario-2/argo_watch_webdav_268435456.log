@@ -1,0 +1,202 @@
+Name:                scenario-2-webdav-cjx7t
+Namespace:           argo
+ServiceAccount:      default
+Status:              Succeeded
+Conditions:          
+ PodRunning          False
+ Completed           True
+Created:             Fri Aug 20 09:48:00 +0000 (1 hour ago)
+Started:             Fri Aug 20 09:48:00 +0000 (1 hour ago)
+Finished:            Fri Aug 20 10:07:01 +0000 (1 hour ago)
+Duration:            19 minutes 1 seconds
+Progress:            171/171
+ResourcesDuration:   27m33s*(1 cpu),27m33s*(100Mi memory)
+
+[39mSTEP[0m                             TEMPLATE    PODNAME                             DURATION  MESSAGE
+ [32m✔[0m scenario-2-webdav-cjx7t       entry                                                       
+ └───[32m✔[0m webdav                    size-loop                                                   
+     └───[32m✔[0m size-268435456        run-loop                                                    
+         ├───[32m✔[0m setup-dm          task        scenario-2-webdav-cjx7t-2923038386  3m          
+         ├───[32m✔[0m run-1             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-1842975542  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-3979298208  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-4017612258  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-112595656   4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-444635657   7s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-2424252577  13s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-3879536517  9s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-3762093184  8s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-3778870803  8s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-1530630903  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-1513853284  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-1362854713  10s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-1375723646  8s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-1998255752  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-1457087466  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-3149579792  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-1430012919  4s          
+         ├───[32m✔[0m run-2             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-885137256   4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-2417811454  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-2261676588  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-3914076398  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-145573247   7s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-537062559   17s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-422194051   10s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-506082146   10s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-522859765   10s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-3975186929  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-3958409310  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-3874521215  11s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-2032435284  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-3148217610  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-3435177320  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-2826041442  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-2791892217  4s          
+         ├───[32m✔[0m run-3             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-2330356062  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-1231765992  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-2838029770  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-2381134448  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-449506001   8s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-2974403305  13s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-301124877   9s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-183681544   8s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-200459163   8s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-2452633375  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-2435855756  5s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-2553299089  10s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-3489019734  8s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-885129280   5s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-3070978562  5s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-2482137704  5s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-1133637311  4s          
+         ├───[32m✔[0m run-4             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-3038159060  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-4153941386  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-145933800   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-3831765218  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-1271126835  7s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-3028054995  13s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-2450573879  8s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-2400241022  8s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-2417018641  8s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-3684045877  7s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-3667268258  7s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-3717601115  11s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-3711389248  9s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-1136041558  6s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-1087605892  6s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-2727282566  6s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-1640937613  4s          
+         ├───[32m✔[0m run-5             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-852545038   4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-3974734552  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-365945210   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-4118716960  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-4248081953  7s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-1654338873  13s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-953355613   7s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-835912280   7s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-852689899   6s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-999008751   6s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-982231132   6s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-1099674465  11s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-174090822   3s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-49069424    4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-3727234482  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-155573016   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-708074447   4s          
+         ├───[32m✔[0m run-6             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-2546537592  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-3011353486  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-4268040316  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-2475847614  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-380902511   7s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-4110125839  13s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-3182030003  10s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-3265918098  10s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-3282695717  9s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-2259009377  6s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-2242231758  5s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-2158343663  10s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-236703844   3s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-1431980250  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-2357034424  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-3151147570  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-2649319401  4s          
+         ├───[32m✔[0m run-7             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-2001132230  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-1876110832  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-1259308594  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-1982614424  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-1970714681  8s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-397694929   14s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-1487722869  6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-1370279536  8s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-1387057155  8s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-3640155559  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-3623377940  5s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-3472379369  9s          
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-2730341262  3s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-1557563480  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-2243741434  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-1701545888  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-277462567   4s          
+         ├───[32m✔[0m run-8             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-4279582540  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-1945549474  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-2050786656  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-2941760666  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-2383079147  8s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-1327689515  14s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-883433199   7s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-833100342   10s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-849877961   10s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-2355532141  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-2338754522  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-2120645475  11s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-1995993448  5s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-3528667646  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-3372532780  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-729965294   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-3926445061  4s          
+         ├───[32m✔[0m run-9             scenario-2                                                  
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-3234807446  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-4183553664  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-2074435650  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-1803467944  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-398317097   8s          
+         │   ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-3120264641  14s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-121696293   6s          
+         │   │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-4252960     8s          
+         │   │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-21030579    8s          
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-2067757975  6s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-2050980356  6s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-1899981785  11s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-928920030   3s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-4125297256  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-1436593738  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-979698416   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-2979257815  4s          
+         └───[32m✔[0m run-10            scenario-2                                                  
+             ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-webdav-cjx7t-3202514926  4s          
+             │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-webdav-cjx7t-1028304824  4s          
+             │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-webdav-cjx7t-2714062682  4s          
+             │ └─[32m✔[0m start(3:dm4)  task        scenario-2-webdav-cjx7t-3556180224  4s          
+             ├───[32m✔[0m T1            task        scenario-2-webdav-cjx7t-1319274177  8s          
+             ├───[32m✔[0m T2            task        scenario-2-webdav-cjx7t-151524057   13s         
+             ├─┬─[32m✔[0m T3            task        scenario-2-webdav-cjx7t-1777749373  8s          
+             │ ├─[32m✔[0m T4            task        scenario-2-webdav-cjx7t-1660306040  8s          
+             │ └─[32m✔[0m T5            task        scenario-2-webdav-cjx7t-1677083659  8s          
+             ├─┬─[32m✔[0m T6            task        scenario-2-webdav-cjx7t-3929257871  5s          
+             │ ├─[32m✔[0m T7            task        scenario-2-webdav-cjx7t-3912480252  5s          
+             │ └─[32m✔[0m T8            task        scenario-2-webdav-cjx7t-4029923585  10s         
+             ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-webdav-cjx7t-2106413222  3s          
+             │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-webdav-cjx7t-3913254480  4s          
+             │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-webdav-cjx7t-2851206418  4s          
+             │ └─[32m✔[0m end(3:dm4)    task        scenario-2-webdav-cjx7t-4235430648  4s          
+             └───[32m✔[0m collect       task        scenario-2-webdav-cjx7t-758932143   4s          
+
+This workflow does not have security context set. You can run your workflow pods more securely by setting it.
+Learn more at https://argoproj.github.io/argo-workflows/workflow-pod-security-context/

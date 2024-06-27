@@ -1,0 +1,166 @@
+Time start: 2021-07-19 22:50:06
+Time end: 2021-07-19 23:05:09
+Duration: 0:15:03.050064
+
+Platform: Linux-5.4.0-1051-azure-x86_64-with-Ubuntu-18.04-bionic
+Name: dm2
+Release: #53~18.04.1-Ubuntu SMP Fri Jun 18 22:32:58 UTC 2021
+
+Compose file: /tmp/transfer_ftp_client_setup.yml
+Script: transfer_ftp_download.py
+Environment vars:
+SCRIPT: transfer_ftp_download.py
+FTP_SERVER_ADDRESS: 172.21.0.4
+FILE_SIZE: 262144
+RUN_COUNT: 15
+INTERVAL_SECONDS: 60
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating client ... 
+Creating client
+Creating client ... done
+Attaching to client
+client              | 22:50.07: Connected to FTP server at 172.21.0.4
+client              | 22:50.07: Preparing run 1
+client              | 22:50.07: Download file name is 256KB_1
+client              | 22:50.07: Output location is /tmp/files/256KB_1
+client              | 22:50.07: Running garbage collector
+client              | 22:50.07: Sleeping for 60.0 seconds
+client              | 22:51.07: Starting
+client              | 22:51.07: Finished
+client              | 22:51.07: Deleting downloaded file /tmp/files/256KB_1
+client              | 22:51.07: Ending run 1
+client              | 22:51.07: Preparing run 2
+client              | 22:51.07: Download file name is 256KB_2
+client              | 22:51.07: Output location is /tmp/files/256KB_2
+client              | 22:51.07: Running garbage collector
+client              | 22:51.07: Sleeping for 60.0 seconds
+client              | 22:52.07: Starting
+client              | 22:52.07: Finished
+client              | 22:52.07: Deleting downloaded file /tmp/files/256KB_2
+client              | 22:52.07: Ending run 2
+client              | 22:52.07: Preparing run 3
+client              | 22:52.07: Download file name is 256KB_3
+client              | 22:52.07: Output location is /tmp/files/256KB_3
+client              | 22:52.07: Running garbage collector
+client              | 22:52.07: Sleeping for 60.0 seconds
+client              | 22:53.07: Starting
+client              | 22:53.07: Finished
+client              | 22:53.07: Deleting downloaded file /tmp/files/256KB_3
+client              | 22:53.07: Ending run 3
+client              | 22:53.07: Preparing run 4
+client              | 22:53.07: Download file name is 256KB_4
+client              | 22:53.07: Output location is /tmp/files/256KB_4
+client              | 22:53.07: Running garbage collector
+client              | 22:53.07: Sleeping for 60.0 seconds
+client              | 22:54.07: Starting
+client              | 22:54.07: Finished
+client              | 22:54.07: Deleting downloaded file /tmp/files/256KB_4
+client              | 22:54.07: Ending run 4
+client              | 22:54.07: Preparing run 5
+client              | 22:54.07: Download file name is 256KB_5
+client              | 22:54.07: Output location is /tmp/files/256KB_5
+client              | 22:54.07: Running garbage collector
+client              | 22:54.07: Sleeping for 60.0 seconds
+client              | 22:55.07: Starting
+client              | 22:55.07: Finished
+client              | 22:55.07: Deleting downloaded file /tmp/files/256KB_5
+client              | 22:55.07: Ending run 5
+client              | 22:55.07: Preparing run 6
+client              | 22:55.07: Download file name is 256KB_6
+client              | 22:55.07: Output location is /tmp/files/256KB_6
+client              | 22:55.07: Running garbage collector
+client              | 22:55.07: Sleeping for 60.0 seconds
+client              | 22:56.07: Starting
+client              | 22:56.07: Finished
+client              | 22:56.07: Deleting downloaded file /tmp/files/256KB_6
+client              | 22:56.07: Ending run 6
+client              | 22:56.07: Preparing run 7
+client              | 22:56.07: Download file name is 256KB_7
+client              | 22:56.07: Output location is /tmp/files/256KB_7
+client              | 22:56.07: Running garbage collector
+client              | 22:56.07: Sleeping for 60.0 seconds
+client              | 22:57.07: Starting
+client              | 22:57.07: Finished
+client              | 22:57.07: Deleting downloaded file /tmp/files/256KB_7
+client              | 22:57.07: Ending run 7
+client              | 22:57.07: Preparing run 8
+client              | 22:57.07: Download file name is 256KB_8
+client              | 22:57.07: Output location is /tmp/files/256KB_8
+client              | 22:57.07: Running garbage collector
+client              | 22:57.07: Sleeping for 60.0 seconds
+client              | 22:58.08: Starting
+client              | 22:58.08: Finished
+client              | 22:58.08: Deleting downloaded file /tmp/files/256KB_8
+client              | 22:58.08: Ending run 8
+client              | 22:58.08: Preparing run 9
+client              | 22:58.08: Download file name is 256KB_9
+client              | 22:58.08: Output location is /tmp/files/256KB_9
+client              | 22:58.08: Running garbage collector
+client              | 22:58.08: Sleeping for 60.0 seconds
+client              | 22:59.08: Starting
+client              | 22:59.08: Finished
+client              | 22:59.08: Deleting downloaded file /tmp/files/256KB_9
+client              | 22:59.08: Ending run 9
+client              | 22:59.08: Preparing run 10
+client              | 22:59.08: Download file name is 256KB_10
+client              | 22:59.08: Output location is /tmp/files/256KB_10
+client              | 22:59.08: Running garbage collector
+client              | 22:59.08: Sleeping for 60.0 seconds
+client              | 23:00.08: Starting
+client              | 23:00.08: Finished
+client              | 23:00.08: Deleting downloaded file /tmp/files/256KB_10
+client              | 23:00.08: Ending run 10
+client              | 23:00.08: Preparing run 11
+client              | 23:00.08: Download file name is 256KB_11
+client              | 23:00.08: Output location is /tmp/files/256KB_11
+client              | 23:00.08: Running garbage collector
+client              | 23:00.08: Sleeping for 60.0 seconds
+client              | 23:01.08: Starting
+client              | 23:01.08: Finished
+client              | 23:01.08: Deleting downloaded file /tmp/files/256KB_11
+client              | 23:01.08: Ending run 11
+client              | 23:01.08: Preparing run 12
+client              | 23:01.08: Download file name is 256KB_12
+client              | 23:01.08: Output location is /tmp/files/256KB_12
+client              | 23:01.08: Running garbage collector
+client              | 23:01.08: Sleeping for 60.0 seconds
+client              | 23:02.08: Starting
+client              | 23:02.08: Finished
+client              | 23:02.08: Deleting downloaded file /tmp/files/256KB_12
+client              | 23:02.08: Ending run 12
+client              | 23:02.08: Preparing run 13
+client              | 23:02.08: Download file name is 256KB_13
+client              | 23:02.08: Output location is /tmp/files/256KB_13
+client              | 23:02.08: Running garbage collector
+client              | 23:02.08: Sleeping for 60.0 seconds
+client              | 23:03.08: Starting
+client              | 23:03.08: Finished
+client              | 23:03.08: Deleting downloaded file /tmp/files/256KB_13
+client              | 23:03.08: Ending run 13
+client              | 23:03.08: Preparing run 14
+client              | 23:03.08: Download file name is 256KB_14
+client              | 23:03.08: Output location is /tmp/files/256KB_14
+client              | 23:03.08: Running garbage collector
+client              | 23:03.08: Sleeping for 60.0 seconds
+client              | 23:04.08: Starting
+client              | 23:04.08: Finished
+client              | 23:04.08: Deleting downloaded file /tmp/files/256KB_14
+client              | 23:04.08: Ending run 14
+client              | 23:04.08: Preparing run 15
+client              | 23:04.08: Download file name is 256KB_15
+client              | 23:04.08: Output location is /tmp/files/256KB_15
+client              | 23:04.08: Running garbage collector
+client              | 23:04.08: Sleeping for 60.0 seconds
+client              | 23:05.08: Starting
+client              | 23:05.08: Finished
+client              | 23:05.08: Deleting downloaded file /tmp/files/256KB_15
+client              | 23:05.08: Ending run 15
+client              | 23:05.08: Writing metrics file
+client exited with code 0
+Aborting on container exit...
+Removing client ... 
+Removing client ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

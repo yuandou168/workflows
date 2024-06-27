@@ -1,0 +1,550 @@
+Time start: 2021-07-17 21:03:35
+Time end: 2021-07-17 21:19:09
+Duration: 0:15:33.489174
+
+Platform: Linux-5.4.0-1051-azure-x86_64-with-Ubuntu-18.04-bionic
+Name: DataMeshVM3
+Release: #53~18.04.1-Ubuntu SMP Fri Jun 18 22:32:58 UTC 2021
+
+Compose file: /tmp/local_webdav_setup.yml
+Script: local_webdav_write.py
+Environment vars:
+SCRIPT: local_webdav_write.py
+FILE_SIZE: 262144
+RUN_COUNT: 15
+INTERVAL_SECONDS: 60
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B
+Creating service ... 
+Creating webdav ... 
+Creating client ... 
+Creating webdav
+Creating service
+Creating client
+Creating webdav ... done
+Creating service ... done
+Creating client ... done
+Attaching to webdav, service, client
+webdav              | AH00557: httpd: apr_sockaddr_info_get() failed for webdav
+webdav              | AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+webdav              | AH00557: httpd: apr_sockaddr_info_get() failed for webdav
+webdav              | AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+webdav              | [Sat Jul 17 21:03:46.380180 2021] [mpm_event:notice] [pid 1:tid 140480158264200] AH00489: Apache/2.4.37 (Unix) configured -- resuming normal operations
+webdav              | [Sat Jul 17 21:03:46.380364 2021] [core:notice] [pid 1:tid 140480158264200] AH00094: Command line: 'httpd -D FOREGROUND'
+webdav              | 127.0.0.1 - - [17/Jul/2021:21:03:46 +0000] "GET / HTTP/1.1" 401 381 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:03:46 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:03:46 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:03:46 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:03:46 +0000] "PROPFIND / HTTP/1.1" 207 831 "-" "python-requests/2.25.1"
+service             | INFO:     Started server process [1]
+service             | INFO:     Waiting for application startup.
+service             | INFO:     Application startup complete.
+service             | INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+webdav              | 127.0.0.1 - - [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 401 381 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 161 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "MKCOL /tmp/ HTTP/1.1" 201 179 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "MKCOL /tmp/files/ HTTP/1.1" 201 185 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | No connection with http://127.0.0.1:80
+service             | No connection with http://127.0.0.1:80
+service             | No connection with http://127.0.0.1:80
+service             | No connection with http://127.0.0.1:80
+service             | No connection with http://127.0.0.1:80
+service             | Connected to WebDAV server...
+service             | INFO:     127.0.0.1:43632 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:43632 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:05:06 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43632 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43744 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:43744 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:06:06 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43744 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43848 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:43848 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:07:06 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43848 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43960 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:43960 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:08:06 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:43960 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44064 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44064 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:09:06 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44064 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 401 381 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44176 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44176 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:10:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44176 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44280 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44280 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:11:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44280 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44392 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44392 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:12:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44392 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44494 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44494 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:13:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44494 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44598 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44598 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:14:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44598 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 401 381 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44710 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44710 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:15:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44710 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44814 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44814 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:16:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44814 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44918 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:44918 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:17:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:44918 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:45030 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:45030 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:18:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:45030 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "MKCOL / HTTP/1.1" 405 223 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "HEAD / HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "MKCOL /tmp/ HTTP/1.1" 405 227 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "HEAD /tmp/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "MKCOL /tmp/files/ HTTP/1.1" 405 233 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "HEAD /tmp/files/ HTTP/1.1" 200 - "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "PUT /tmp/files/256KB HTTP/1.1" 201 188 "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:45134 - "PUT /upload/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+service             | INFO:     127.0.0.1:45134 - "GET /metrics/ HTTP/1.1" 200 OK
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "GET / HTTP/1.1" 200 195 "-" "python-requests/2.25.1"
+webdav              | 127.0.0.1 - username [17/Jul/2021:21:19:07 +0000] "DELETE /tmp/files/256KB HTTP/1.1" 204 - "-" "python-requests/2.25.1"
+service             | INFO:     127.0.0.1:45134 - "DELETE /delete/?file_path=%2Ftmp%2Ffiles%2F256KB HTTP/1.1" 200 OK
+client              | 21:03.36: Waiting for 10 seconds for setup to finish
+client              | 21:04.06: Starting 256KB benchmark
+client              | 21:04.06: Creating client interface
+client              | 21:04.06: Preparing run 1
+client              | 21:04.06: Creating random byte array 256KB
+client              | 21:04.06: Output location is /tmp/files/256KB
+client              | 21:04.06: Running garbage collector
+client              | 21:04.06: Sleeping for 60.0 seconds
+client              | 21:05.06: Starting
+client              | 21:05.06: Finished
+client              | 21:05.06: Collecting metrics from service
+client              | 21:05.06: Deleting created file /tmp/files/256KB
+client              | 21:05.06: Deleting uploaded file /tmp/files/256KB
+client              | 21:05.06: Ending run 1
+client              | 21:05.06: Preparing run 2
+client              | 21:05.06: Creating random byte array 256KB
+client              | 21:05.06: Output location is /tmp/files/256KB
+client              | 21:05.06: Running garbage collector
+client              | 21:05.06: Sleeping for 60.0 seconds
+client              | 21:06.06: Starting
+client              | 21:06.06: Finished
+client              | 21:06.06: Collecting metrics from service
+client              | 21:06.06: Deleting created file /tmp/files/256KB
+client              | 21:06.06: Deleting uploaded file /tmp/files/256KB
+client              | 21:06.06: Ending run 2
+client              | 21:06.06: Preparing run 3
+client              | 21:06.06: Creating random byte array 256KB
+client              | 21:06.06: Output location is /tmp/files/256KB
+client              | 21:06.06: Running garbage collector
+client              | 21:06.06: Sleeping for 60.0 seconds
+client              | 21:07.06: Starting
+client              | 21:07.06: Finished
+client              | 21:07.06: Collecting metrics from service
+client              | 21:07.06: Deleting created file /tmp/files/256KB
+client              | 21:07.06: Deleting uploaded file /tmp/files/256KB
+client              | 21:07.06: Ending run 3
+client              | 21:07.06: Preparing run 4
+client              | 21:07.06: Creating random byte array 256KB
+client              | 21:07.06: Output location is /tmp/files/256KB
+client              | 21:07.06: Running garbage collector
+client              | 21:07.06: Sleeping for 60.0 seconds
+client              | 21:08.06: Starting
+client              | 21:08.06: Finished
+client              | 21:08.06: Collecting metrics from service
+client              | 21:08.06: Deleting created file /tmp/files/256KB
+client              | 21:08.06: Deleting uploaded file /tmp/files/256KB
+client              | 21:08.06: Ending run 4
+client              | 21:08.06: Preparing run 5
+client              | 21:08.06: Creating random byte array 256KB
+client              | 21:08.06: Output location is /tmp/files/256KB
+client              | 21:08.06: Running garbage collector
+client              | 21:08.06: Sleeping for 60.0 seconds
+client              | 21:09.06: Starting
+client              | 21:09.06: Finished
+client              | 21:09.06: Collecting metrics from service
+client              | 21:09.06: Deleting created file /tmp/files/256KB
+client              | 21:09.06: Deleting uploaded file /tmp/files/256KB
+client              | 21:09.06: Ending run 5
+client              | 21:09.06: Preparing run 6
+client              | 21:09.06: Creating random byte array 256KB
+client              | 21:09.06: Output location is /tmp/files/256KB
+client              | 21:09.06: Running garbage collector
+client              | 21:09.06: Sleeping for 60.0 seconds
+client              | 21:10.07: Starting
+client              | 21:10.07: Finished
+client              | 21:10.07: Collecting metrics from service
+client              | 21:10.07: Deleting created file /tmp/files/256KB
+client              | 21:10.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:10.07: Ending run 6
+client              | 21:10.07: Preparing run 7
+client              | 21:10.07: Creating random byte array 256KB
+client              | 21:10.07: Output location is /tmp/files/256KB
+client              | 21:10.07: Running garbage collector
+client              | 21:10.07: Sleeping for 60.0 seconds
+client              | 21:11.07: Starting
+client              | 21:11.07: Finished
+client              | 21:11.07: Collecting metrics from service
+client              | 21:11.07: Deleting created file /tmp/files/256KB
+client              | 21:11.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:11.07: Ending run 7
+client              | 21:11.07: Preparing run 8
+client              | 21:11.07: Creating random byte array 256KB
+client              | 21:11.07: Output location is /tmp/files/256KB
+client              | 21:11.07: Running garbage collector
+client              | 21:11.07: Sleeping for 60.0 seconds
+client              | 21:12.07: Starting
+client              | 21:12.07: Finished
+client              | 21:12.07: Collecting metrics from service
+client              | 21:12.07: Deleting created file /tmp/files/256KB
+client              | 21:12.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:12.07: Ending run 8
+client              | 21:12.07: Preparing run 9
+client              | 21:12.07: Creating random byte array 256KB
+client              | 21:12.07: Output location is /tmp/files/256KB
+client              | 21:12.07: Running garbage collector
+client              | 21:12.07: Sleeping for 60.0 seconds
+client              | 21:13.07: Starting
+client              | 21:13.07: Finished
+client              | 21:13.07: Collecting metrics from service
+client              | 21:13.07: Deleting created file /tmp/files/256KB
+client              | 21:13.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:13.07: Ending run 9
+client              | 21:13.07: Preparing run 10
+client              | 21:13.07: Creating random byte array 256KB
+client              | 21:13.07: Output location is /tmp/files/256KB
+client              | 21:13.07: Running garbage collector
+client              | 21:13.07: Sleeping for 60.0 seconds
+client              | 21:14.07: Starting
+client              | 21:14.07: Finished
+client              | 21:14.07: Collecting metrics from service
+client              | 21:14.07: Deleting created file /tmp/files/256KB
+client              | 21:14.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:14.07: Ending run 10
+client              | 21:14.07: Preparing run 11
+client              | 21:14.07: Creating random byte array 256KB
+client              | 21:14.07: Output location is /tmp/files/256KB
+client              | 21:14.07: Running garbage collector
+client              | 21:14.07: Sleeping for 60.0 seconds
+client              | 21:15.07: Starting
+client              | 21:15.07: Finished
+client              | 21:15.07: Collecting metrics from service
+client              | 21:15.07: Deleting created file /tmp/files/256KB
+client              | 21:15.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:15.07: Ending run 11
+client              | 21:15.07: Preparing run 12
+client              | 21:15.07: Creating random byte array 256KB
+client              | 21:15.07: Output location is /tmp/files/256KB
+client              | 21:15.07: Running garbage collector
+client              | 21:15.07: Sleeping for 60.0 seconds
+client              | 21:16.07: Starting
+client              | 21:16.07: Finished
+client              | 21:16.07: Collecting metrics from service
+client              | 21:16.07: Deleting created file /tmp/files/256KB
+client              | 21:16.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:16.07: Ending run 12
+client              | 21:16.07: Preparing run 13
+client              | 21:16.07: Creating random byte array 256KB
+client              | 21:16.07: Output location is /tmp/files/256KB
+client              | 21:16.07: Running garbage collector
+client              | 21:16.07: Sleeping for 60.0 seconds
+client              | 21:17.07: Starting
+client              | 21:17.07: Finished
+client              | 21:17.07: Collecting metrics from service
+client              | 21:17.07: Deleting created file /tmp/files/256KB
+client              | 21:17.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:17.07: Ending run 13
+client              | 21:17.07: Preparing run 14
+client              | 21:17.07: Creating random byte array 256KB
+client              | 21:17.07: Output location is /tmp/files/256KB
+client              | 21:17.07: Running garbage collector
+client              | 21:17.07: Sleeping for 60.0 seconds
+client              | 21:18.07: Starting
+client              | 21:18.07: Finished
+client              | 21:18.07: Collecting metrics from service
+client              | 21:18.07: Deleting created file /tmp/files/256KB
+client              | 21:18.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:18.07: Ending run 14
+client              | 21:18.07: Preparing run 15
+client              | 21:18.07: Creating random byte array 256KB
+client              | 21:18.07: Output location is /tmp/files/256KB
+client              | 21:18.07: Running garbage collector
+client              | 21:18.07: Sleeping for 60.0 seconds
+client              | 21:19.07: Starting
+client              | 21:19.07: Finished
+client              | 21:19.07: Collecting metrics from service
+client              | 21:19.07: Deleting created file /tmp/files/256KB
+client              | 21:19.07: Deleting uploaded file /tmp/files/256KB
+client              | 21:19.07: Ending run 15
+client              | 21:19.07: Writing metrics file
+client exited with code 0
+Stopping service ... 
+Stopping webdav  ... 
+Stopping webdav  ... done
+Stopping service ... done
+Aborting on container exit...
+Removing client  ... 
+Removing service ... 
+Removing webdav  ... 
+Removing client  ... done
+Removing service ... done
+Removing webdav  ... done
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] Total reclaimed space: 0B

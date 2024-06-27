@@ -1,0 +1,202 @@
+Name:                scenario-2-ipfs-4hd8z
+Namespace:           argo
+ServiceAccount:      default
+Status:              Succeeded
+Conditions:          
+ PodRunning          False
+ Completed           True
+Created:             Fri Aug 20 11:22:11 +0000 (47 minutes ago)
+Started:             Fri Aug 20 11:22:11 +0000 (47 minutes ago)
+Finished:            Fri Aug 20 11:52:28 +0000 (17 minutes ago)
+Duration:            30 minutes 17 seconds
+Progress:            171/171
+ResourcesDuration:   49m32s*(1 cpu),49m32s*(100Mi memory)
+
+[39mSTEP[0m                             TEMPLATE    PODNAME                           DURATION  MESSAGE
+ [32m✔[0m scenario-2-ipfs-4hd8z         entry                                                     
+ └───[32m✔[0m ipfs                      size-loop                                                 
+     └───[32m✔[0m size-268435456        run-loop                                                  
+         ├───[32m✔[0m setup-dm          task        scenario-2-ipfs-4hd8z-596852816   5m          
+         ├───[32m✔[0m run-1             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-3852890672  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-3055831046  5s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-3134272308  6s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-2431258422  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-1137196167  13s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-2977478535  27s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-1677530955  14s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-1761419050  12s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-1778196669  12s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-3035167193  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-3018389574  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-3202943383  24s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-579109132   4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3282373986  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-3387611168  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-3536254554  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-935343425   4s          
+         ├───[32m✔[0m run-2             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-1691814914  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-3332771516  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-1631282398  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-2815298124  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-1688137789  15s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-3622493157  26s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-4199424057  11s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-4216201676  13s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-4232979295  12s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-3472160251  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-3455382632  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-3438605013  23s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2404375866  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-2129138452  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-496259094   4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-1375204132  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-4275383835  4s          
+         ├───[32m✔[0m run-3             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-2907343992  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-3372159886  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-333879420   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-2836654014  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-3138114671  17s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-2572370703  27s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-1644274867  12s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-1728162962  14s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-1744940581  14s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-721254241   4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-704476622   4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-620588527   22s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2192738404  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3388014810  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-18101688    4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-812214834   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-683839465   4s          
+         ├───[32m✔[0m run-4             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-1377100798  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-1999632904  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-1458464618  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-3150956944  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-3509033393  18s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-154085449   27s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-3711029229  10s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-3593585896  14s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-3610363515  14s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-866816511   4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-850038892   4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-967482225   23s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2322905462  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3292440032  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-3330754082  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-592525576   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-1241248863  4s          
+         ├───[32m✔[0m run-5             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-2172512456  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-1536966238  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-1827929612  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-2054439630  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-3595406495  17s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-316950847   28s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-160505635   13s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-244393730   13s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-261171349   13s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-3501218193  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-3484440574  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-3400552479  21s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2711143860  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3590465258  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-1729889736  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-4226292290  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-3288933593  4s          
+         ├───[32m✔[0m run-6             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-1335369706  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-283945220   4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-400738118   4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-3730002132  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-2506175365  15s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-2918456397  32s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-3793644161  13s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-3810421780  13s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-3827199399  13s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-2158331235  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-2141553616  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-2393217901  20s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2078327698  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-1397382092  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-4096948846  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-183215708   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-2142038755  4s          
+         ├───[32m✔[0m run-7             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-3841735328  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-1987929910  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-2704465636  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-1431635686  4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-57461207    14s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-3498873431  27s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-3893953307  14s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-3977841402  14s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-3994619021  14s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-4092521705  4s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-4075744086  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-4260297895  20s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-3125093884  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3255009362  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-2632902160  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-1707777930  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-2521510993  4s          
+         ├───[32m✔[0m run-8             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-3267070590  4s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-3889602696  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-3348434410  4s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-745959440   4s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-4178275377  18s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-823327433   28s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-85303917    13s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-4262827880  14s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-4279605499  13s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-1536058495  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-1519280876  5s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-1636724209  24s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2087738358  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-3057272928  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-3095586978  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-357358472   4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-761711583   4s          
+         ├───[32m✔[0m run-9             scenario-2                                                
+         │   ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-2705171376  5s          
+         │   │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-1908111750  4s          
+         │   │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-1986553012  5s          
+         │   │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-1283539126  5s          
+         │   ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-2063434247  18s         
+         │   ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-3903716615  28s         
+         │   ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-2603769035  13s         
+         │   │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-2687657130  11s         
+         │   │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-2704434749  12s         
+         │   ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-3961405273  5s          
+         │   │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-3944627654  4s          
+         │   │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-4129181463  21s         
+         │   ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-3668768396  4s          
+         │   │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-2077065954  4s          
+         │   │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-2182303136  4s          
+         │   │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-2330946522  4s          
+         │   └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-1645913537  3s          
+         └───[32m✔[0m run-10            scenario-2                                                
+             ├─┬─[32m✔[0m start(0:dm1)  task        scenario-2-ipfs-4hd8z-3677824488  4s          
+             │ ├─[32m✔[0m start(1:dm2)  task        scenario-2-ipfs-4hd8z-915531390   3s          
+             │ ├─[32m✔[0m start(2:dm3)  task        scenario-2-ipfs-4hd8z-759396524   4s          
+             │ └─[32m✔[0m start(3:dm4)  task        scenario-2-ipfs-4hd8z-2411796334  4s          
+             ├───[32m✔[0m T1            task        scenario-2-ipfs-4hd8z-4250171391  12s         
+             ├───[32m✔[0m T2            task        scenario-2-ipfs-4hd8z-346693407   26s         
+             ├─┬─[32m✔[0m T3            task        scenario-2-ipfs-4hd8z-231824899   15s         
+             │ ├─[32m✔[0m T4            task        scenario-2-ipfs-4hd8z-315712994   11s         
+             │ └─[32m✔[0m T5            task        scenario-2-ipfs-4hd8z-332490613   12s         
+             ├─┬─[32m✔[0m T6            task        scenario-2-ipfs-4hd8z-3784817777  5s          
+             │ ├─[32m✔[0m T7            task        scenario-2-ipfs-4hd8z-3768040158  5s          
+             │ └─[32m✔[0m T8            task        scenario-2-ipfs-4hd8z-3684152063  21s         
+             ├─┬─[32m✔[0m end(0:dm1)    task        scenario-2-ipfs-4hd8z-2968486612  4s          
+             │ ├─[32m✔[0m end(1:dm2)    task        scenario-2-ipfs-4hd8z-4084268938  4s          
+             │ ├─[32m✔[0m end(2:dm3)    task        scenario-2-ipfs-4hd8z-76261352    4s          
+             │ └─[32m✔[0m end(3:dm4)    task        scenario-2-ipfs-4hd8z-3762092770  4s          
+             └───[32m✔[0m collect       task        scenario-2-ipfs-4hd8z-1380310137  4s          
+
+This workflow does not have security context set. You can run your workflow pods more securely by setting it.
+Learn more at https://argoproj.github.io/argo-workflows/workflow-pod-security-context/

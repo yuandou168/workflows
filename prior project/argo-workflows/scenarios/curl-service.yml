@@ -1,0 +1,49 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: curl-service-
+spec:
+  entrypoint: curl-services
+
+  templates:
+  - name: curl-services
+    steps:
+    - - name: vm1
+        template: curl
+        arguments:
+          parameters:
+          - name: vm
+            value: dm1
+      - name: vm2
+        template: curl
+        arguments:
+          parameters:
+          - name: vm
+            value: dm2
+      - name: vm3
+        template: curl
+        arguments:
+          parameters:
+          - name: vm
+            value: dm3
+      - name: vm4
+        template: curl
+        arguments:
+          parameters:
+          - name: vm
+            value: dm4
+
+  - name: curl
+    inputs:
+      parameters:
+      - name: vm
+    nodeSelector:
+      kubernetes.io/hostname: "{{inputs.parameters.vm}}"
+    container:
+      image: byrnedo/alpine-curl
+      command: [echo, curl, -X, GET]
+      args: ["http://127.0.0.1:8000"]
+    volumes:
+      - name: files
+        persistentVolumeClaim:
+          claimName: "workflow-files"
